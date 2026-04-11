@@ -24,4 +24,7 @@ services will eventually be unavailable the change process can be disruptive usu
 
 if possible prevent any downtime switch to secondary system upgrade the primary then switch back
 
-minimize any downtime events the process should be as automated as possible switch
+minimize any downtime events the process should be as automated as possible switch back to secondary if issues appear should be part of the backout plan
+
+send emails and calendar updates
+

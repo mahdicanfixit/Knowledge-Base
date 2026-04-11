@@ -660,7 +660,7 @@ Export to Sheets
 
 
 ![[Pasted image 20260411200147.png]]
-![[Pasted image 20260411195922.png]]
+![](../attachments/Pasted%20image%2020260411195922.png)
 
 ---
 

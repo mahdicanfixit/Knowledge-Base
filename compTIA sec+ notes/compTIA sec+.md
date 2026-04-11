@@ -662,6 +662,85 @@ Export to Sheets
 ![[Pasted image 20260411200147.png]]
 ![](../attachments/Pasted%20image%2020260411195922.png)
 
+
+---
+
+# 🔒 1.4 Data States & Encryption Implementation
+
+### 📋 The Three States of Data
+
+|State|Definition|Primary Protection Method|
+|---|---|---|
+|**Data at Rest**|Data stored on a physical or cloud device.|FDE (Full Disk Encryption), Database encryption.|
+|**Data in Transit**|Data moving across a network.|HTTPS, VPNs, TLS/SSL.|
+|**Data in Use**|Data currently being processed in RAM/CPU.|Memory encryption (Advanced hardware).|
+
+---
+
+### 🏛️ Protection: Data at Rest
+
+**Goal:** Prevent unauthorized access if a storage device (SSD, USB, Phone) is lost or stolen.
+
+#### 🏗️ Storage Encryption Types
+
+- **Full Disk Encryption (FDE):** Encrypts the entire drive or partition.
+    
+    - _Examples:_ **BitLocker** (Windows), **FileVault** (macOS).
+        
+- **File/Folder Encryption:** Encrypts specific files or directories.
+    
+    - _Examples:_ **EFS** (Encrypting File System), 7-Zip/AES-256 archives.
+        
+- **Database Encryption:**
+    
+    - **Transparent Encryption:** Encrypts the entire database file with a symmetric key.
+        
+    - **Record-Level Encryption:** High-granularity protection; encrypts specific columns (e.g., just the "Credit Card Number" column).
+
+![](../attachments/Pasted%20image%2020260411200813.png)
+
+![](../attachments/Pasted%20image%2020260411200841.png)
+
+---
+
+### 🌐 Protection: Data in Transit
+
+**Goal:** Prevent "Man-in-the-Middle" (MITM) attacks while data traverses the internet.
+
+- **Application Level:** Encrypting specifically for one app.
+    
+    - _Example:_ **HTTPS** (Browser communicating with a web server).
+        
+- **Network Level:** Encrypting all traffic regardless of the app.
+    
+    - **Client-to-Site VPN:** Uses SSL/TLS to protect a remote worker.
+        
+    - **Site-to-Site VPN:** Uses **IPsec** to bridge two entire offices securely.
+        
+
+---
+
+### 🔑 The "Strength" of Cryptography
+
+> [!IMPORTANT] **Kerckhoffs's Principle:** The algorithm should not be secret; it’s expected to be a known entity. The **only** thing that must remain secret is the **Key**.
+
+#### 🛠️ Key Metrics
+
+|Feature|Symmetric|Asymmetric|
+|---|---|---|
+|**Common Key Size**|128-bit or larger.|2048-bit or larger.|
+|**Brute Force Defense**|Larger keys = harder to crack.|Larger keys = much more math overhead.|
+
+Export to Sheets
+
+#### 💪 Key Stretching
+
+If a key is "weak" (like a simple password), you can make it stronger using **Key Stretching**.
+
+- **The Process:** Hash the password, then hash that hash—repeat this thousands of times.
+    
+- **The Impact:** It forces a brute-force attacker to reverse every single hash iteration, making the attack mathematically impossible for them.
+
 ---
 
 

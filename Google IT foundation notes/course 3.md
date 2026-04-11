@@ -1,0 +1,21 @@
+# Course 3: Operating Systems & Power User (Hands-On Windows/Linux)
+
+- Navigation (CLI):
+    - Windows: dir, cd, mkdir, del, copy.
+    - Linux: ls, cd, mkdir, rm, cp, grep, pipes (|).
+- Users & Permissions:
+    - Admin vs standard user.
+    - Linux: chmod (rwx, octal 755/644), chown, sudo.
+    - Windows: GUI permissions, UAC.
+- Software Management:
+    - Windows: .exe, Settings → Apps, winget.
+    - Linux: apt (install/update/remove), repositories.
+- Filesystems:
+    - Windows: NTFS, FAT32.
+    - Linux: ext4, mount/umount drives.
+    - Disk tools: format, partition, check disk space (df/du).
+- Processes:
+    - View: Task Manager (Win) / top/htop/ps (Linux).
+    - Kill: Taskkill / kill -9.
+- Logs: Windows Event Viewer → Linux /var/log.
+- Other: Remote access (RDP/SSH), virtualization (VMs), backups/imaging.

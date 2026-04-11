@@ -28,3 +28,39 @@ minimize any downtime events the process should be as automated as possible swit
 
 send emails and calendar updates
 
+its common to require a restart implement the new configuration reboot the OS power cycle the switch bounce the service can the system recover from a power outage?
+
+services stop and restart the service or daemon may take seconds or minutes
+
+applications close the application completely launch a new application instance
+
+some apllications were here before you arrived theyll be here when you leave
+
+often no longer supported by the developer your now the support team
+
+fear of the unknown face your fears and document the system it may not be as bad as you think
+
+may be quirky create specific processes and procedures
+
+become the expert 
+
+to complete A, you must complete B a service will not start without other active services an application requires a specific library version
+
+modifying one component may require changing or restarting other components this can be challenging to manage
+
+dependencies may occur across systems upgrade the firewall code
+
+it can be challenging to keeup up with changes documentation can become outdate very quickly require with the change management process
+
+updating diagrams modifications to network configurations address updates
+
+updating policies
+
+track changes to a file or configuartion data over time easily revert ot a previous setting
+
+many opportunities to manage versions router configurations windows OS patches applications registry entries
+
+not always straightforward some devices and OS provide version control features may require additional management software
+
+
+

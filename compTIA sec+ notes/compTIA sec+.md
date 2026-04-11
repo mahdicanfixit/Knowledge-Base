@@ -591,3 +591,6 @@ Export to Sheets
 - **The Living Document:** Diagrams, IP address updates, and network configurations must be updated _immediately_ after the change.
     
 - **Policy Alignment:** Ensure that the technical reality of the system still matches the organization’s written security policies.
+
+---
+

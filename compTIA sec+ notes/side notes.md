@@ -1,30 +1,14 @@
-attract the bad guys and trap them there
+how to make a change upgrade software, patch an application, change firewall config, modify switch ports
 
-the attacker is prob a machine makes for interesting recon
+one of the most common risks in the enterprise occurs very frequently
 
-honeypots create a virtual world to explore 
+often overlooked or ignored did u feel that bite?
 
-many different options most are open source and availabe to download
+have clear policies frequency duration installation process rollback procedures
 
-constant battle to discern the real from the fake
+sometimes extremely difficult to implement its hard to change corporate culture
 
-honeynets a real network includes more than a single device servers, worksatations, routers, switches, firewalls
+a formal process for managing change avoid downtime, confusion, and mistakes
 
-honeynets build a larger deception network with one or more honeypots
-
-more than one source of information stop spammers https://projecthoneypot.org
-
-attract the attackers with more honey create files with fake information something bright and shiny
-
-honeyfiles bait for the honeynet (password.txt) add many honeyfiles to file shares
-
-an alert is sent if the file is accessed a virtual bear trap
-
-honeytokens track the malicious actors add some traceable data to the honeynet if the data is stolen youll know where it came from
-
-api credentials does not actually provide access notifications are sent when used
-
-fake email addresses add it to a contact list monitor the internet to see who posts it
-
-many other honeytoken examples database records, browser cookies, web page pixels
+a typical approval process complete the request forms
 

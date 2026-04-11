@@ -446,3 +446,5 @@ Deception technology involves creating fake environments, files, or data to lure
     
 3. **Evidence Gathering:** Honeynets provide a safe environment to watch how an attacker moves (Lateral Movement) without risking actual company assets.
 
+---
+

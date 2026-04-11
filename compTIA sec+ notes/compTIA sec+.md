@@ -1,8 +1,4 @@
----
-github_repo: mahdicanfixit| compTIA-security-notes
-github_issue: 1
----
-# 🛡️ 1.1 Security Controls & CIA Triad i think this is working now
+# 🛡️ 1.1 Security Controls & CIA Triad
 
 ## 🏗️ Control Categories (How they are implemented)
 

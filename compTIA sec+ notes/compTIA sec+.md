@@ -743,4 +743,50 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ---
 
+# 🤝 1.5 Key Exchange & Session Security
+
+### 📋 The Logistical Challenge
+
+**The Problem:** How do you share a secret key with someone across the insecure internet without an attacker intercepting it?
+
+- **The Goal:** Fast, secure communication without the overhead of permanent asymmetric encryption.
+    
+
+---
+
+### 🏛️ Key Exchange Methodologies
+
+|Method|Description|Pros/Cons|
+|---|---|---|
+|**Out-of-Band**|Transferring the key outside the network (Telephone, Courier, In-person).|**Pros:** Very secure. **Cons:** Doesn't scale; slow.|
+|**In-Band**|Transferring the key over the existing network.|**Pros:** Instant. **Cons:** Requires additional encryption to protect the key during transit.|
+
+Export to Sheets
+
+---
+
+### 🔑 The Hybrid Solution: Session Keys
+
+**Definition:** A temporary symmetric key used for a single communication session. It combines the **Security** of Asymmetric encryption with the **Speed** of Symmetric encryption.
+
+#### 🔄 The Implementation Flow
+
+1. **Asymmetric Protection:** The client creates a random **Symmetric Key**.
+    
+2. **The Delivery:** The client encrypts that random key using the **Server’s Public Key**.
+    
+3. **The Handshake:** Only the server can decrypt it (using its Private Key).
+    
+4. **The Session:** Both sides now have the same symmetric "Session Key" and use it for the rest of the conversation.
+    
+
+> [!IMPORTANT] **Best Practices:**
+> 
+> - **Change Often:** Session keys should be short-lived.
+>     
+> - **Unpredictable:** Use high-quality randomization (large prime numbers) to prevent attackers from guessing the key.
+
+---
+
+
 

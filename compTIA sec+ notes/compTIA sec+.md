@@ -341,4 +341,108 @@ The "Gatekeeper" (The Muscle).
 ![[Pasted image 20260411070723.png]] ![[Pasted image 20260411071336.png]]
 
 ---
+# 🛡️1.2 Physical Security Controls
+
+Physical security focuses on the protection of personnel, hardware, and data from physical actions and events. These controls are categorized into **Deterrent**, **Preventive**, and **Detective** measures.
+
++1
+
+---
+
+### 🚧 Perimeter & Site Defense
+
+- **Bollards & Barricades:** Physical structures (concrete pillars or moats) used to block vehicle-borne attacks.
+    
+- **Fencing:** Establishes a clear perimeter.
+    
+    - _Standard:_ 2.4 meters (8ft) to deter climbing.
+        
+    - _Enhancements:_ Razor wire, anti-climb paint, or robust materials to prevent cutting.
+        
+- **Lighting:** A fundamental deterrent. Attackers avoid lit areas where they are visible to cameras and guards. Includes specialized IR lighting for night-vision cameras.
+    
+- **Signage:** Deterrent control (e.g., "No Trespassing" or "CCTV in Operation") to warn potential intruders.
+    
+
+### 🚪 Access Control & Entry Management
+
+- **Access Control Vestibule (Mantrap):** A set of two interlocking doors.
+    
+    - _Failsafe:_ All doors unlocked (e.g., in a fire).
+        
+    - _Fail-secure:_ All doors locked (e.g., during a breach).
+        
+    - _Logic:_ Opening one door prevents the other from unlocking, ensuring one-at-a-time entry.
+        
+- **ID Badges:** Must be worn at all times; used for visual identification and electronic logging via RFID/NFC.
+    
+- **Physical Guards:** Human security at reception or checkpoints to validate credentials and provide immediate response.
+    
+- **Two-Person Integrity:** Requirement that two authorized individuals must be present to access a critical asset (prevents insider threats).
+    
+
+### 📹 Monitoring & Detection
+
+- **Video Surveillance (CCTV):** Networked cameras used for real-time monitoring and forensic recording.
+    
+    - _Motion Detection:_ Alerts security when movement is sensed.
+        
+    - _Object Detection/Recognition:_ Identifies specific items like license plates or facial features.
+        
+- **Intrusion Detection Sensors:**
+    
+    - **Infrared (PIR):** Detects heat signatures in light or dark.
+        
+    - **Pressure Sensors:** Detects weight/force changes (floors/windows).
+        
+    - **Microwave/Ultrasonic:** Detects motion across large open volumes using signal reflection.
+
+---
+# 🍯1.2 Deception Technology
+
+Deception technology involves creating fake environments, files, or data to lure attackers, observe their techniques, and alert security teams to a breach in progress.
+
+---
+
+### 🏛️ The Infrastructure: Honeypots & Honeynets
+
+- **Honeypots:** A single virtual decoy server or system designed to look vulnerable.
+    
+    - _Purpose:_ To distract attackers from production systems and study their "TTPs" (Tactics, Techniques, and Procedures).
+        
+    - _Mechanism:_ Usually open-source and easy to deploy; any interaction with it is considered a high-fidelity alert.
+        
+- **Honeynets:** A larger, complex network of decoys.
+    
+    - _Components:_ Includes virtual servers, workstations, routers, and firewalls.
+        
+    - _Project Honeypot:_ A global effort to use networked honeypots to identify and stop spammers/harvesters.
+        
+
+### 🍱 The Bait: Honeyfiles & Honeytokens
+
+- **Honeyfiles:** Files that act as "bait" within a network share (e.g., `passwords.txt`, `Payroll_2026.xlsx`).
+    
+    - _The "Bear Trap":_ These files contain no real data, but an alert is instantly sent to the SOC if they are accessed or moved.
+        
+- **Honeytokens:** Traceable data used to track malicious actors beyond the network.
+    
+    - **API Credentials:** Fake keys that don't provide access but alert the owner when an attacker tries to use them.
+        
+    - **Fake Email Addresses:** Added to contact lists to identify web scrapers or spammers.
+        
+    - **Database Records:** "Seeded" data that, if found on the Dark Web, proves a specific database was breached.
+        
+    - **Web Page Pixels:** Invisible tracking pixels used to identify the source of unauthorized site mirroring.
+        
+
+---
+
+### 🛡️ Why Use Deception?
+
+1. **Interesting Recon:** Attackers (or automated bots) waste time exploring a "virtual world" while you gather intelligence on them.
+    
+2. **Early Warning:** Since no legitimate user should be touching a honeyfile, any activity is a 100% confirmed security incident.
+    
+3. **Evidence Gathering:** Honeynets provide a safe environment to watch how an attacker moves (Lateral Movement) without risking actual company assets.
 

@@ -75,7 +75,7 @@ The fundamental model for information security.
 ## 7. Identity, Cryptography & AppSec (Course 5)
 
 ### Cryptography
-*See details in: [[Cryptography_and_Identity]]*
+*See details in: [[Cryptography_and_Identity heh]]*
 * **Encryption:** Symmetric (Shared Key) vs. Asymmetric (Public/Private Keys).
 * **PKI:** Framework for secure web exchange (HTTPS).
 * **Hashing:** Ensuring Data Integrity.

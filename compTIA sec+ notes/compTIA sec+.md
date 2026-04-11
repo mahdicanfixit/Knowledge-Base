@@ -84,9 +84,6 @@ _Ensures systems/data are accessible to authorized users when needed._
 - **Patching:** Maintaining stability and closing security holes.
     
 
----
-
-![](../attachments/Pasted%20image%2020260410112953.png)
 
 ---
 

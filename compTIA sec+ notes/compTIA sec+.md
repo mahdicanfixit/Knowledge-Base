@@ -520,7 +520,7 @@ Never assume a change will go perfectly. Always prepare for the worst.
 
 ---
 
-# ⚙️ 1.3 Change Execution & Technical Implementation
+# ⚙️ 1.4 Change Execution & Technical Implementation
 
 ### 📋 Moving from Plan to Action
 
@@ -593,4 +593,75 @@ Export to Sheets
 - **Policy Alignment:** Ensure that the technical reality of the system still matches the organization’s written security policies.
 
 ---
+
+This is a massive topic—**Cryptography and PKI**. Since you’re building your vault to look like a professional Cybersecurity Architect's notebook, we’re going to use the **Symmetric vs. Asymmetric** comparison and the **Trust Infrastructure** layout.
+
+This is the foundation for almost everything in Sec+, from HTTPS to VPNs and Digital Signatures.
+
+---
+
+# 🔐 1.3 Cryptography & Public Key Infrastructure (PKI)
+
+### 📋 What is PKI?
+
+**Definition:** The hardware, software, people, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates.
+
+- **The Core Goal:** To bind **Public Keys** to specific people or devices.
+    
+- **The Trust Factor:** It all centers on the **Certificate Authority (CA)**. If you don't trust the CA, the entire system fails.
+    
+- **The Scale:** This is a "big, big endeavor" that requires massive planning and coordination.
+    
+
+---
+
+### 🕹️ Encryption Methods
+
+|Feature|Symmetric Encryption|Asymmetric Encryption|
+|---|---|---|
+|**Key Count**|One (Shared Secret)|Two (Public & Private)|
+|**Speed**|**Very Fast** (Low overhead)|**Slow** (Math heavy)|
+|**Scaling**|Difficult (Does not scale well)|Excellent (Anyone can have the Public key)|
+|**Primary Use**|Bulk data encryption|Key exchange & Digital Signatures|
+
+Export to Sheets
+
+---
+
+### 🔑 Asymmetric Cryptography (Public Key)
+
+**Definition:** A system that uses two mathematically related keys. You cannot derive the private key from the public key.
+
+#### 🛠️ How it Works
+
+1. **Key Generation:** Both keys are built at the same time using large prime numbers and heavy randomization.
+    
+2. **The Public Key:** Give it to everyone. It is used to **encrypt** data.
+    
+3. **The Private Key:** Keep this a total secret. It is the **only** key that can **decrypt** what the public key encrypted.
+    
+
+> [!TIP] **Hybrid Encryption:** In the real world (like HTTPS), we use **Asymmetric** encryption to securely exchange a **Symmetric** key, then use that symmetric key for the actual data transfer because it's faster.
+
+---
+
+### 📂 Key Management & Escrow
+
+#### 💼 Key Escrow (Third-Party Control)
+
+**Definition:** A process where your decryption keys (Private Keys) are held by a third party or a specific entity within your organization.
+
+- **The Business Case:** A company may need to access employee data if they leave, or a government agency may need to decrypt data for legal reasons.
+    
+- **The Controversy:** It is highly debated in the security community because it creates a single point of failure—if the escrow is breached, all encrypted data is exposed.
+    
+
+---
+
+
+![[Pasted image 20260411200147.png]]
+![[Pasted image 20260411195922.png]]
+
+---
+
 

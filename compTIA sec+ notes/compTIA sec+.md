@@ -40,9 +40,12 @@ Export to Sheets
 - **Directive:** Directs subjects toward compliance via rules or instructions.
     
     - _Examples:_ Policy training, signs saying "Store sensitive files in protected folders."
-        
+
+![697](../attachments/Pasted%20image%2020260410112953.png)
 
 ---
+
+
 
 ## 📐 The CIA Triad
 
@@ -83,7 +86,7 @@ _Ensures systems/data are accessible to authorized users when needed._
 
 ---
 
-![[Pasted image 20260410112953.png]]
+![](../attachments/Pasted%20image%2020260410112953.png)
 
 ---
 
@@ -657,7 +660,7 @@ Export to Sheets
     
 
 ---
-
+![](../attachments/Pasted%20image%2020260411195922.png)
 
 ![[Pasted image 20260411200147.png]]
 ![](../attachments/Pasted%20image%2020260411195922.png)

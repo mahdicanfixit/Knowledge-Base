@@ -446,5 +446,78 @@ Deception technology involves creating fake environments, files, or data to lure
     
 3. **Evidence Gathering:** Honeynets provide a safe environment to watch how an attacker moves (Lateral Movement) without risking actual company assets.
 
+
 ---
+
+# 📈 1.3 Change Management & Operational Risk
+
+### 📋 The Fundamentals
+
+**Definition:** A formal, documented process for managing technical modifications to avoid downtime, confusion, and catastrophic mistakes.
+
+- **The Reality:** Change is one of the most frequent and common risks in the enterprise.
+    
+- **The "Bite":** It is often overlooked or ignored until a minor update causes a total system failure.
+    
+- **The Goal:** To have clear policies regarding frequency, duration, installation processes, and mandatory rollback procedures.
+    
+
+---
+
+### 🏛️ The Approval Workflow
+
+|Stage|Action Item|Key Objectives|
+|---|---|---|
+|**Request**|Formal Documentation|Complete forms defining the **Purpose**, **Scope**, and **Schedule**.|
+|**Risk Analysis**|Risk Level Assessment|Assign a value (High/Medium/Low) based on potential impact.|
+|**Approval**|**Change Control Board (CCB)**|Get formal sign-off from management and stakeholders.|
+|**Implementation**|Technical Execution|Perform the actual change (upgrade, patch, or config shift).|
+|**Verification**|End-User Acceptance|Confirm the system works for the people who actually use it.|
+
+
+---
+
+### 👥 Roles & Responsibilities
+
+- **The Process Owner:** The entity that _needs_ the change (e.g., Shipping & Receiving). They manage the request and ensure the process is followed.
+    
+- **The Custodian (IT):** The technical team that handles the actual changes (e.g., upgrading label printer software).
+    
+- **Stakeholders:** Anyone impacted by the change. This can scale from a single user to the entire company (affecting revenue reports and CEO visibility).
+    
+
+---
+
+### 🛡️ Risk Mitigation & "The Safety Net"
+
+#### 🧪 Testing in the Sandbox
+
+A **Sandbox** is a technological safe space—a testing environment with zero connection to the real-world production system.
+
+- **The Rule:** Try the upgrade, apply the patch, and confirm success _before_ touching production.
+    
+
+#### 🔙 The Backout Plan (Rollback)
+
+Never assume a change will go perfectly. Always prepare for the worst.
+
+- **Reversion:** Have a predefined way to move everything back to the original state.
+    
+- **The Backup:** **Always have verified backups.** This is the ultimate safety net.
+    
+- _Note:_ Some changes are incredibly difficult to revert; the backout plan must account for this complexity.
+    
+
+---
+
+### 📅 Scheduling & Timing
+
+|Consideration|Strategy|Reason|
+|---|---|---|
+|**Workday**|Generally avoided.|Minimizes impact on active production and employee output.|
+|**Overnights**|Preferred choice.|Ideal for systems that aren't 24/7, though challenging for global ops.|
+|**Change Freeze**|Retail/Financial "Blackouts."|Networks are "frozen" during peak times (e.g., holidays) to ensure 100% stability.|
+
+---
+
 

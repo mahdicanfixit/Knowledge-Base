@@ -32,4 +32,20 @@ there are advantages and disadvantages between algorithms security lvl speed and
 
 ![[Pasted image 20260411201141.png]]
 
-theres very little that isnt known about the cryptographic process the algorithm is usually a knwon
+theres very little that isnt known about the cryptographic process the algorithm is usually a knwon entity the only thing you dont know is the key
+
+the key determines the output encrypted data hash value digital signature
+
+keep your key private its the only thing protecting your data
+
+larger keys tend to be more secure prevent brute force attacks attackers can try every possible key combination
+
+symmetric encryption 128 bits or larger are common these numbers ger larger and larger as time goes on
+
+asymmetric encryption complex calculations larger keys than symmetric
+
+a weak key is a weak key by itself its not very secure
+
+make a weak key stronger by performing multiple processes hash a password hash over and over strecthing the key
+
+brute force attacks would require reversing each of those hashes

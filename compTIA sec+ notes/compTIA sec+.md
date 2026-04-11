@@ -520,4 +520,74 @@ Never assume a change will go perfectly. Always prepare for the worst.
 
 ---
 
+# ⚙️ 1.3 Change Execution & Technical Implementation
 
+### 📋 Moving from Plan to Action
+
+**Definition:** The technical phase of change management where upgrades, patches, and configurations are deployed into the production environment.
+
+- **No "Simple" Upgrades:** Every change has moving parts; what looks like one event may actually require several coordinated steps.
+    
+- **The Conflict:** Change Management focuses on **What** changes; the Technical Team (you) focuses on **How** it changes.
+    
+- **The Risks:** Every new application is a potential vector for vulnerabilities, Trojan horses, or malware.
+    
+
+---
+
+### 🛡️ Application Control & Execution
+
+|Strategy|Mechanism|Security Posture|
+|---|---|---|
+|**Allow List**|Nothing runs unless explicitly approved.|**High Security:** Very restrictive; best for high-risk environments.|
+|**Deny List**|Only known "bad" files are blocked.|**Standard:** Relies on antivirus/malware signatures to identify threats.|
+
+Export to Sheets
+
+---
+
+### 🛠️ Execution & Minimizing Disruption
+
+#### 📉 Managing Downtime
+
+- **Disruptive by Nature:** Services will eventually be unavailable; scheduling during **non-production hours** is mandatory.
+    
+- **Service Redundancy:** If possible, switch traffic to a secondary system, upgrade the primary, then switch back.
+    
+- **Automation:** The more automated the process, the lower the risk of human error. Automation should also be built into the **Backout Plan**.
+    
+
+#### 🔄 The "Restart" Reality
+
+- **Bouncing Services:** It is common to require a restart of the OS, a power cycle of a switch, or a "bounce" of a specific daemon.
+    
+- **Recovery Check:** Always verify if the system can recover automatically from an unexpected power outage after a change.
+    
+- **State Management:** Closing applications completely and launching new instances to ensure the new configuration is active.
+    
+
+---
+
+### 🏛️ Legacy Systems & Dependencies
+
+> [!WARNING] **Legacy Systems:** Some applications were here before you and will be here after you. If they are no longer supported by the developer, **you** are now the support team.
+> 
+> - **Action:** Document the "quirks" and create specific procedures. Face the fear of the unknown by becoming the expert.
+>     
+
+#### 🔗 Dependency Mapping
+
+- **Sequence Matters:** To complete Step A, you must often complete Step B (e.g., an app requiring a specific library version).
+    
+- **System Cross-Talk:** Modifying one component (like upgrading firewall code) may require restarting other interconnected systems.
+    
+
+---
+
+### 📝 Post-Change Documentation
+
+- **Version Control:** Tracking changes to files or configurations over time. Essential for reverting to a "Last Known Good" state.
+    
+- **The Living Document:** Diagrams, IP address updates, and network configurations must be updated _immediately_ after the change.
+    
+- **Policy Alignment:** Ensure that the technical reality of the system still matches the organization’s written security policies.

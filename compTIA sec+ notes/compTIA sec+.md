@@ -9,8 +9,6 @@
 | **Operational** | Controls implemented by _people_ rather than systems.   | Security guards, awareness training, log reviews. |
 | **Physical**    | Controls that limit physical access to assets.          | Fences, locks, badge readers, guard shacks.       |
 
-Export to Sheets
-
 ---
 
 ## 🕹️ Control Types (What they do)
@@ -44,8 +42,6 @@ Export to Sheets
 ![697](../attachments/Pasted%20image%2020260410112953.png)
 
 ---
-
-
 
 ## 📐 The CIA Triad
 
@@ -149,8 +145,9 @@ _Ensures systems/data are accessible to authorized users when needed._
 ---
 
 ### 📂 Attachments
-
-![[Pasted image 20260410133936.png]] ![[Pasted image 20260411055837.png]] ![[Pasted image 20260411055939.png]]
+![](../attachments/Pasted%20image%2020260410133936.png)
+  ![675](../attachments/Pasted%20image%2020260411055837.png)
+![](../attachments/Pasted%20image%2020260411055939.png)
 
 ---
 # 🔑 1.2 Access Control & AAA Framework
@@ -202,15 +199,8 @@ _Ensures systems/data are accessible to authorized users when needed._
 
 ### 📂 Attachments
 
-![[Pasted image 20260411060403.png]] ![[Pasted image 20260411060732.png]]
-
----
-
-Nice work! You just hit the "Business of Security" side. While the Google Cert focused on how to fix a technical problem, **Gap Analysis** is how you fix a _company_.
-
-In an IT Support or Helpdesk role, you’ll often be the person helping gather the data for these reports (e.g., "How many of our laptops are actually encrypted?").
-
-Here is the polished version for your Obsidian vault.
+ ![](../attachments/Pasted%20image%2020260411060403.png)
+![](../attachments/Pasted%20image%2020260411060732.png)
 
 ---
 
@@ -271,7 +261,8 @@ The final report is a roadmap that includes:
 
 ## 📂 Attachments
 
-![[Pasted image 20260411065412.png]] ![[Pasted image 20260411065509.png]]
+ ![](../attachments/Pasted%20image%2020260411065412.png)
+![](../attachments/Pasted%20image%2020260411065509.png)
 
 ---
 
@@ -295,7 +286,6 @@ The final report is a roadmap that includes:
 |**Data Plane**|The "Muscle." Handles the actual processing and movement of data.|Forwarding, encrypting, NAT, trunking frames/packets.|
 |**Control Plane**|The "Brain." Defines the policies and rules that the Data Plane must follow.|Routing tables, session tables, NAT tables.|
 
-Export to Sheets
 
 ---
 
@@ -338,14 +328,13 @@ The "Gatekeeper" (The Muscle).
 
 ## 📂 Attachments
 
-![[Pasted image 20260411070723.png]] ![[Pasted image 20260411071336.png]]
+ ![](../attachments/Pasted%20image%2020260411070723.png)
+![](../attachments/Pasted%20image%2020260411071336.png)
 
 ---
 # 🛡️1.2 Physical Security Controls
 
 Physical security focuses on the protection of personnel, hardware, and data from physical actions and events. These controls are categorized into **Deterrent**, **Preventive**, and **Detective** measures.
-
-+1
 
 ---
 
@@ -542,7 +531,6 @@ Never assume a change will go perfectly. Always prepare for the worst.
 |**Allow List**|Nothing runs unless explicitly approved.|**High Security:** Very restrictive; best for high-risk environments.|
 |**Deny List**|Only known "bad" files are blocked.|**Standard:** Relies on antivirus/malware signatures to identify threats.|
 
-Export to Sheets
 
 ---
 
@@ -592,11 +580,6 @@ Export to Sheets
     
 - **Policy Alignment:** Ensure that the technical reality of the system still matches the organization’s written security policies.
 
----
-
-This is a massive topic—**Cryptography and PKI**. Since you’re building your vault to look like a professional Cybersecurity Architect's notebook, we’re going to use the **Symmetric vs. Asymmetric** comparison and the **Trust Infrastructure** layout.
-
-This is the foundation for almost everything in Sec+, from HTTPS to VPNs and Digital Signatures.
 
 ---
 
@@ -623,8 +606,6 @@ This is the foundation for almost everything in Sec+, from HTTPS to VPNs and Dig
 |**Speed**|**Very Fast** (Low overhead)|**Slow** (Math heavy)|
 |**Scaling**|Difficult (Does not scale well)|Excellent (Anyone can have the Public key)|
 |**Primary Use**|Bulk data encryption|Key exchange & Digital Signatures|
-
-Export to Sheets
 
 ---
 
@@ -659,9 +640,7 @@ Export to Sheets
 ---
 ![](../attachments/Pasted%20image%2020260411195922.png)
 
-![[Pasted image 20260411200147.png]]
-![](../attachments/Pasted%20image%2020260411195922.png)
-
+![697](../attachments/Pasted%20image%2020260411200147.png)
 
 ---
 
@@ -731,8 +710,6 @@ Export to Sheets
 |**Common Key Size**|128-bit or larger.|2048-bit or larger.|
 |**Brute Force Defense**|Larger keys = harder to crack.|Larger keys = much more math overhead.|
 
-Export to Sheets
-
 #### 💪 Key Stretching
 
 If a key is "weak" (like a simple password), you can make it stronger using **Key Stretching**.
@@ -761,7 +738,6 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 |**Out-of-Band**|Transferring the key outside the network (Telephone, Courier, In-person).|**Pros:** Very secure. **Cons:** Doesn't scale; slow.|
 |**In-Band**|Transferring the key over the existing network.|**Pros:** Instant. **Cons:** Requires additional encryption to protect the key during transit.|
 
-Export to Sheets
 
 ---
 

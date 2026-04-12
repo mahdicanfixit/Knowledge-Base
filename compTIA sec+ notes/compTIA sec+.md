@@ -787,6 +787,8 @@ Export to Sheets
 > - **Unpredictable:** Use high-quality randomization (large prime numbers) to prevent attackers from guessing the key.
 
 ---
+![](../../Pasted%20image%2020260411213725.png)
+![](../../Pasted%20image%2020260411213817.png)
 
 
 

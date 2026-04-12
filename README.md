@@ -1,7 +1,5 @@
 # 🛡️ Cybersecurity & IT Infrastructure Knowledge Base
 
-Welcome to my central repository for technical documentation and certification studies. This vault tracks my progression from IT fundamentals to advanced cybersecurity concepts.
-
 ## 🚀 Current Focus
 - **Certification:** CompTIA Security+ (SY0-701)
 - **Status:** 🟢 Domain 1.0 - General Security Concepts (In Progress)
@@ -11,8 +9,7 @@ Welcome to my central repository for technical documentation and certification s
 ## 📚 Certification Journey
 
 ### 🛡️ CompTIA Security+ (SY0-701)
-*Deep-diving into enterprise security architecture, risk management, and cryptography.*
-- [ ] Domain 1.0: General Security Concepts
+- [x] Domain 1.0: General Security Concepts
 - [ ] Domain 2.0: Threats, Vulnerabilities, and Mitigations
 - [ ] Domain 3.0: Security Architecture
 - [ ] Domain 4.0: Security Operations
@@ -35,9 +32,9 @@ Welcome to my central repository for technical documentation and certification s
 ---
 
 ## 🛠️ Technical Toolkit
-- **Note-Taking:** [Obsidian](https://obsidian.md/) (Markdown)
+- **Note Taking:** [Obsidian](https://obsidian.md/) 
 - **Version Control:** Git / GitHub
-- **OS Environments:** Windows 11, Linux (Dual-boot/VMs)
+- **OS Environments:** Windows 11, Linux (VMs)
 - **Networking:** Wireshark, tcpdump, Packet Tracer
 
 ---

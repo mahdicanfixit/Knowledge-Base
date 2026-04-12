@@ -1,4 +1,3 @@
-
 ### 🏛️ Course 4: System Administration & IT Infrastructure
 
 _Managing the scale, reliability, and security of organizational technology._

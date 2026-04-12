@@ -91,4 +91,4 @@ Dividing the network to limit access.
 | **SIEM** | Aggregates Logs | Centralized monitoring/reporting. |
 
 ---
-*Back to [[Cybersecurity_Knowledge_Base]]*
+*Back to [[Google Cybersecurity Knowledge Base]]*

@@ -53,4 +53,4 @@ A framework that manages digital keys and certificates to secure data exchange (
     * **Session Hijacking:** Attackers stealing a valid Session ID to impersonate a user.
 
 ---
-*Back to [[Cybersecurity_Knowledge_Base]]*
+*Back to [[Google Cybersecurity Knowledge Base]]*

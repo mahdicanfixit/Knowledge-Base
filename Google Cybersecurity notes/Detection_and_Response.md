@@ -49,4 +49,4 @@
     * **XML:** Uses tags `<user>admin</user>`.
     * **CSV:** Comma-separated (spreadsheet style).
 
-*Back to [[Cybersecurity_Knowledge_Base]]*
+*Back to [[Google Cybersecurity Knowledge Base]]*

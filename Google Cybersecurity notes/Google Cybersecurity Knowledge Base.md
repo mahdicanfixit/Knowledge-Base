@@ -1,4 +1,3 @@
-# Cybersecurity Knowledge Base
 
 ## 1. Core Foundations
 

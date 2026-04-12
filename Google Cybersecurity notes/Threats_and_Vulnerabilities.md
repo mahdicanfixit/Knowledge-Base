@@ -54,5 +54,5 @@ Attacks designed to shut down a machine or network, making it inaccessible to it
 * **Replay Attack:** Intercepting a valid data transmission and repeating it later to gain unauthorized access.
 
 ---
-*Back to [[Cybersecurity_Knowledge_Base]]*
+*Back to [[Google Cybersecurity Knowledge Base]]*
 --

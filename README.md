@@ -1,7 +1,7 @@
-# 🛡️ Cybersecurity & IT Infrastructure Knowledge Base
+# 🛡️ Knowledge Base
 
-## 🚀 Current Focus
-- **Certification:** CompTIA Security+ (SY0-701)
+## 🚀 Current studies
+- CompTIA Security+ (SY0-701)
 - **Status:** 🟢 Domain 1.0 - General Security Concepts (In Progress)
 
 ---
@@ -31,15 +31,9 @@
 
 ---
 
-## 🛠️ Technical Toolkit
+## 🛠️ Things im using
 - **Note Taking:** [Obsidian](https://obsidian.md/) 
-- **Version Control:** Git / GitHub
 - **OS Environments:** Windows 11, Linux (VMs)
 - **Networking:** Wireshark, tcpdump, Packet Tracer
 
 ---
-
-## 📈 Learning Philosophy
-I follow a **Gap Analysis** approach to learning. By comparing my existing knowledge from the Google Cybersecurity program against the CompTIA Security+ objectives, I focus on identifying and mastering "The Gaps" to ensure a comprehensive understanding of the field.
-
-> "Never trust, always verify." — Zero Trust Principle

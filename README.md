@@ -35,3 +35,9 @@
 - **Note Taking:** [Obsidian](https://obsidian.md/) 
 - **OS Environments:** Windows 11, Linux (VMs)
 - **Networking:** Wireshark, tcpdump, Packet Tracer
+
+---
+
+## Note about the workflow
+
+These notes were from my studies (CompTIA, Google IT/Cyber certs) I used AI to refine the formatting, bridge knowledge gaps, to make it pleasing to look at when reviewing back at it.

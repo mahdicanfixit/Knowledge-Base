@@ -430,3 +430,57 @@ Export to Sheets
 
 ---
 
+# 🗣️2.2 Information Warfare & Brand Deception
+
+> [!IMPORTANT] While **Misinformation** is a broader term for false info, **Disinformation** is the _intentional_ dissemination of factually incorrect data to create confusion and division.
+
+---
+
+### 🗳️ Influence Campaigns & Disinformation
+
+Nation-state actors use these to divide, distract, and persuade the public on social and political issues.
+
+- **The Goal:** Sway public opinion or delegitimize institutions.
+    
+- **The Mechanism:** * **Social Media Amplification:** Using bots and "troll farms" to create, share, and like content.
+    
+    - **The Echo Chamber:** Algorithms show users what they already believe, making the disinformation feel like "consensus."
+        
+    - **Paid Advertising:** Purchasing ads to micro-target specific demographics with tailored narratives.
+        
+
+---
+
+### 🥤 Brand Impersonation (The "Big Brand" Trap)
+
+Attackers leverage the trust you have in household names (Coca-Cola, McDonald's, etc.) to deliver payloads.
+
+- **Massive Scale:** Creating tens of thousands of impersonated sites simultaneously.
+    
+- **SEO Poisoning:** Getting these fake sites into the **Google Index** so they appear in top search results.
+    
+- **Malicious Advertising (Malvertising):**
+    
+    1. Attacker buys a legitimate ad slot.
+        
+    2. User clicks the ad (or just visits a site where the ad loads).
+        
+    3. A **Pop-up** appears (e.g., "You won a prize!" or "Security Warning").
+        
+    4. Clicking the pop-up leads to an **almost guaranteed malware infection**.
+        
+
+---
+
+### 🛡️ Detection & Prevention
+
+|Threat|Defense Strategy|
+|---|---|
+|**Disinformation**|**Fact-Checking** 🔎: Verify sources through multiple independent outlets.|
+|**Brand Impersonation**|**URL Inspection** 🔗: Check for typos or strange TLDs (e.g., `.cc` instead of `.com`).|
+|**Malvertising**|**Ad-Blockers / DNS Filtering** 🛑: Prevent the malicious script from loading in the first place.|
+|**Fake Sites**|**Browser Protection** 🌐: Use tools that flag "Low Reputation" sites.|
+![](../../Pasted%20image%2020260414223854.png)
+
+---
+

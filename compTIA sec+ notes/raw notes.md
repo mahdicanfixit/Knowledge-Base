@@ -1,11 +1,18 @@
-a programming conundrum sometimes things happen at the same time this can be bad if youve not planned for it
+a foundational compluting platform everyone has OS and its a big target
 
-time of check to time of use attack TOCTOU check the system when do you use the results of your last check something might happen between the check and the use
+remarkably complex million of lines 
 
-![](../../Pasted%20image%2020260414235043.png)
+the vulnerbilites are already in there we js cant found them yet
 
-jan 2004 mars rover spirit  reboot when a problem is identified problem is with the file system so reboot because of the file system problem reboot loop was the result
+a normal month of windows updates patch tuesday
 
-pwn2own vancouver 2023 tesla model 3 toctou attack against the tesla infotainment using bluetooth eveated privilages to root
+https://msrc.microsoft.com/
 
-earned 100k$ prize and kept the tesla
+always update monthly or on demand updates its a race between you and the attackers
+
+may require testing before deployment a patch might break something else
+
+may require a reboot 
+
+have a fallback plan wheres that backup?
+

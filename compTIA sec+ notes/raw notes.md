@@ -1,14 +1,11 @@
-malware runs in memory memory forensics can find the malicious code
+a programming conundrum sometimes things happen at the same time this can be bad if youve not planned for it
 
-memory contains running processes dlls threads buffers memory management functions and much more
+time of check to time of use attack TOCTOU check the system when do you use the results of your last check something might happen between the check and the use
 
-malware is hidden somewhere malware runs in its own process malware injects itself into legitmate process
+![](../../Pasted%20image%2020260414235043.png)
 
-add code into the memory of an existing process hide malware insid eof the process
+jan 2004 mars rover spirit  reboot when a problem is identified problem is with the file system so reboot because of the file system problem reboot loop was the result
 
-get access to the data in that process and the same rights and permissions perform a privilege escalation
+pwn2own vancouver 2023 tesla model 3 toctou attack against the tesla infotainment using bluetooth eveated privilages to root
 
-dynamic link library a windows library containing code and data many applications can use this library attackers inject a path to a malicious DLL runs as part of the target process
-
-one of the most popular memory injection methodrelatively easy to implement
-
+earned 100k$ prize and kept the tesla

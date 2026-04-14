@@ -484,3 +484,60 @@ Attackers leverage the trust you have in household names (Coca-Cola, McDonald's,
 
 ---
 
+# 🧠 Memory Injection & Evasive Malware
+
+> [!ABSTRACT] The "Fileless" Concept Modern malware often avoids the hard drive entirely to bypass traditional Anti-Virus. By running strictly in **Volatile Memory (RAM)**, it leaves no trace on the disk, making **Memory Forensics** essential for detection.
+
+---
+
+### 🔍 What’s in the Memory?
+
+When you analyze a RAM dump, you are looking at:
+
+- **Running Processes:** Active applications.
+    
+- **DLLs:** Shared libraries used by multiple programs.
+    
+- **Threads:** The smallest unit of execution within a process.
+    
+- **Buffers:** Temporary storage areas (a favorite target for "Overflow" attacks).
+    
+
+---
+
+### 💉 Injection Methods
+
+Attackers don't want to start a process named `malware.exe`. Instead, they hide inside "the house" (legitimate processes).
+
+#### 1. Process Injection
+
+The attacker adds their own malicious code into the memory space of a legitimate, running process (like `explorer.exe` or `svchost.exe`).
+
+- **The Goal:** Stealth.
+    
+- **The Bonus:** The malware inherits the **rights and permissions** of the legitimate process, often leading to **Privilege Escalation**.
+    
+
+#### 2. DLL Injection
+
+**Dynamic Link Libraries (DLLs)** are the backbone of Windows applications.
+
+- **The Attack:** The attacker forces a legitimate process to load a malicious DLL by injecting its file path into the process's memory.
+    
+- **Why it's popular:** It is relatively easy to implement and allows the malware to run as part of a trusted application, bypassing many basic security monitors.
+    
+
+---
+
+### 🛡️ Detection & Forensics
+
+Since the code isn't on the disk, we have to find it while it's "alive."
+
+|Tool Type|Function|
+|---|---|
+|**Memory Forensics**|Tools like `Volatility` or `Rekall` to analyze RAM dumps.|
+|**EDR**|Endpoint Detection & Response tools that monitor memory calls in real-time.|
+|**Process Explorer**|A Sysinternals tool used to see which DLLs a process has loaded.|
+
+---
+

@@ -106,8 +106,8 @@ _Most successful vector because it targets the "human" element._
 - **Social Engineering:** Invoice scams, crypto scams, and "urgent" requests.
     
 - **Payload Delivery:** Attaching malware directly to emails.
-    
-    > [!TIP] Prevention Always scan attachments and never launch untrusted links.
+
+> [!TIP] Prevention Always scan attachments and never launch untrusted links.
     
 
 ---
@@ -164,8 +164,7 @@ _Every open connection is a potential door._
 - **Bluetooth:** Reconnaissance and implementation bugs.
     
 - **Open Ports:** Every TCP/UDP port is an opportunity.
-    
-    > [!CAUTION] Attack Surface More services = Larger attack surface. Every open port must be justified in the firewall rules.
+> [!CAUTION] Attack Surface More services = Larger attack surface. Every open port must be justified in the firewall rules.
     
 
 ---
@@ -208,6 +207,80 @@ _Tampering with the underlying manufacturing or management process._
 ![](../../Pasted%20image%2020260414215809.png)
 
 ![](../../Pasted%20image%2020260414215952.png)
+
+---
+This is a solid deep dive into the **"Digital Sleight of Hand"** that makes social engineering so dangerous. Since you're building this for your portfolio, I’ve refined these notes into a clean, "GitHub-style" reference.
+
+I’ve highlighted the **Typosquatting** and **Pretexting** sections, as those are frequent "gotchas" in cybersecurity exams and real-world audits.
+
+---
+
+# 🎭 Social Engineering & Identity Deception
+
+> [!WARNING] The Human Firewall Social engineering bypasses technical controls by exploiting human trust. When combined with **spoofing**, it becomes one of the most effective attack vectors in existence.
+
+---
+
+### 🎣 Phishing Variations
+
+Attackers use "variations on a theme" to reach targets wherever they are most vulnerable.
+
+- **Phishing:** General email-based attacks.
+    
+- **Smishing:** SMS (Text) based. High success rate due to the personal nature of mobile devices.
+    
+- **Vishing:** Voice/Voicemail. Often uses **Caller ID Spoofing** to appear as a local bank or government agency.
+    
+
+---
+
+### 🎭 Deception Techniques
+
+#### 1. Spoofing & Slight of Hand
+
+The goal is to make a fake source look legitimate.
+
+- **Email Spoofing:** Changing the "From" header to look like a trusted source (e.g., `professor@professormessor.com` instead of the legitimate `messer`).
+    
+- **Financial Fraud:** Modifying wire transfer details or bank info via spoofed emails to redirect payments.
+    
+- **Visual Cues:** Look for "not quite right" elements:
+    
+    - Non-standard **Fonts** or low-quality **Graphics**.
+        
+    - Subtle **Spelling** errors in the body or signature.
+        
+
+#### 2. Typosquatting (URL Hijacking)
+
+Attackers register domains that are common misspellings of popular sites.
+
+- **Example:** `professormessor.com` vs. `professormesser.com`.
+    
+- **Goal:** Catch users who make a typo in the browser or fail to inspect a link before clicking.
+    
+
+#### 3. Pretexting
+
+The attacker doesn't just ask for info; they **create a character** and a situation.
+
+- **The Hook:** "Hi, I'm calling from Visa regarding an automated payment to your utility service..."
+    
+- **The Goal:** Build a "pretext" that makes the request for sensitive info (SSN, Verification codes) seem logical and urgent.
+    
+
+---
+
+### 🚩 Red Flag Checklist
+
+| Feature     | What to Look For                                                       |
+| ----------- | ---------------------------------------------------------------------- |
+| **URL**     | Is it `https`? Is the domain name spelled _exactly_ right?             |
+| **Source**  | Does the email address match the organization's official domain?       |
+| **Urgency** | Does it demand immediate action (e.g., "Account suspended in 1 hour")? |
+| **Request** | Are they asking for a verification code, password, or wire transfer?   |
+![](../../Pasted%20image%2020260414222137.png)
+![](../../Pasted%20image%2020260414222301.png)
 
 ---
 

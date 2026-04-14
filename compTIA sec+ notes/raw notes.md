@@ -31,4 +31,38 @@ You are your own CA build it inhouse your devices must trust the internal CA
 
 needed for medium to large organizations many web servers and privacy requirement
 
-implement as part of your ove
+implement as part of your overall computing strategy
+
+internal certs dont need to be signed by a public CA your company is the only one going to use it no need to purchase trust for devicces that already trust you
+
+build ur own CA issue ur own cert signed by ur own CA
+
+install the CA certificate/trsuted chain on all devices they now trust any cert signed by ur internal CA works same as the one u bought
+
+subject alternative name SAN extension to an x.509 cert lists additional indetification information allows a cert to support amanny different domains
+
+![](../../Pasted%20image%2020260414205904.png)
+
+wildcard domain certs are based on the name of the server a wildcard domain will apply to all server names in domain
+
+Certificate revocation list maintained by the CA can contain many revocations in a large file
+
+many different reasons changes all the time
+
+april 2014 - cve2014 heartbleed OpenSSL flaw put the private key of affected web seervers at risk was patched and older certs were moved to the CRL
+
+![](../../Pasted%20image%2020260414210058.png)
+
+online certs status proocol provides scalability for OCSP checks
+
+the CA is resposible for responding to all client OCSP requestss this may not scale well
+
+instead have the cert holder verify their own status status information is stored on the certs holder server
+
+ocsp status is stapled into the SSL tls handshake digitally signed by the CA
+
+ocsp online cert status protocol the browser can check cert revocqation
+
+messages usually sent to an OCSP respoinder via http
+
+not all browsers apps support OCSP early internet exploere verisons and some support OCSP but dont bother chekcing 

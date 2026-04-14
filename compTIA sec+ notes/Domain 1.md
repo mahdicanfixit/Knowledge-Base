@@ -1032,3 +1032,74 @@ Blockchain isn't just for cryptocurrency; it has major enterprise security uses:
 
 ![](../../Pasted%20image%2020260414204659.png)
 
+---
+
+# 📜 1.4 Public Key Infrastructure (PKI)
+
+### 🏗️ The Foundation of Trust
+
+**Trust** is the foundational characteristic of IT security. In PKI, we build trust for unknown entities (like a random website) by using a **Trusted Third Party**.
+
+- **Root of Trust:** An inherently trusted component (Hardware like an HSM, or software/firmware) that serves as the starting point for the trust chain.
+    
+- **Certificate Authority (CA):** The entity responsible for vetting requests and digitally signing certificates.
+    
+    - **Public CAs:** Browsers come pre-loaded with these (e.g., DigiCert, Let's Encrypt). If the CA signs a site, your browser trusts it automatically.
+        
+    - **Vetting:** The CA confirms the identity of the requester before signing.
+        
+
+---
+
+### 🛠️ The Lifecycle of a Certificate
+
+1. **Key Generation:** You create a **Public/Private Key Pair**.
+    
+2. **CSR (Certificate Signing Request):** You send your **Public Key** and identity details to a CA to be signed.
+    
+3. **Issuance:** The CA signs the request and sends back a **Digital Certificate** (X.509 standard).
+    
+4. **Binding:** The certificate binds your public key to your identity via the CA's digital signature.
+    
+
+---
+
+### 🏢 Internal vs. Public CAs
+
+- **Public CAs:** Used for public-facing websites. You purchase "trust" so that the general public's browsers recognize you.
+    
+- **Private/Internal CAs:** Built in-house (e.g., Windows Certificate Services).
+    
+    - **Use Case:** Best for medium-to-large organizations for internal web servers or VPNs.
+        
+    - **Benefit:** No cost per certificate. You simply install your **Internal Root CA Certificate** on all company devices, and they will trust any cert you sign.
+        
+
+---
+
+### 🏷️ Certificate Types & Extensions
+
+- **SAN (Subject Alternative Name):** An extension to the X.509 cert that allows one certificate to support multiple different domains (e.g., `google.com` and `youtube.com`).
+    
+- **Wildcard Certificates:** Uses an asterisk (e.g., `*.mahdilabs.com`) to protect the main domain and **all** its subdomains (like `mail.mahdilabs.com` or `dev.mahdilabs.com`).
+    
+
+---
+
+### 🚫 Revocation: When Trust is Broken
+
+If a private key is compromised (like during the **2014 Heartbleed** flaw), the certificate must be canceled before it expires.
+
+|Method|Description|Pros/Cons|
+|---|---|---|
+|**CRL (Cert. Revocation List)**|A large file maintained by the CA listing all revoked serial numbers.|**Cons:** Can become very large; requires the client to download the whole list.|
+|**OCSP (Online Cert. Status Protocol)**|A real-time check where the browser asks the CA responder if a specific cert is valid via HTTP.|**Cons:** Doesn't scale well if millions of people ask the CA at once.|
+|**OCSP Stapling**|The certificate holder (the web server) gets the status from the CA and "staples" it into the SSL/TLS handshake.|**Pros:** Fast and scalable. The status is digitally signed by the CA, so the server can't lie.|
+![](../../Pasted%20image%2020260414205140.png)
+
+![](../../Pasted%20image%2020260414205545.png)
+
+![](../../Pasted%20image%2020260414205904.png)
+
+![](../../Pasted%20image%2020260414210058.png)
+

@@ -84,3 +84,130 @@ To categorize why an attack is happening, we evaluate these core characteristics
 
 ![](../../Pasted%20image%2020260414214336.png)
 ![](../../Pasted%20image%2020260414214959.png)
+
+---
+
+# 🏹 2.1 Attack Vectors & Threat Surfaces
+
+> **Definition:** The specific path or method used by an attacker to gain access to or infect a target. Securing these is the core mission of an IT Security Professional.
+
+---
+
+### 📧 Messaging & Social Engineering
+
+_Most successful vector because it targets the "human" element._
+
+- **Phishing:** The "universal" vector (Email, SMS/Smishing, IM).
+    
+- **Vishing:** Voice phishing (Phone calls).
+    
+- **SPIT:** Spam over IP (Large-scale automated voice calls).
+    
+- **Social Engineering:** Invoice scams, crypto scams, and "urgent" requests.
+    
+- **Payload Delivery:** Attaching malware directly to emails.
+    
+    > [!TIP] Prevention Always scan attachments and never launch untrusted links.
+    
+
+---
+
+### 🖼️ Non-Text & File-Based Threats
+
+_Attackers hide code in formats you wouldn't expect._
+
+- **SVG Images:** Described in **XML**. This allows for HTML injection or JavaScript attacks directly within an "image" file.
+    
+- **Adobe PDF:** Not just a document; it contains objects that can execute malicious code.
+    
+- **Archive Files:** `.zip` or `.rar` files used to bypass scanners by compressing/encrypting the payload.
+    
+- **Office Macros:** Malicious scripts hidden in `.docm` or `.xlsm` files.
+    
+
+---
+
+### 🔌 Physical & Hardware Vectors
+
+_Bypassing the firewall by walking through the front door._
+
+- **USB Flash Drives:** Can infect "Air-Gapped" networks (industrial/high-security).
+    
+- **HID Attacks:** USB devices acting as keyboards ("Hacker on a chip").
+    
+- **Data Exfiltration:** Walking out with terabytes of data on a thumb drive—zero network bandwidth used.
+    
+- **War Dialing:** Scanning phone numbers to find open modems (it still happens!).
+    
+
+---
+
+### 💻 Client vs. Server Vulnerabilities
+
+- **Client-Based:** Infected executables on a user's machine. Requires constant updates/patches.
+    
+- **Agentless:** No install needed. Compromising software on the server affects all users (the client runs a new instance each time).
+    
+- **Unsupported Systems:** Legacy OS (Windows 7/XP) where the manufacturer no longer provides security fixes.
+    
+
+---
+
+### 🌐 Network & Port Surface
+
+_Every open connection is a potential door._
+
+- **Wireless:** Outdated protocols (WEP, WPA) or "Rogue" APs.
+    
+- **Wired:** No `802.1X` authentication.
+    
+- **Bluetooth:** Reconnaissance and implementation bugs.
+    
+- **Open Ports:** Every TCP/UDP port is an opportunity.
+    
+    > [!CAUTION] Attack Surface More services = Larger attack surface. Every open port must be justified in the firewall rules.
+    
+
+---
+
+### 🔑 Authentication & Defaults
+
+- **Default Credentials:** Most devices ship with `admin/admin`.
+    
+- **Resource:** [routerpasswords.com](https://www.routerpasswords.com) — Attacker's first stop.
+    
+- **Privilege Escalation:** Gaining administrator/root access for full control.
+    
+
+---
+
+### 🏭 Supply Chain & Infrastructure
+
+_Tampering with the underlying manufacturing or management process._
+
+- **MSP (Managed Service Providers):** A "gold mine" for attackers. Access one MSP, gain access to _all_ their customers.
+    
+- **Vendors:** Using third-party access (e.g., the **2013 Target Breach** via an HVAC vendor).
+    
+- **Counterfeit Hardware:** Fake Cisco switches or hardware with pre-installed backdoors (**2020 Fake Cisco Incident**).
+    
+
+---
+
+### 📊 Attack Vector Comparison Table
+
+|Vector Type|Target|Difficulty to Detect|Key Example|
+|---|---|---|---|
+|**Phishing**|Human|Medium|Invoice Scams|
+|**USB/HID**|Physical|High|Stuxnet / Air-Gap|
+|**SVG/XML**|Browser|High|JS Injection|
+|**Supply Chain**|Hardware|Extreme|Counterfeit Switches|
+|**Default Creds**|Admin UI|Low|`admin:password12`|
+
+
+![](../../Pasted%20image%2020260414215809.png)
+
+![](../../Pasted%20image%2020260414215952.png)
+
+---
+

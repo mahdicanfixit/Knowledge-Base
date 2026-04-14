@@ -84,3 +84,13 @@ the right credentials provide full control administrator access
 
 very easy to find the defaults for your access point or router
 
+https://www.routerpasswords.com
+
+tamper with the underlyingh infrastructure or manufacturing process
+
+managed service providers MSP access many different customer networks from one location
+
+gain access to a network using vendor 2013 target credit card breach
+
+suppliers counterfeit networking requipment install backdoors 2020 fake cisco catalyt switches
+

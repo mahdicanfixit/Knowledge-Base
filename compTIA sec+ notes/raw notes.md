@@ -1,68 +1,20 @@
-the entity responsible for an event that has an impact on the safety of another entity also called a malicious actor
+a method used by the attacker gain access or infect to the target also called attack vector 
 
-threat actor attributes describes characteristics of the attacker
+a lost of work goes into finding vulnerabilites in these vectors some are more vulnerable than others
 
-useful to categorize the motivation why is this attack happening?
+it security professional spend their career watching these vectors protect existing vectors and finding new vectors
 
-internal external the attacker is inside the house theyre outisde tryna get in
+one of the biggest and most successful threat vectors everyone has at least one of these messaging systems
 
-resources rfunding no money extensive funding
+email malicious links in an email and link to malicious site
 
-level of sophistication capability blindyly runs scripts or automated vulnerability scans
+SMS short message service attacks in a text message
 
-what makes them tick theres a purpose to this attack
+phishing attacks people want to click links links in an email links send via text or IM
 
-![](../../Pasted%20image%2020260414214336.png)
+deliver the malware to the user attach it to the email scan all attachments never launch untrusted links 
 
-external entity government and national security
+social engineering attacks invoice scams cryptocurrency scams
 
-many possible motivations data exfiltration philosophical revenge disruption war 
-
-constant attacks massive resources commonly an Advanced persisten threat PAT
-
-highest sophistication military control and finanical controls
-
-stuxnet worm destroyed 1000 nuclars
-
-runs premade scripts without any knowledge of whats really happening anyone can do this
-
-motivated by the hunt disruption data exfiltration 
-
-can be internal or external but usually external
-
-not very sophisticated limited resources if any
-
-no fundiung
-
-a hacker with a purpose motivated by phiosophy revenge and etc
-
-often an external entity could be also hhired 
-
-can be remarkbly sophisticated very spefici hcks Dos and private document release
-
-funding may be limited some organizations have options
-
-more than just passwords on sticky notes motivated by revenge financial gain
-
-extensive resources using the organtiuons resources against themselves
-
-an internal entity eating waay fomrm the inside
-
-professional criminals motivated by money almost always an external entity
-
-very sophisticated best hacking money can buy
-
-crime thats organized one person hacks one manages another sells data and another handle customer support
-
-lots of captial to fund hacking efforts
-
-going rogue working around the internal IT organziation builds their own infrastructure
-
-information technology can put up roadblocks shadow IT use the clod might also be able to innovate
-
-limited resources company budget
-
-medium sophistication may not have it training or knowledge
-
-![](../../Pasted%20image%2020260414214959.png)
+![](../../Pasted%20image%2020260414215809.png)
 

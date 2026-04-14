@@ -720,7 +720,7 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ---
 
-# 🤝 1.5 Key Exchange & Session Security
+# 🤝 1.4 Key Exchange & Session Security
 
 ### 📋 The Logistical Challenge
 
@@ -768,7 +768,7 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ---
 
-# 🛡️ 1.6 Hardware Security & Key Management
+# 🛡️ 1.4 Hardware Security & Key Management
 
 ### 🏗️ Trusted Platform Module (TPM)
 
@@ -845,7 +845,7 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ---
 
-# 🕵️‍♂️ 1.7 Obfuscation, Steganography, & Tokenization
+# 🕵️‍♂️ 1.4 Obfuscation, Steganography, & Tokenization
 
 ### 🌫️ Obfuscation
 
@@ -911,5 +911,85 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ---
 
+# 🛡️ 1.4 Hashing, Salting, & Digital Signatures
 
+### 🔢 Hash Functions
+
+**Definition:** A cryptographic function that takes an input of any size and creates a fixed-size string of text, known as a **Message Digest**, **Checksum**, or **Fingerprint**.
+
+- **The "One-Way" Trip:** Hashing is a one-way process; it is computationally impossible to recover the original message from the digest.
+    
+- **Integrity Verification:** Used to verify that a downloaded document or file is identical to the original.
+    
+- **Fixed Output:** Regardless of the input size (a single word or a whole movie), the output is always the same length.
+    
+    - **SHA-256:** A common standard that produces a 256-bit hash (64 hexadecimal characters).
+        
+- **Collisions:** A "collision" occurs when two different inputs produce the same hash.
+    
+    - **MD5 Warning:** MD5 was found to have collision vulnerabilities in 1996. **Do not use MD5** for security-sensitive tasks.
+        
+
+---
+
+### 🧂 Password Salting
+
+**Definition:** Adding random data (a "salt") to a password before it is hashed to prevent pre-computed attacks.
+
+- **How it works:**
+    
+    - Every user is assigned a unique, random salt.
+        
+    - The salt is stored alongside the hash in the database.
+        
+    - **Password + Salt = Unique Hash.**
+        
+- **The Benefit:** * **Anti-Rainbow Table:** Even if two users have the same password ("Password123"), their hashes will look completely different due to the unique salts.
+    
+    - **Slowing Down Brute Force:** It adds complexity to the reverse-engineering process, forcing attackers to crack passwords one by one rather than all at once.
+        
+
+---
+
+### ✍️ Digital Signatures
+
+**Definition:** A cryptographic process used to provide **Integrity**, **Authentication**, and **Non-Repudiation**.
+
+- **The Process:**
+    
+    1. **Signing:** The sender signs a hash of the message using their **Private Key**. (The message itself does not have to be encrypted).
+        
+    2. **Verifying:** The recipient uses the sender's **Public Key** to verify the signature.
+        
+- **The Guarantees:**
+    
+    - **Integrity:** If even one bit of the message changes, the signature becomes invalid.
+        
+    - **Authentication:** Since only the sender has their private key, only they could have created the signature.
+        
+    - **Non-Repudiation:** The sender cannot later deny sending the message because the signature is unique to their private key.
+        
+
+---
+
+### 💡 Quick Comparison for the Exam
+
+| Feature          | Hashing               | Digital Signature                      |
+| ---------------- | --------------------- | -------------------------------------- |
+| **Primary Goal** | Integrity             | Integrity + Authentication             |
+| **Reversible?**  | No                    | No                                     |
+| **Key Used**     | None (Algorithm only) | Private Key to Sign / Public to Verify |
+| **Analogy**      | A tamper-evident seal | A wax seal with a unique signet ring   |
+
+![](../../Pasted%20image%2020260414202851.png)
+
+![](../../Pasted%20image%2020260414203023.png)
+
+![](../../Pasted%20image%2020260414203054.png)
+
+![](../../Pasted%20image%2020260414203330.png)
+
+![](../../Pasted%20image%2020260414203617.png)
+
+![](../../Pasted%20image%2020260414203717.png)
 

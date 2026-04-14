@@ -993,3 +993,42 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 
 ![](../../Pasted%20image%2020260414203717.png)
 
+---
+
+# 🔗 1.4 Blockchain & Distributed Ledgers
+
+### 📖 The Distributed Ledger
+
+**Definition:** A decentralized database that tracks transactions across a network of computers. Instead of one central bank or company holding the "master" list, every participant has a copy.
+
+- **Consensus & Replication:** Everyone on the blockchain network maintains and replicates the ledger.
+    
+- **Immutability:** Once a transaction is recorded and verified by the network, it is nearly impossible to change. This provides a high level of **Integrity**.
+    
+- **Transparency:** All participants can see the transaction history, which builds trust without needing a central middleman.
+    
+
+---
+
+### 🛠️ Practical Applications in Security
+
+Blockchain isn't just for cryptocurrency; it has major enterprise security uses:
+
+- **Payment Processing:** Secure, peer-to-peer financial transactions that don't rely on a single point of failure (like a central server).
+    
+- **Digital Identification:** Providing a secure, tamper-proof way to verify identities (Authentication) without a centralized ID database that could be hacked.
+    
+- **Supply Chain Monitoring:** Tracking the "provenance" (origin) of hardware or software. This ensures that the server or code you bought wasn't tampered with by a third party before it reached you.
+
+![](../../Pasted%20image%2020260414204606.png)
+
+![](../../Pasted%20image%2020260414204616.png)
+
+![](../../Pasted%20image%2020260414204632.png)
+
+![](../../Pasted%20image%2020260414204643.png)
+
+![](../../Pasted%20image%2020260414204650.png)
+
+![](../../Pasted%20image%2020260414204659.png)
+

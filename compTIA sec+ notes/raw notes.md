@@ -52,4 +52,17 @@ professional criminals motivated by money almost always an external entity
 
 very sophisticated best hacking money can buy
 
-crime thats organized one person hacks one manages 
+crime thats organized one person hacks one manages another sells data and another handle customer support
+
+lots of captial to fund hacking efforts
+
+going rogue working around the internal IT organziation builds their own infrastructure
+
+information technology can put up roadblocks shadow IT use the clod might also be able to innovate
+
+limited resources company budget
+
+medium sophistication may not have it training or knowledge
+
+![](../../Pasted%20image%2020260414214959.png)
+

@@ -1,7 +1,10 @@
-before the attack the trap is set theres an actor and a story
+disseminate factually incorrect information create confusion and division
 
-hello sir my name is wendy and im from microsoft windows this is an urgent check up call foor your computer as we have found several problems with it
+influence campiins sway public onoinion on polictial and social issues
 
-attackers pretend to be someone they arent halloween for the fraudsters
+nation stae actorrs divide distract and persuade
 
-use some of those details from reconnaissance you can trust me wim 
+advertising is an option
+
+enable through social media creating sharing liking amplifying
+

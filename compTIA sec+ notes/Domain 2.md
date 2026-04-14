@@ -215,7 +215,7 @@ I’ve highlighted the **Typosquatting** and **Pretexting** sections, as those a
 
 ---
 
-# 🎭 Social Engineering & Identity Deception
+# 🎭 2.2 Social Engineering & Identity Deception
 
 > [!WARNING] The Human Firewall Social engineering bypasses technical controls by exploiting human trust. When combined with **spoofing**, it becomes one of the most effective attack vectors in existence.
 
@@ -281,6 +281,152 @@ The attacker doesn't just ask for info; they **create a character** and a situat
 | **Request** | Are they asking for a verification code, password, or wire transfer?   |
 ![](../../Pasted%20image%2020260414222137.png)
 ![](../../Pasted%20image%2020260414222301.png)
+
+---
+
+This is a classic breakdown of the **Psychological Principles** of social engineering. Since you're building this for your portfolio, I’ve organized these into a "Human Hacking" reference guide.
+
+I’ve included a **Mermaid mindmap**—it looks great in Obsidian and adds that "professional architect" feel to your GitHub repo.
+
+---
+
+# 🧠 2.2 Social Engineering: The Psychological Playbook
+
+> [!IMPORTANT] Social engineering is "Halloween for fraudsters." It is the art of **Pretexting**—creating a fake story (the "trap") to bypass a person's natural defenses.
+
+---
+
+### 🎭 The Roles Attackers Play
+
+Before the attack, the "actor" chooses a character based on the goal:
+
+- **The Authority Figure:** 👔 "I'm calling from the **Office of the Vice President**." People are conditioned to comply with high-ranking titles without questioning.
+    
+- **The Technical Expert:** ⚙️ Throwing around technical jargon to confuse the victim. "We've detected a `0x8004210B` synchronization error in your registry."
+    
+- **The "Helpful" Peer:** 🤝 "Hi, I'm Wendy from Microsoft. We found a problem with your PC and I'm here to help."
+    
+- **The Buddy:** ⚾ "How about those Cubs? Anyway, I forgot my badge, could you let me in?" (Building **Rapport**).
+    
+
+---
+
+### 🛡️ Identity Fraud: The Aftermath
+
+When "hacking the human" succeeds, your personal data becomes a tool for further crime:
+
+|Type|Impact|
+|---|---|
+|**Credit Card Fraud** 💳|Opening new lines of credit or making unauthorized charges.|
+|**Bank Fraud** 🏦|Gaining access to existing accounts or draining funds.|
+|**Loan/Lease Fraud** 🏠|Taking out long-term debt or renting property in your name.|
+|**Government Benefits** 🏛️|Claiming tax refunds or social security benefits on your behalf.|
+
+Export to Sheets
+
+---
+
+### 🛠️ Defense & Verification (The "Zero Trust" Mindset)
+
+The victim often doesn't realize they are being attacked until it's too late. To prevent this:
+
+1. **Never Volunteer Information:** Keep personal details "Need to Know" only.
+    
+2. **Verify Through 3rd Parties:** If "Microsoft" calls you, hang up and call a verified number from their official website.
+    
+3. **Encourage Verification:** In a professional IT environment, making people "double-check" should be rewarded, not punished.
+    
+
+---
+
+### 🗺️ Social Engineering Mindmap
+
+Code snippet
+
+```
+mindmap
+  root((Social Engineering))
+    Psychological Principles
+      Authority
+      Intimidation
+      Consensus/Social Proof
+      Scarcity
+      Urgency
+      Familiarity/Trust
+    Techniques
+      Pretexting
+      Phishing/Vishing
+      Shoulder Surfing
+      Dumpster Diving
+    Prevention
+      Security Awareness Training
+      MFA
+      Verification Procedures
+```
+
+---
+
+This is a classic scenario in cybersecurity: when the front door is locked and the windows are barred, the attacker doesn't try to break in—they wait for you to come to them.
+
+This is the **Watering Hole Attack**. It bypasses your "perfect" perimeter by poisoning a third-party site you already trust. Since you're building out your **Obsidian** vault, this is a great case study for **Defense in Depth**.
+
+---
+
+# 🦁 2.2 The Watering Hole Attack
+
+> [!ABSTRACT] Logic If the "prey" (the target organization) is too secure to attack directly, the "predator" (attacker) poisons the place where the prey goes to "drink" (trusted industry websites).
+
+---
+
+### 🕵️ The 3-Step Strategy
+
+1. **Reconnaissance:** The attacker observes the group's habits. Which industry forums, regulatory sites, or local news pages do they visit daily?
+    
+2. **Infection:** The attacker finds a vulnerability in that third-party site (e.g., via **SQL Injection** or **Cross-Site Scripting**) and injects malicious **JavaScript**.
+    
+3. **The Trap:** The site now serves malware, but often _only_ to the intended victims. The script checks the visitor's **IP Address**—if it matches the target bank or agency, the payload drops. Everyone else sees a perfectly normal website.
+    
+
+---
+
+### 📂 Case Study: January 2017 Financial Attacks
+
+This was a highly sophisticated campaign linked to the **Lazarus Group**.
+
+- **The Target:** Banking sectors in Poland, Mexico, and Uruguay.
+    
+- **The Method:** The attackers compromised the **Polish Financial Supervision Authority (KNF)** website.
+    
+- **The Precision:** The malicious code was configured to only trigger for specific IP ranges belonging to 100+ financial institutions across 31 countries.
+    
+- **The Result:** Because it was a "trusted" government site, it bypassed many standard web filters.
+    
+
+---
+
+### 🛡️ Layered Defense (Defense in Depth)
+
+As you noted, "it's never just one thing." You need layers so that if one fails, the next catches the threat.
+
+|Layer|Defensive Control|Role|
+|---|---|---|
+|**Network**|**Firewall / IPS**|Blocks traffic to known Command & Control (C2) servers.|
+|**Endpoint**|**EDR / Anti-Malware**|Catches the "Drive-by Download" if the code executes.|
+|**Application**|**Browser Patching**|Prevents the JavaScript from exploiting a browser vulnerability.|
+|**Architecture**|**Zero Trust**|Assumes the network is already breached; requires verification for every move.|
+|**Human**|**Awareness Training**|Teaching users to report weird browser behavior or "certificate errors."|
+
+Export to Sheets
+
+---
+
+### 📊 Quick Comparison: Phishing vs. Watering Hole
+
+|Feature|Phishing 🎣|Watering Hole 🦁|
+|---|---|---|
+|**Delivery**|Push (Email/SMS sent to you)|Pull (You go to the source)|
+|**Trust Factor**|Low (Suspicious links)|High (Trusted legitimate site)|
+|**Visibility**|High (Email can be scanned)|Low (Injected into clean code)|
 
 ---
 

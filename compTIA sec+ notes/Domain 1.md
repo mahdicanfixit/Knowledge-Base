@@ -837,5 +837,79 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
         
     - **Root of Trust:** Holds the root cryptographic keys that are never exposed to the main operating system.
 
+![](../../Pasted%20image%2020260414201127.png)
+
+![](../../Pasted%20image%2020260414201138.png)
+
+![](../../Pasted%20image%2020260414201144.png)
+
+---
+
+# 🕵️‍♂️ 1.7 Obfuscation, Steganography, & Tokenization
+
+### 🌫️ Obfuscation
+
+**Definition:** The process of making something unclear or difficult to understand. While it is not impossible to reverse, it hides the logic or intent from a casual observer.
+
+- **Data Masking:** Hiding some of the original data (e.g., showing only the last four digits of a credit card).
+    
+- **Dynamic Masking:** The data remains intact in storage, but the "view" is controlled based on user permissions.
+    
+- **Techniques:** Substituting characters, shuffling data, or using simple encryption to scramble code.
+    
+
+---
+
+### 🖼️ Steganography
+
+**Definition:** Derived from the Greek for "concealed writing." It is the art of hiding information in plain sight (Security through Obscurity).
+
+- **The Methodology:**
+    
+    - **Covertext:** The container document or file used to hide the secret.
+        
+    - **The Secret:** The message is invisible to the naked eye but easily extracted with the right tool.
+        
+- **Common Use Cases:**
+    
+    - **Image-based:** Embedding text or files within the pixels of an image.
+        
+    - **Audio:** Interlacing a secret message within a digital audio file.
+        
+    - **Network-based:** Embedding hidden messages within TCP/IP packet headers.
+        
+    - **Invisible Watermarks:** Famous examples include the "yellow dots" printed by laser printers to track documents.
+        
+
+---
+
+### 🎫 Tokenization
+
+**Definition:** Replacing sensitive data with a non-sensitive placeholder called a "Token."
+
+- **Key Characteristic:** Unlike encryption or hashing, the token and the original data are **not mathematically related**.
+    
+- **The Process:**
+    
+    - A sensitive value (e.g., SSN `226-12-1112`) is swapped for a random string (`691-61-8539`).
+        
+    - The actual data is stored in a secure centralized vault.
+        
+- **Why it’s used:** Primarily in **Credit Card Processing**. If an attacker captures the token, it is useless to them because they cannot "decrypt" it to get the card number.
+    
+
+---
+
+### ⚖️ Quick Comparison for the Exam
+
+|Feature|Encryption|Steganography|Tokenization|
+|---|---|---|---|
+|**Logic**|Mathematical scramble|Hiding in plain sight|Random placeholder|
+|**Visibility**|Obvious (Ciphertext)|Invisible (Hidden)|Visible but useless|
+|**Relation**|Related by Key|Related by Container|Not mathematically related|
+![](../../Pasted%20image%2020260414202427.png)
+
+---
+
 
 

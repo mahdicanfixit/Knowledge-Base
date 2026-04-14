@@ -766,5 +766,76 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 ![](../attachments/Pasted%20image%2020260411213725.png)
 ![](../attachments/Pasted%20image%2020260411213817.png)
 
+---
+
+# 🛡️ 1.6 Hardware Security & Key Management
+
+### 🏗️ Trusted Platform Module (TPM)
+
+**Definition:** A dedicated specification for cryptographic functions integrated directly into a device's hardware.
+
+- **Cryptographic Processor:** Includes a hardware-based Random Number Generator (RNG) and Key Generator.
+    
+- **Persistent Memory:** Contains unique keys (like the Endorsement Key) "burned in" during manufacturing.
+    
+- **Versatile Memory:** Securely stores storage keys, hardware configuration information, and hashes to ensure system integrity.
+    
+- **Practical Use:** This is what **BitLocker** uses to store encryption keys securely; it is often password or PIN protected to prevent unauthorized access.
+    
+
+---
+
+### 💳 Hardware Security Module (HSM)
+
+**Definition:** High-end, standalone cryptographic hardware used in large-scale enterprise environments.
+
+- **Physical Form:** Can be a plug-in PCIe card, a separate network-attached device, or a cluster.
+    
+- **Key Features:**
+    
+    - **Key Backup:** Provides secure, physical storage for thousands of cryptographic keys.
+        
+    - **Cryptographic Accelerators:** Offloads heavy encryption math from the main CPU to dedicated hardware.
+        
+    - **Redundancy:** Used in clusters with redundant power to ensure high availability in data centers.
+        
+
+---
+
+### ☁️ Key Management Systems (KMS)
+
+**Definition:** A centralized console used to manage the lifecycle of keys across on-premises and cloud-based services.
+
+- **Centralized Control:** Manage keys for many different services (AWS, Azure, Google Cloud) from a single third-party software console.
+    
+- **Operational Features:**
+    
+    - **Creation:** Generate keys for specific cloud providers or services.
+        
+    - **Association:** Link keys to specific users or roles.
+        
+    - **Key Rotation:** Automatically rotate keys at regular intervals to minimize the impact of a potential leak.
+        
+    - **Logging/Auditing:** Records every time a key is used or modified for security compliance.
+        
+
+---
+
+### 🔐 Secure Enclaves & Processors
+
+**The Philosophy:** Our most private data is physically closest to us (phones/laptops), but attackers are always evolving. We need a "safe room" inside our hardware.
+
+- **Secure Enclave:** A protected area for secrets implemented as a hardware processor isolated from the main CPU.
+    
+- **Security Features:**
+    
+    - **Independent Boot ROM:** Provides its own secure startup process separate from the OS.
+        
+    - **Boot Monitoring:** Watches the system boot process to ensure no malware has tampered with the kernel.
+        
+    - **Real-Time Encryption:** Performs AES encryption in hardware and provides real-time memory encryption.
+        
+    - **Root of Trust:** Holds the root cryptographic keys that are never exposed to the main operating system.
+
 
 

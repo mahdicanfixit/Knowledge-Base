@@ -919,3 +919,47 @@ Understanding these dates is critical for risk management:
 
 ---
 
+# ☁️ 2.3 Cloud & Application Attacks
+
+### 🌐 The Cloud Vulnerability Gap
+
+**The Reality:** Cloud adoption is universal, but security maturity is not. Most cloud breaches in 2026 aren't from "super-hacks"—they are from **Misconfigurations**.
+
+- **Identity is the Perimeter:** In the cloud, "IP addresses" matter less than **IAM (Identity & Access Management)**. If a dev leaves an S3 bucket public or an API key in a GitHub repo, the "walls" of the cloud don't matter.
+    
+- **Shadow Infrastructure:** 32% of cloud assets sit idle and unmonitored, often running **End-of-Life (EOL)** software that never gets patched.
+    
+
+---
+
+### 🛠️ Common Attack Vectors
+
+|Attack Type|Definition|The "Sec+ Key"|
+|---|---|---|
+|**DoS / DDoS**|Flooding a service to make it unavailable.|Focus on **Availability**.|
+|**Auth Bypass**|Exploiting weak logic to get in without a password.|Often involves stolen **OAuth Tokens**.|
+|**Directory Traversal**|Moving through folders on a server (`../../etc/passwd`).|Accessing files outside the web root.|
+|**RCE**|**Remote Code Execution.** Running any command you want.|The "Holy Grail" for attackers.|
+
+Export to Sheets
+
+---
+
+### 💉 Modern Application Exploits
+
+- **Log4j (Log4Shell):** * **What it is:** A massive vulnerability in a common Java logging library.
+    
+    - **The Trick:** An attacker sends a specific string (a JNDI lookup) in a simple log message (like a chat box or a search field). The server "logs" it, but also **executes** it, allowing the attacker to take full control.
+        
+- **Out-of-Bounds Write:**
+    
+    - **The Concept:** A program writes data past the end of its intended "box" (buffer) in memory.
+        
+    - **The Result:** It overwrites adjacent memory, which can crash the system (**DoS**) or hijack the program's flow to run malicious code (**RCE**).
+        
+        +1
+        
+- **Injection (SQLi & XSS):** * These remain top threats. In the cloud, **SQLi** is often used to dump entire customer databases from misconfigured web apps.
+
+---
+

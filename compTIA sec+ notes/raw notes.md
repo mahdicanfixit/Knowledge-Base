@@ -14,4 +14,10 @@ directory traversal faulty configuartion put data at risk
 
 remote code execution take advantage of unpatched system
 
-web application attacks have increased log4j
+web application attacks have increased log4j and spring cloud function easy to exploit rewards are exntensive
+
+cross site scripting XSS take advantage of poor input validation
+
+out of bounds write write to unauthorized memory areas data corruption crashing or code execution
+
+ sql injection get direct access to a database

@@ -820,3 +820,58 @@ To stop this, you don't just "block" characters. You use:
 
 ---
 
+# 🔌 2.4 Embedded & Legacy Systems Security
+
+### 🏠 The IoT (Internet of Things) Landscape
+
+**The Problem:** We are surrounded by hardware (light bulbs, thermostats, locks) that lacks a traditional, accessible Operating System.
+
+- **Entry Points:** Because these devices are connected to the network but often overlooked, they are perfect entry points for attackers to gain a foothold.
+    
+- **Security Shift:** As the landscape grows, security professionals must move from "securing computers" to "securing the environment."
+    
+
+---
+
+### 💾 Firmware: The Invisible OS
+
+**Definition:** The specialized software "burned" into the hardware that acts as its operating system.
+
+- **Vendor Dependency:** Security is entirely dependent on the manufacturer. If a vendor doesn't release an update, the hardware remains vulnerable.
+    
+- **Case Study (Trane Thermostats):** Three vulnerabilities were found in April 2014. It took a full year to patch two of them, and **nearly two years** to patch the third. This highlights the slow response time in the embedded world.
+    
+
+---
+
+### ⏳ The Product Lifecycle (EOL vs. EOSL)
+
+Understanding these dates is critical for risk management:
+
+- **End of Life (EOL):** The manufacturer stops **selling** the product. They may still offer support and security patches for a while, but the clock is ticking.
+    
+- **End of Service Life (EOSL):** The manufacturer stops **supporting** the product entirely.
+    
+    - **The Danger:** No more security patches. Any new vulnerability found after this date is a "forever day" exploit—it will never be fixed.
+        
+    - **The Risk:** In many industries, technology remains installed far longer than its EOSL date (e.g., medical devices or industrial controllers).
+        
+
+---
+
+### 🏛️ Legacy Systems & Technical Debt
+
+**Definition:** Older OS, applications, or middleware that are no longer modern but are still required for business operations.
+
+- **Risk vs. Return:** You have to weigh the risk of running an unpatched Windows XP machine against the cost of replacing a multi-million dollar piece of lab equipment it controls.
+    
+- **Compensating Controls:** If you **must** keep a legacy device, you wrap it in extra security:
+    
+    - **Isolation:** Put it on its own VLAN with no internet access.
+        
+    - **Strict Firewall Rules:** Only allow communication with specific, trusted devices.
+        
+    - **IPS Signatures:** Use an Intrusion Prevention System specifically tuned to watch for exploits targeting that older OS.
+
+---
+

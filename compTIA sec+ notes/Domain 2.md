@@ -688,3 +688,135 @@ In a professional environment (like the helpdesk roles you're targeting), you do
 
 ---
 
+# 💉 2.2 Injection Attacks
+
+### 🔌 The Core Concept: Code Injection
+
+**Definition:** Adding unauthorized code or data into a data stream to change the execution path of an application.
+
+- **The Root Cause:** **Improper Input Validation.** The application trusts the user input too much and fails to sanitize it before processing.
+    
+- **Variety:** Injection isn't limited to one language; it can target **HTML**, **XML**, **LDAP**, and most commonly, **SQL**.
+    
+
+---
+
+### 🗄️ SQL Injection (SQLi)
+
+**Definition:** Inserting malicious SQL statements into entry fields for execution (e.g., to dump the database contents to the attacker).
+
+- **The Methodology:**
+    
+    - Attackers use characters like the single quote (`'`), dashes (`--`), or keywords like `UNION` and `OR` to break the original SQL command.
+        
+    - **Example:** In a login field, instead of a username, an attacker enters:
+        
+        `' OR 1=1 --`
+        
+    - **The Result:** The database sees the "1=1" (which is always true) and logs the attacker in without a valid password.
+        
+
+---
+
+### 🧩 Anatomy of a Vulnerable Request
+
+In your example with **Employee: SMITH**, a normal backend query looks like this: `SELECT * FROM employees WHERE name = 'SMITH';`
+
+**The Attack:** If the attacker inputs `SMITH' OR '1'='1`, the query becomes: `SELECT * FROM employees WHERE name = 'SMITH' OR '1'='1';`
+
+- **Why it works:** Because `'1'='1'` is always true, the database returns **every** record in the table instead of just Smith's.
+    
+
+---
+
+### 🛡️ Prevention (The "Pro" Fixes)
+
+To stop this, you don't just "block" characters. You use:
+
+1. **Stored Procedures / Parameterized Queries:** The application treats the input as a "label" only, never as executable code.
+    
+2. **Input Validation:** Only allow expected characters (e.g., if it's a ZIP code field, only allow numbers).
+    
+3. **Web Application Firewall (WAF):** Can detect and block common SQLi patterns before they reach the server.
+
+![](../../Pasted%20image%2020260415202350.png)
+
+![](../../Pasted%20image%2020260415202511.png)
+
+---
+
+# 🕵️‍♂️ 2.3 Cross-Site Scripting (XSS)
+
+### 🧩 The Core Concept
+
+**Definition:** A vulnerability where an attacker injects malicious scripts (usually **JavaScript**) into a trusted website. The script then executes in the **victim's browser**, not on the server.
+
+- **The Goal:** Steal session cookies/tokens, hijack accounts, or deface websites.
+    
+- **The Cause:** The website fails to "sanitize" user input, allowing scripts to be treated as executable code.
+    
+
+---
+
+### 📉 1. Reflected XSS (Non-Persistent)
+
+- **The Methodology:** The malicious script is "reflected" off a web application to the victim.
+    
+- **Common Vector:** A link in an email or chat. The script is hidden inside a URL (e.g., in a search query or tracking ID).
+    
+- **Example:** A user clicks a link to `trusted-bank.com/search?q=<script>alert('Hacked')</script>`. The site "reflects" that script back, and the browser runs it.
+    
+
+---
+
+### 🧱 2. Stored XSS (Persistent)
+
+- **The Methodology:** The attacker "stores" the malicious script directly on the server (e.g., in a blog comment, social media post, or forum signature).
+    
+- **The Danger:** It is **persistent**. Anyone who views that page will automatically execute the script in their browser.
+    
+- **The "Viral" Effect:** This can spread exponentially; the script can be designed to post itself to the viewer's profile, infecting their friends as well.
+    
+
+---
+
+### 🚗 Case Study: The Subaru Token Flaw (2017)
+
+- **The Vulnerability:** An XSS flaw in the web front-end allowed attackers to execute scripts in other users' sessions.
+    
+- **The Impact:** Subaru’s authentication tokens **never expired**. Once an attacker used XSS to steal a user's token, they had permanent access to that account.
+    
+- **The Result:** Attackers could add their own email to the account, track the car’s location, and even unlock the doors or start the engine.
+    
+
+---
+
+### 🛡️ Prevention & Defense
+
+- **Input Validation:** Never trust user input. Filter out characters like `< > " ' ( )`.
+    
+- **Output Encoding:** Ensure that data being pulled from a database is rendered as **plain text**, not as active code.
+    
+- **Content Security Policy (CSP):** A browser-side security layer that tells the browser which scripts are "safe" to run and blocks unauthorized third-party scripts.
+    
+- **Update Everything:** Keep browsers patched to close known flaws that XSS might exploit.
+    
+
+---
+
+### ⚖️ SQLi vs. XSS (Quick Exam Check)
+
+|Feature|SQL Injection (SQLi)|Cross-Site Scripting (XSS)|
+|---|---|---|
+|**Target**|The Database (Server)|The User's Browser (Client)|
+|**Language**|SQL|JavaScript / HTML|
+|**Goal**|Dump data / Bypass logins|Steal cookies / Impersonate users|
+
+---
+
+![](../../Pasted%20image%2020260415202831.png)
+
+![](../../Pasted%20image%2020260415202956.png)
+
+---
+

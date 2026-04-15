@@ -963,3 +963,61 @@ Export to Sheets
 
 ---
 
+# 🏭 2.3 Supply Chain & Third-Party Risk
+
+### ⛓️ The Supply Chain Concept
+
+**Definition:** The network of all moving parts (suppliers, manufacturers, distributors) required to deliver a product or service.
+
+- **The Security Gap:** You can control your own security posture, but you cannot always control your service providers.
+    
+- **The "Pivot" Point:** Attackers often target a smaller, less-secure vendor to gain "trusted" access to a larger, high-value target.
+    
+
+---
+
+### 🏢 Case Study: Target Corporation (2013)
+
+- **The Breach:** 40 million credit cards stolen.
+    
+- **The Vector:** Attackers didn't hack Target directly. They hacked an **HVAC (Heating & Air Conditioning) firm** in Pennsylvania.
+    
+- **The Escalation:** The HVAC tech had VPN credentials to Target's network to manage thermostats. Attackers stole those credentials, entered the network, and pivoted to the Point-of-Sale (POS) systems at 1,800 stores.
+    
+- **Lesson:** Any vendor with network access—even the cleaning crew or the payroll firm—is a potential security risk.
+    
+
+---
+
+### 📦 Hardware & Software Integrity
+
+Trust is the foundation of security, but that trust can be manufactured or faked.
+
+- **Counterfeit Hardware:** * **Example:** The 2022 Cisco reseller bust ($1 billion in fake gear).
+    
+    - **The Risk:** Knock-off hardware isn't just a fire hazard; it can contain "backdoors" in the firmware that allow attackers to bypass your firewall entirely.
+        
+- **Software Supply Chain (SolarWinds Orion):**
+    
+    - **The Attack (2020):** Attackers compromised the software build process at SolarWinds.
+        
+    - **The Result:** 18,000 customers (including the US Government and Microsoft) downloaded a **legitimate, digitally signed update** that contained a hidden backdoor.
+        
+    - **The "Stay" Time:** The breach went undetected for **9 months**, allowing attackers to exfiltrate massive amounts of data.
+        
+
+---
+
+### 🛠️ Defense & Mitigation
+
+How do we protect ourselves from a supply chain we don't fully control?
+
+1. **Vendor Risk Management:** Conduct ongoing security audits of all contractors.
+    
+2. **Least Privilege for Vendors:** If the HVAC tech only needs to see the thermostat, don't give them access to the segment where the credit card data lives.
+    
+3. **Digital Signature Verification:** Always confirm the digital signature of software installations and updates.
+    
+4. **Hardware Provenance:** Buy only from authorized resellers to avoid counterfeit or tampered hardware.
+    
+5. **Open Source Auditing:** Realize that open-source code can be compromised at the source. Use tools to scan libraries for known vulnerabilities.

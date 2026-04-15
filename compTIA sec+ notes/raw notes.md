@@ -1,18 +1,18 @@
-a foundational compluting platform everyone has OS and its a big target
+code injection adding your own information into a data stream
 
-remarkably complex million of lines 
+enabled because of bad programming the application should properly handle input and output
 
-the vulnerbilites are already in there we js cant found them yet
+so many different data types HTML,SQL,XML,LADP
 
-a normal month of windows updates patch tuesday
+SQL structured query language the most common database managemnet language
 
-https://msrc.microsoft.com/
+SQL injectionm put ur own SQL requests into an existing application your application shouldnt allow this
 
-always update monthly or on demand updates its a race between you and the attackers
+can often be executed in a web browser inject in a form or field
 
-may require testing before deployment a patch might break something else
+![](../../Pasted%20image%2020260415202350.png)
 
-may require a reboot 
+employee: SMITH authentication TAN: 3SL99A
 
-have a fallback plan wheres that backup?
+![](../../Pasted%20image%2020260415202511.png)
 

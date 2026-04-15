@@ -685,3 +685,6 @@ In a professional environment (like the helpdesk roles you're targeting), you do
 |**Disclosure**|The developer is notified (Private) or the world finds out (Public).|
 |**The Window**|The time between the vulnerability becoming known and a patch being applied.|
 |**Remediation**|The patch is deployed, the system reboots, and the hole is closed.|
+
+---
+

@@ -688,7 +688,7 @@ In a professional environment (like the helpdesk roles you're targeting), you do
 
 ---
 
-# 💉 2.2 Injection Attacks
+# 💉 2.3 Injection Attacks
 
 ### 🔌 The Core Concept: Code Injection
 
@@ -820,7 +820,7 @@ To stop this, you don't just "block" characters. You use:
 
 ---
 
-# 🔌 2.4 Embedded & Legacy Systems Security
+# 🔌 2.3 Embedded & Legacy Systems Security
 
 ### 🏠 The IoT (Internet of Things) Landscape
 
@@ -872,6 +872,50 @@ Understanding these dates is critical for risk management:
     - **Strict Firewall Rules:** Only allow communication with specific, trusted devices.
         
     - **IPS Signatures:** Use an Intrusion Prevention System specifically tuned to watch for exploits targeting that older OS.
+
+---
+
+# 💻 2.3 Virtualization & Hypervisor Security
+
+### 🧱 The Hypervisor: The Virtual Traffic Cop
+
+**Definition:** The software (or hardware) that manages and allocates physical resources (CPU, RAM, Storage) to multiple Virtual Machines.
+
+- **The Vulnerability:** Since the hypervisor sits between the guest OS and the actual hardware, it is the "High-Value Target." If the hypervisor is compromised, every VM running on it is exposed.
+    
+- **Resource Reuse:** To be efficient, the hypervisor re-uses RAM and CPU cycles. If not managed perfectly, data from "VM A" could stay in a memory register that "VM B" later reads. This is an **Information Disclosure** risk.
+    
+    +1
+    
+
+---
+
+### 🏃 VM Escape: Breaking the Fourth Wall
+
+**Definition:** An exploit where an attacker "breaks out" of a guest VM to interact directly with the host OS or other VMs on the same hardware.
+
+- **The Impact:** This is a "Critical" severity exploit. It bypasses the primary security benefit of virtualization (isolation).
+    
+- **The 2017 Pwn2Own Case Study:**
+    
+    1. **The Chain:** Attackers used a JavaScript bug in **Microsoft Edge** to get into the guest Windows 10 OS.
+        
+    2. **The Escalation:** They used a Windows kernel bug to gain System privileges inside that VM.
+        
+    3. **The Escape:** Finally, they exploited a **Hardware Simulation bug in VMware** to "leap" out of the VM and execute code on the host machine.
+        
+- **The Lesson:** Always keep your hypervisor (VMware, VirtualBox, Hyper-V) patched. These "leaps" are rare but devastating.
+    
+
+---
+
+### 📉 Virtualization Risks
+
+- **Sprawl:** VMs are so easy to create that you might end up with hundreds of "forgotten" servers that aren't being patched (Shadow IT in the virtual world).
+    
+- **Local Privilege Escalation:** An attacker starts as a low-level user in a VM and uses a flaw to become an Admin, setting the stage for a VM Escape.
+    
+- **Shared Resources:** If a host has 4GB of RAM and hosts three VMs that _think_ they have 2GB each, the hypervisor must juggle that memory. **Memory management patches** are vital to ensure "VM A" cannot see "VM B’s" data during this swap.
 
 ---
 

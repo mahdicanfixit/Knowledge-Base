@@ -19,3 +19,19 @@ some protocols arent encrypted all traffic sent in the clear telnet FTP SMTP IMA
 
 ![](../../Pasted%20image%2020260415223654.png)
 
+verify with a packet capture view everything sent over the network
+
+use the encrypted versions SSH SFTP etc
+
+every application and network device hasa a default login not all of these are ever changed
+
+mirai botnet takes advantage of default configurations take over internet of things devices 60+ default configuartions cameras routeres doorbells door openers etc
+
+mirai released as open source software theres alot more where that came from
+
+services will open ports its important to magnage access
+
+often managed with a firewall manage traffic flows allow or deny based on port numbers
+
+firewall rulesets can be complex its easy to make a mistake
+

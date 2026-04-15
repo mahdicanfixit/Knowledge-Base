@@ -837,11 +837,11 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
         
     - **Root of Trust:** Holds the root cryptographic keys that are never exposed to the main operating system.
 
-![](../../Pasted%20image%2020260414201127.png)
+![](../attachments/Pasted%20image%2020260414201127.png)
 
-![](../../Pasted%20image%2020260414201138.png)
+![](../attachments/Pasted%20image%2020260414201138.png)
 
-![](../../Pasted%20image%2020260414201144.png)
+![](../attachments/Pasted%20image%2020260414201144.png)
 
 ---
 
@@ -907,7 +907,7 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 |**Logic**|Mathematical scramble|Hiding in plain sight|Random placeholder|
 |**Visibility**|Obvious (Ciphertext)|Invisible (Hidden)|Visible but useless|
 |**Relation**|Related by Key|Related by Container|Not mathematically related|
-![](../../Pasted%20image%2020260414202427.png)
+![](../attachments/Pasted%20image%2020260414202427.png)
 
 ---
 
@@ -981,17 +981,17 @@ If a key is "weak" (like a simple password), you can make it stronger using **Ke
 | **Key Used**     | None (Algorithm only) | Private Key to Sign / Public to Verify |
 | **Analogy**      | A tamper-evident seal | A wax seal with a unique signet ring   |
 
-![](../../Pasted%20image%2020260414202851.png)
+![](../attachments/Pasted%20image%2020260414202851.png)
 
-![](../../Pasted%20image%2020260414203023.png)
+![](../attachments/Pasted%20image%2020260414203023.png)
 
-![](../../Pasted%20image%2020260414203054.png)
+![](../attachments/Pasted%20image%2020260414203054.png)
 
-![](../../Pasted%20image%2020260414203330.png)
+![](../attachments/Pasted%20image%2020260414203330.png)
 
-![](../../Pasted%20image%2020260414203617.png)
+![](../attachments/Pasted%20image%2020260414203617.png)
 
-![](../../Pasted%20image%2020260414203717.png)
+![](../attachments/Pasted%20image%2020260414203717.png)
 
 ---
 
@@ -1020,17 +1020,17 @@ Blockchain isn't just for cryptocurrency; it has major enterprise security uses:
     
 - **Supply Chain Monitoring:** Tracking the "provenance" (origin) of hardware or software. This ensures that the server or code you bought wasn't tampered with by a third party before it reached you.
 
-![](../../Pasted%20image%2020260414204606.png)
+![](../attachments/Pasted%20image%2020260414204606.png)
 
-![](../../Pasted%20image%2020260414204616.png)
+![](../attachments/Pasted%20image%2020260414204616.png)
 
-![](../../Pasted%20image%2020260414204632.png)
+![](../attachments/Pasted%20image%2020260414204632.png)
 
-![](../../Pasted%20image%2020260414204643.png)
+![](../attachments/Pasted%20image%2020260414204643.png)
 
-![](../../Pasted%20image%2020260414204650.png)
+![](../attachments/Pasted%20image%2020260414204650.png)
 
-![](../../Pasted%20image%2020260414204659.png)
+![](../attachments/Pasted%20image%2020260414204659.png)
 
 ---
 
@@ -1095,11 +1095,11 @@ If a private key is compromised (like during the **2014 Heartbleed** flaw), the 
 |**CRL (Cert. Revocation List)**|A large file maintained by the CA listing all revoked serial numbers.|**Cons:** Can become very large; requires the client to download the whole list.|
 |**OCSP (Online Cert. Status Protocol)**|A real-time check where the browser asks the CA responder if a specific cert is valid via HTTP.|**Cons:** Doesn't scale well if millions of people ask the CA at once.|
 |**OCSP Stapling**|The certificate holder (the web server) gets the status from the CA and "staples" it into the SSL/TLS handshake.|**Pros:** Fast and scalable. The status is digitally signed by the CA, so the server can't lie.|
-![](../../Pasted%20image%2020260414205140.png)
+![](../attachments/Pasted%20image%2020260414205140.png)
 
-![](../../Pasted%20image%2020260414205545.png)
+![](../attachments/Pasted%20image%2020260414205545.png)
 
-![](../../Pasted%20image%2020260414205904.png)
+![](../attachments/Pasted%20image%2020260414205904.png)
 
-![](../../Pasted%20image%2020260414210058.png)
+![](../attachments/Pasted%20image%2020260414210058.png)
 

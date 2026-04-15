@@ -82,8 +82,8 @@ To categorize why an attack is happening, we evaluate these core characteristics
 
 ## 📊 Mapping Capability vs. Intent
 
-![](../../Pasted%20image%2020260414214336.png)
-![](../../Pasted%20image%2020260414214959.png)
+![](../attachments/Pasted%20image%2020260414214336.png)
+![](../attachments/Pasted%20image%2020260414214959.png)
 
 ---
 
@@ -204,9 +204,9 @@ _Tampering with the underlying manufacturing or management process._
 |**Default Creds**|Admin UI|Low|`admin:password12`|
 
 
-![](../../Pasted%20image%2020260414215809.png)
+![](../attachments/Pasted%20image%2020260414215809.png)
 
-![](../../Pasted%20image%2020260414215952.png)
+![](../attachments/Pasted%20image%2020260414215952.png)
 
 ---
 This is a solid deep dive into the **"Digital Sleight of Hand"** that makes social engineering so dangerous. Since you're building this for your portfolio, I’ve refined these notes into a clean, "GitHub-style" reference.
@@ -279,8 +279,8 @@ The attacker doesn't just ask for info; they **create a character** and a situat
 | **Source**  | Does the email address match the organization's official domain?       |
 | **Urgency** | Does it demand immediate action (e.g., "Account suspended in 1 hour")? |
 | **Request** | Are they asking for a verification code, password, or wire transfer?   |
-![](../../Pasted%20image%2020260414222137.png)
-![](../../Pasted%20image%2020260414222301.png)
+![](../attachments/Pasted%20image%2020260414222137.png)
+![](../attachments/Pasted%20image%2020260414222301.png)
 
 ---
 
@@ -480,7 +480,7 @@ Attackers leverage the trust you have in household names (Coca-Cola, McDonald's,
 |**Brand Impersonation**|**URL Inspection** 🔗: Check for typos or strange TLDs (e.g., `.cc` instead of `.com`).|
 |**Malvertising**|**Ad-Blockers / DNS Filtering** 🛑: Prevent the malicious script from loading in the first place.|
 |**Fake Sites**|**Browser Protection** 🌐: Use tools that flag "Low Reputation" sites.|
-![](../../Pasted%20image%2020260414223854.png)
+![](../attachments/Pasted%20image%2020260414223854.png)
 
 ---
 
@@ -739,9 +739,9 @@ To stop this, you don't just "block" characters. You use:
     
 3. **Web Application Firewall (WAF):** Can detect and block common SQLi patterns before they reach the server.
 
-![](../../Pasted%20image%2020260415202350.png)
+![](../attachments/Pasted%20image%2020260415202350.png)
 
-![](../../Pasted%20image%2020260415202511.png)
+![](../attachments/Pasted%20image%2020260415202511.png)
 
 ---
 
@@ -814,9 +814,9 @@ To stop this, you don't just "block" characters. You use:
 
 ---
 
-![](../../Pasted%20image%2020260415202831.png)
+![](../attachments/Pasted%20image%2020260415202831.png)
 
-![](../../Pasted%20image%2020260415202956.png)
+![](../attachments/Pasted%20image%2020260415202956.png)
 
 ---
 
@@ -1021,3 +1021,84 @@ How do we protect ourselves from a supply chain we don't fully control?
 4. **Hardware Provenance:** Buy only from authorized resellers to avoid counterfeit or tampered hardware.
     
 5. **Open Source Auditing:** Realize that open-source code can be compromised at the source. Use tools to scan libraries for known vulnerabilities.
+
+---
+
+# ⚙️ 2.3 Misconfigurations & Unsecured Protocols
+
+### 📂 1. Open Permissions & Cloud Exposure
+
+**Definition:** Leaving data accessible to the public due to incorrect permission settings (extremely common in cloud storage).
+
+- **Case Study (Verizon 2017):** 14 million records were exposed because a third-party vendor left an **Amazon S3 bucket** wide open.
+    
+- **The Lesson:** "Open by default" is the enemy. Always use **Implicit Deny**—if access isn't explicitly granted, it should be blocked.
+    
+
+---
+
+### 🔑 2. Privileged Account Mismanagement
+
+**The Risk:** Misconfiguring the **Root (Linux)** or **Administrator (Windows)** accounts.
+
+- **Bad Habits:** Using weak passwords (`123456`, `password`) or leaving these accounts active for daily tasks.
+    
+- **Hardening Steps:**
+    
+    - **Disable Direct Root Login:** Force users to log in as a standard user and use `sudo` or `su` for administrative tasks.
+        
+    - **Principle of Least Privilege:** Only a tiny fraction of users should have administrative access.
+        
+    - **MFA:** Multi-Factor Authentication is a "must" for any privileged account.
+        
+
+---
+
+### 📡 3. Unsecured Protocols (Cleartext)
+
+**Definition:** Using "legacy" protocols that send data (including passwords) in plain text over the network.
+
+- **The "Cleartext" Danger:** Anyone with a packet capture tool (like **Wireshark**) can see everything.
+    
+- **The Secure Swap:**
+    
+
+|Unsecure (Cleartext)|Secure (Encrypted)|Default Port|
+|---|---|---|
+|**Telnet**|**SSH** (Secure Shell)|22|
+|**FTP**|**SFTP** (SSH File Transfer)|22|
+|**HTTP**|**HTTPS** (TLS)|443|
+|**SMTP / IMAP**|**SMTPS / IMAPS**|Varies (e.g., 465 / 993)|
+
+Export to Sheets
+
+---
+
+### 🤖 4. Default Settings & The Mirai Botnet
+
+**The Risk:** Many IoT devices ship with "Default Credentials" (Admin/Admin) that are never changed by the user.
+
+- **Case Study (Mirai Botnet):**
+    
+    - **The Attack:** Mirai scanned the internet for IoT devices (cameras, routers, DVRs) using **60+ default username/password pairs**.
+        
+    - **The Impact:** It took over hundreds of thousands of devices to launch some of the largest **DDoS attacks** in history (e.g., the Dyn attack that took down Twitter and Reddit).
+        
+    - **The Result:** The code was released as Open Source, leading to countless variants that still plague the internet today.
+        
+
+---
+
+### 🛡️ 5. Firewall & Port Management
+
+- **Port Management:** Every open port is a potential door. Close anything that isn't essential.
+    
+- **Firewall Rulesets:** These can be complex. A single "Permit Any Any" rule at the bottom of a list can invalidate all the security above it.
+    
+- **Audit & Test:** Always run a port scan (like `nmap`) against your own devices to see what a hacker sees.
+
+![](../attachments/Pasted%20image%2020260415223654.png)
+
+
+---
+

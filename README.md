@@ -33,8 +33,7 @@
 
 ## 🛠️ Things im using
 - **Note Taking:** [Obsidian](https://obsidian.md/) 
-- **OS Environments:** Windows 11, Linux (VMs)
-- **Networking:** Wireshark, tcpdump, Packet Tracer
+- **OS Environments:** Windows 11
 
 ---
 

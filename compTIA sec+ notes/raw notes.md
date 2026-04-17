@@ -40,4 +40,25 @@ win32k kernal driver server 2008 2012 2012 2016 windows 10
 
 attacker can gain system privileges is the highest level access
 
-cross site requests are common legitmate you visit professormesser.com your browser loads text from the professormesser.c
+cross site requests are common legitmate you visit professormesser.com your browser loads text from the professormesser.com aserver your browser lolads a video from youtube your bworser loads pictures from instragram
+
+HTML on professormersser.com direct requests from your brwoser this is normal and expected
+
+website pages consist of client side code and server side code many moving parts
+
+client side renders the page on the screen HTML, javascript
+
+serrver side performs requests from the client HTML, PHP transfer money from one account to another post a video on youtube
+
+one click attack session riding XSRF, CSRF sea surf
+
+takes advantage of the trust that a web application has for the user the webs ite trusts your bwrowser rquests are made without your consent or your knowledge 
+
+signifcant web application development oversight the application should have anti forgery techniques added
+
+![](../../Pasted%20image%2020260418014458.png)
+
+![](../../Pasted%20image%2020260418014626.png)
+
+---
+

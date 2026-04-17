@@ -1,9 +1,33 @@
-modify the DNS serrver requires some crafty hacking
+surfing along on your wqireless network then ur not
 
-modify the cilent host file the host file takes precedent over DNS queries
+and then it happens again and again
 
-send a fake response to a valid DNS request requires a redirection of the original request or the resulting response real time redirection this is an on path attack
+you not be able to stop it
 
-get access to athe domain registration, and you have control where the traffic flows you dont need to touch the actual servers determines the DNS names and DNS IP addresses
+wireless deauthentication a significant wireless attack DOS attack
 
-many mways to get into the account brute force social engineer the password gain access to the email add
+802.11 wireless includes a number of management features frames that make everything work you never see them
+
+important for the operation of 802.11 wireless how to find access points
+
+original wireless standards didi not add protection for managment frames
+
+![](../../Pasted%20image%2020260418011740.png)
+
+IEEE has already addressed the problem updates included with 802.11ac
+
+some of the important managment frames are encrypted 
+
+not everything is encrypted becaons probes authentication association
+
+denial of service prevent wireless communication
+
+transmit interfering wireless signals decrease the singal to noise ratio at the recieiving device the receiving device cant hear the good signals
+
+sometimes its not intentional interference not jamming microwave oven 
+
+jamming is intentional someone wants your network to not work
+
+many different types constant, random bits/ constant, legitmate frames
+
+data sent at random times random data and legitmate frames reactive ja

@@ -1579,3 +1579,66 @@ This is the most common way modern DDoS attacks reach **Terabit** speeds.
 ---
 
 ![](../../Pasted%20image%2020260418010503.png)![](../../Pasted%20image%2020260418010616.png)
+
+
+---
+
+# 🌐 2.4 DNS Attacks & URL Hijacking
+
+### 🏴‍☠️ 1. DNS Hijacking vs. DNS Poisoning
+
+The goal is the same (redirection), but the method is different:
+
+- **DNS Poisoning (Cache Poisoning):** * **The Method:** The attacker sends a fake response to a DNS resolver before the real server can answer. The resolver then "caches" (remembers) the fake IP.
+    
+    - **The Impact:** Every user who asks that DNS server for "bank.com" gets sent to the hacker's IP for the next few hours.
+        
+- **Domain Hijacking:**
+    
+    - **The Method:** The attacker doesn't touch the server. They hack the **Domain Registrar account** (like GoDaddy or Namecheap) using social engineering or brute force.
+        
+    - **The Impact:** They change the authoritative records. You "lose" your domain.
+        
+    - **Case Study (Brazil 2016):** Attackers took over 36 domains of a major bank for 6 hours. They controlled the bank's email and web traffic, even obtaining a valid SSL certificate to look legitimate.
+        
+
+---
+
+### ⌨️ 2. URL Hijacking (Typosquatting / Brandjacking)
+
+This takes advantage of human error rather than technical flaws.
+
+- **The "Mistake" Revenue:** Attackers buy `professormesser.org` or `professormessor.com` (typo).
+    
+- **The Intent:**
+    
+    - **Phishing:** The site looks identical to the real one to steal logins.
+        
+    - **Malware:** A "drive-by download" infects you the second the page loads.
+        
+    - **Advertising:** They just want the traffic to sell ads or sell the domain back to the owner for a high price.
+        
+
+---
+
+### 🧪 3. The "Host File" Trick
+
+- **The Concept:** Your computer checks its local `hosts` file _before_ it asks a DNS server.
+    
+- **The Attack:** If an attacker gets administrative access to your Ubuntu or Windows machine, they can add one line: `123.123.123.123 google.com`.
+    
+- **The Result:** You will go to the hacker's IP every time you type "https://www.google.com/url?sa=E&source=gmail&q=google.com," and your browser won't even try to reach a real DNS server.
+    
+
+---
+
+### 🛡️ Defensive Strategy
+
+1. **For Domain Hijacking:** Use **2FA (Two-Factor Authentication)** on your domain registrar account. This would have prevented the Brazilian bank hack.
+    
+2. **For DNS Poisoning:** Implement **DNSSEC** (DNS Security Extensions), which adds a digital signature to DNS responses to prove they are authentic.
+    
+3. **For the Host File:** Monitor file integrity (like using **Tripwire**) to alert you if the `hosts` file is modified.
+
+---
+

@@ -1401,3 +1401,128 @@ Export to Sheets
 2. **Signature Updates:** New spyware variants appear hourly. Your AV needs the latest "mugshots" to catch them.
     
 3. **The Backup Rule:** As you noted, "Cleaning adware isn't easy." A solid backup allows you to restore to a clean state in minutes.
+
+---
+
+# 🕵️‍♂️ 2.4 Keyloggers, Logic Bombs, & Rootkits
+
+### ⌨️ Keyloggers & Data Loggers
+
+**Definition:** A form of spyware that records user input. It is particularly dangerous because it captures data **before encryption** (e.g., before your browser turns your password into HTTPS traffic).
+
+- **Beyond Keystrokes:** Modern loggers don't just watch the keyboard. They also capture:
+    
+    - **Clipboard Logging:** Stealing anything you "Copy" (like passwords from a manager).
+        
+    - **Screen Logging (Screenshots):** Taking a picture of your screen every few seconds.
+        
+    - **Instant Messaging:** Capturing chat logs and search queries.
+        
+- **Defense:** **MFA (Multi-Factor Authentication)**. Even if they have your password, they don't have your physical token or biometric.
+    
+
+---
+
+### 💣 Logic Bombs
+
+**Definition:** Malicious code that remains dormant until a specific "trigger" or condition is met.
+
+- **The "Time Bomb":** Triggered by a specific date or time.
+    
+- **The "User Event":** Triggered by an action (e.g., an admin being removed from the payroll database).
+    
+- **Case Study: South Korea (March 20, 2013):**
+    
+    - **The Attack:** At exactly 2:00 PM, a logic bomb activated on thousands of computers at South Korean banks and media outlets.
+        
+    - **The Result:** It deleted the **Master Boot Record (MBR)** and wiped hard drives. Systems rebooted to a "Boot device not found" error, paralyzing ATMs and newsrooms.
+        
+- **Defense:** **Change Control** and **Auditing**. Use tools like **Tripwire** (Host-based IDS) to alert you if a system file is modified unexpectedly.
+    
+
+---
+
+### 👻 Rootkits
+
+**Definition:** A collection of tools designed to gain **Root** (Admin) access while remaining completely invisible to the OS.
+
+- **The "Ghost" Factor:** Rootkits modify the **Kernel** (the core of the OS). When you ask the Task Manager "What programs are running?", the Rootkit intercepts that question and hides itself from the list.
+    
+- **Where they live:**
+    
+    - **Kernel-mode:** Part of the OS itself.
+        
+    - **Firmware/UEFI:** Built into the hardware's BIOS. It survives even if you wipe the hard drive and reinstall Windows.
+        
+- **Defense:** * **UEFI Secure Boot:** This ensures that only "signed," trusted software can load during the boot process, blocking rootkits from starting.
+    
+    - **Specific Removers:** Once a rootkit is known, specialized tools are built to "hunt" for its unique footprint.
+
+---
+
+# 🏗️ 2.4 Physical Security & Environmental Controls
+
+### 🚪 1. The Physical Vulnerability
+
+**The Golden Rule:** If an attacker has physical access to your hardware, it is no longer _your_ hardware.
+
+- **Circumventing the OS:** With physical access, an attacker can reboot into a Live USB, bypass your Windows/Linux login, and read your unencrypted files directly.
+    
+- **Brute Force (Physical):** Just like guessing a password, physical brute force is about using raw power (crowbars, hammers) to overcome a lock or window.
+    
+
+---
+
+### 💳 2. RFID & Proximity Attacks
+
+**Definition:** Radio Frequency Identification (RFID) is the tech inside your office badge or key fob.
+
+- **The Vulnerability (Cloning):** You can buy a duplicator on Amazon for less than $50. An attacker only needs to be within a few inches of your pocket (on a bus or in an elevator) to "sniff" and clone your badge.
+    
+- **The Defense:**
+    
+    - **MFA (Multi-Factor):** Require a PIN + the badge to open the door.
+        
+    - **Shielding:** Use RFID-blocking wallets or sleeves to prevent unauthorized scanning.
+        
+
+---
+
+### ❄️ 3. Environmental Attacks (Infrastructure)
+
+If you can’t hack the server, you hack the **room** it lives in.
+
+- **Power Monitoring & Sabotage:**
+    
+    - An attacker might cut the main power from outside the building.
+        
+    - **Defense:** **UPS** (Uninterruptible Power Supply) for short-term and **Generators** for long-term backup.
+        
+- **HVAC (Heating, Ventilation, Air Conditioning):**
+    
+    - Servers generate massive heat. If the cooling is cut, hardware will shut down or permanently melt within minutes.
+        
+    - **Defense:** Sensors that alert if humidity or temperature spikes.
+        
+- **Fire Suppression:**
+    
+    - Some systems (like Halon or FM-200) work by removing oxygen. An attacker could trigger a false fire alarm to force an evacuation or a server shutdown.
+        
+
+---
+
+### 🛡️ 4. Physical Security Controls (Layered Defense)
+
+Think of this as a **"Defense in Depth"** for the physical world:
+
+1. **Perimeter:** Fences, lighting, and signage ("Restricted Area").
+    
+2. **Entrance:** Guards, cameras (CCTV), and **Mantraps** (a small room with two doors where the first must close before the second opens).
+    
+3. **Internal:** Locked racks, hardware locks (Kensington locks), and **Safe** storage for backups.
+    
+4. **Sensors:** Motion detectors and "Tripwire" alarms on doors/windows.
+
+---
+
+

@@ -1,31 +1,25 @@
-malware that spies on you advertising identity theft affiliate fraud
+your keystrokes contain valuable information web site login URLs passwords email messages
 
-can trick you into installing peer to peer fake security software
+save all of your input send it to the bad guys
 
-browser monitoring capture surfing habits
+circumvents encryption protections your keystrokes are in the clear
 
-keyloggers capture every keystroke send your keystrokes back to the attacker
+other data logging clipboard logging, screen logging, instant messaging, search engine queries
 
-maintain your antivirus always have the latest signatures
+![](../../Pasted%20image%2020260418004840.png)
 
-always know what youre installing and watch your options during the installation
+waits for a predfined event often left by someone with grudge
 
-wheres your backup you might need it someday cleaning adware isnt easy
+time bomb time or date
 
-run some scans malwarebytes
+user event logic bomb
 
-a new computer or phone includes the operating system and important apps
+difficult to identify difficult to recover if it goes off
 
-also includes applications you didnt expect and often dont need
+march 19 2013 south korea email with malicious attachment sent to south korean organizations posed as a bank email trojan installs malware
 
-apps are installed by the manufacturer you dont get a choice
+march 20 2013 2pm malware time based logic bomb activates storage and master boot record deleted system reboots
 
-uses valuable storage space may also add to overall resource usage the system may be slower than expected could open your system to exploits 
+boot device not fund please install an operating system on your hard disk
 
-identify and remove this may be easier said than done
-
-use the built in uninstaller works for most aplications 
-some apps have their own uninstaller thats how bad they are
-
-third party uniinstallers and cleaners probably not the first option always have  abackup
-
+difficult to re

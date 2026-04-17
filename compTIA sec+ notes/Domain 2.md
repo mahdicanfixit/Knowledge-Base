@@ -1280,3 +1280,64 @@ Your notes are spot on: **Updates are your #1 weapon.**
 
 ---
 
+# 🦠 2.4 Viruses vs. Worms (The Deep Dive)
+
+### 🧬 The Virus (Needs a Human)
+
+**Definition:** Malicious code that reproduces by inserting itself into another program or file. It cannot move on its own; it "hitchhikes" on your actions.
+
+- **The Trigger:** You must **execute** something (open an email attachment, run an `.exe`, or open a macro-enabled Word doc).
+    
+- **The Persistence:** Once run, it can hide in several places:
+    
+    - **Program Virus:** Attaches to an application.
+        
+    - **Boot Sector Virus:** Hides in the part of the drive that starts the OS. It runs _before_ the OS even loads.
+        
+    - **Script/Macro Virus:** Uses the built-in logic of browsers or Microsoft Office (Excel/Word) to run malicious commands.
+        
+- **The "Fileless" Virus (Stealth):** This is the modern "ninja" version. It doesn't sit in a file on your disk; it lives entirely in the **RAM (Memory)**. Because there’s no "file" to scan, traditional antivirus often misses it.
+    
+    +1
+    
+
+---
+
+### 🪱 The Worm (Needs a Network)
+
+**Definition:** Self-replicating malware that uses the network to spread. It does **not** need you to click anything.
+
+- **The Trigger:** It exploits a **vulnerability** (like an unpatched service or an open port) to "crawl" from one computer to the next.
+    
+- **The Speed:** Because it doesn't wait for humans, it spreads at the speed of light. A single worm can take down an entire global corporation in minutes by saturating network bandwidth.
+    
+- **The Payload:** Many worms are used to install **Backdoors**, turning your computer into a "Zombie" for a **Botnet**.
+    
+
+---
+
+### ⚖️ Quick Comparison Table
+
+|Feature|**Virus**|**Worm**|
+|---|---|---|
+|**Movement**|Needs a host file/program.|Stand-alone; moves independently.|
+|**Transmission**|Human action (USB, Email, Downloads).|Network exploits (Self-propagating).|
+|**Detection**|Signature-based Antivirus.|Firewalls, IDS/IPS, and Patching.|
+|**Primary Goal**|Corrupt files, steal data, annoy.|Spread fast, install backdoors, eat bandwidth.|
+
+Export to Sheets
+
+---
+
+### 🛡️ The Defensive Strategy
+
+- **For Viruses:** **User Training.** If the human doesn't click, the virus doesn't spread.
+    
+- **For Worms:** **Patch Management & Firewalls.** If the "hole" in the OS is patched, the worm can't get in. If the firewall blocks the port, the worm can't see the computer.
+
+![](../../Pasted%20image%2020260417232458.png)
+
+![](../../Pasted%20image%2020260417232248.png)
+
+---
+

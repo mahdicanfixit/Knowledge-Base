@@ -1,19 +1,31 @@
-malware that can reproduce itself it needs you to execute a program
+malware that spies on you advertising identity theft affiliate fraud
 
-reproduces through file systems or the network just running a program can spread a virus 
+can trick you into installing peer to peer fake security software
 
-may or may not cause problems some viruses are ivnvible some are annoying
+browser monitoring capture surfing habits
 
-antivirus is very common thousands of new viruses every week is  your signature file updated?
+keyloggers capture every keystroke send your keystrokes back to the attacker
 
-program viruses its part of the application
+maintain your antivirus always have the latest signatures
 
-boot sector viruses who needs an OS?
+always know what youre installing and watch your options during the installation
 
-script viruses operatingsystem and browser based
+wheres your backup you might need it someday cleaning adware isnt easy
 
-macro viruses common in microsoft office
+run some scans malwarebytes
 
-a stealth attack does a good job of avoiding anti virus detection
+a new computer or phone includes the operating system and important apps
 
-operates in memory but
+also includes applications you didnt expect and often dont need
+
+apps are installed by the manufacturer you dont get a choice
+
+uses valuable storage space may also add to overall resource usage the system may be slower than expected could open your system to exploits 
+
+identify and remove this may be easier said than done
+
+use the built in uninstaller works for most aplications 
+some apps have their own uninstaller thats how bad they are
+
+third party uniinstallers and cleaners probably not the first option always have  abackup
+

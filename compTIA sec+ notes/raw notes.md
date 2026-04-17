@@ -1,9 +1,9 @@
-force a service to fail overload the service
+modify the DNS serrver requires some crafty hacking
 
-take advantage of a design failure or vulnerability keep your system patched
+modify the cilent host file the host file takes precedent over DNS queries
 
-cause a system to be unavailable competitive advantage
+send a fake response to a valid DNS request requires a redirection of the original request or the resulting response real time redirection this is an on path attack
 
-create a smokescreen for some other exploit precursor to a DNS spoofing attack
+get access to athe domain registration, and you have control where the traffic flows you dont need to touch the actual servers determines the DNS names and DNS IP addresses
 
-doesnt have to be complicated turn off the power
+many mways to get into the account brute force social engineer the password gain access to the email add

@@ -1525,4 +1525,57 @@ Think of this as a **"Defense in Depth"** for the physical world:
 
 ---
 
+## ⚡ 2.4 Denial of Service (DoS & DDoS)
 
+### 🛑 1. The Goal: Availability
+
+The primary target of a DoS attack is the **"A"** in the **CIA Triad** (Confidentiality, Integrity, Availability).
+
+- **Intentional:** Overloading a service for competitive advantage or a "smokescreen" (distracting the IT team while a different hack happens elsewhere).
+    
+- **Unintentional:** It's not always a hacker!
+    
+    - **Layer 2 Loop:** A switch without **STP (Spanning Tree Protocol)** can create a broadcast storm that kills the network.
+        
+    - **The "Slashdot Effect":** Too many legitimate users downloading a huge file (like a new Linux Distro) on a weak connection.
+        
+
+---
+
+### 🤖 2. DDoS (Distributed Denial of Service)
+
+**Definition:** Using an army of infected computers (**Botnets**) to launch a coordinated attack.
+
+- **The Zeus Botnet:** At its peak, it infected over **3.6 million PCs**.
+    
+- **Asymmetric Threat:** A single teenager with a botnet can bring down a multi-billion dollar corporation. The attacker has fewer resources, but more "firepower."
+    
+
+---
+
+### 📢 3. Amplification & Reflection Attacks
+
+This is the most common way modern DDoS attacks reach **Terabit** speeds.
+
+- **Reflection:** The attacker sends a request to a legitimate third-party service (like a DNS server) but **spoofs** the return IP address to be the victim’s. The service "reflects" the answer to the victim.
+    
+- **Amplification:** The attacker sends a _tiny_ query that triggers a _massive_ response.
+    
+    - **NTP/DNS/ICMP:** These protocols don't require much authentication.
+        
+    - **Example:** Sending a 1-byte DNS query that results in a 50-byte answer sent to the victim. If you have 1 million bots doing this, the victim's bandwidth is instantly deleted.
+        
+
+---
+
+### 🛡️ 4. Mitigations
+
+- **Cloud Scrubbing:** Using services like Cloudflare to "clean" traffic before it hits your server.
+    
+- **IPS/IDS:** Identifying patterns of DDoS and blocking the source IPs.
+    
+- **Patching:** Fixing the vulnerabilities that allow botnets to form in the first place.
+
+---
+
+![](../../Pasted%20image%2020260418010503.png)![](../../Pasted%20image%2020260418010616.png)

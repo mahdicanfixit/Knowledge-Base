@@ -1,33 +1,21 @@
-surfing along on your wqireless network then ur not
+useful information is transmitted over the network a crafty hacker will take advantages of this
 
-and then it happens again and again
+need access to the raw network data network tap arp posioning malware on the victim computer
 
-you not be able to stop it
+the gathered information may help the attacker reply the data to appear as someone else
 
-wireless deauthentication a significant wireless attack DOS attack
+this is not an on path attack
 
-802.11 wireless includes a number of management features frames that make everything work you never see them
+![](../../Pasted%20image%2020260418013034.png)
 
-important for the operation of 802.11 wireless how to find access points
+cookies information stored on your computer by the browser
 
-original wireless standards didi not add protection for managment frames
+used for tracking personalization session managment not executable not generally a security risk unless someone gets access to them
 
-![](../../Pasted%20image%2020260418011740.png)
+could be considered be a privacy risk
 
-IEEE has already addressed the problem updates included with 802.11ac
+session ID are often stored in the cookie
 
-some of the important managment frames are encrypted 
+infomration gathering wireshark kismet
 
-not everything is encrypted becaons probes authentication association
-
-denial of service prevent wireless communication
-
-transmit interfering wireless signals decrease the singal to noise ratio at the recieiving device the receiving device cant hear the good signals
-
-sometimes its not intentional interference not jamming microwave oven 
-
-jamming is intentional someone wants your network to not work
-
-many different types constant, random bits/ constant, legitmate frames
-
-data sent at random times random data and legitmate frames reactive ja
+exploits cross site scr

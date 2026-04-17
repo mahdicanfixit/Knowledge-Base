@@ -1642,3 +1642,98 @@ This takes advantage of human error rather than technical flaws.
 
 ---
 
+# 📶 2.4 Wireless Attacks (DoS & Interference)
+
+### 🚪 1. Wireless Deauthentication (Logical Attack)
+
+**The Concept:** Wireless networks use "Management Frames" to manage connections. A **Deauthentication (deauth) frame** tells a device: "You are no longer connected, please leave."
+
+- **The Vulnerability:** In older standards (like 802.11n), these management frames were **unencrypted**.
+    
+- **The Attack:** An attacker can spoof your Access Point's MAC address and send a "Deauth" frame to your laptop. Your laptop obeys, disconnects, and then immediately tries to reconnect.
+    
+- **The Goal:** 1. **DoS:** Just to be annoying and kick you off. 2. **WPA Handshake Capture:** The attacker kicks you off so that when you reconnect, they can "sniff" the authentication handshake to try and crack your Wi-Fi password.
+    
+- **The Fix:** **802.11w (now part of 802.11ac/ax).** This standard encrypts Management Frames so they can't be spoofed.
+    
+
+---
+
+### 📡 2. Wireless Jamming (Physical Attack)
+
+**The Concept:** Overwhelming the wireless frequency (2.4GHz or 5GHz) with "noise" so the devices can't "hear" the legitimate signal.
+
+- **Signal-to-Noise Ratio (SNR):** Jamming decreases the SNR. If the noise is louder than the data, the data is lost.
+    
+- **Types of Jamming:**
+    
+    - **Constant:** Non-stop noise or random bits.
+        
+    - **Reactive:** Only jams when it senses someone else trying to transmit (very stealthy).
+        
+- **The "Accidental" Jammer:** It’s not always a hacker. **Microwave ovens**, old cordless phones, and fluorescent lights can jam 2.4GHz Wi-Fi unintentionally.
+    
+
+---
+
+### 🦊 3. "Fox Hunting" (Mitigation)
+
+If someone is jamming you, you can't stop it with software. You have to find the physical source.
+
+- **Directional Antenna:** Used to find the direction where the "noise" is strongest.
+    
+- **Attenuator:** Used to "turn down" the sensitivity as you get closer to the source so you can pinpoint the exact location.
+
+![](../../Pasted%20image%2020260418011740.png)
+
+---
+
+---
+
+# 🕵️‍♂️ 2.4 On-Path Attacks (formerly Man-in-the-Middle)
+
+### 🛣️ 1. The On-Path Concept
+
+**Definition:** An attacker places themselves between two devices (usually a user and a server) to intercept, read, or modify the data flowing between them.
+
+- **The "Pass-Through":** The attacker doesn't just steal the data; they pass it on to the real destination. This makes the attack invisible because the website still loads normally for the victim.
+    
+
+---
+
+### 🧪 2. ARP Poisoning (Network Level)
+
+**How it works:** This happens on your **Local Subnet (LAN)**.
+
+- **The Flaw:** ARP (Address Resolution Protocol) is "trusting." It has no security. If a computer says, "I am the router," every other computer believes it.
+    
+- **The Attack:** The attacker sends fake ARP messages to your computer saying, "I am the Gateway/Router." Your computer updates its MAC table and starts sending all its internet traffic to the attacker’s MAC address.
+    
+- **The Result:** The attacker sees everything you do before forwarding it to the real router.
+    
+
+---
+
+### 🌐 3. On-Path Browser Attack (formerly Man-in-the-Browser)
+
+**How it works:** The "middleman" isn't a separate device on the network; it's **Malware inside your browser.**
+
+- **The Advantage:** Since the malware is _inside_ the browser, it sees the data **before it is encrypted** (HTTPS) and **after it is decrypted**.
+    
+- **The Scenario:** You go to your bank's website. Everything looks 100% normal. You log in. The malware waits until you click "Transfer Money," then silently changes the destination account number to the attacker's account before the request ever leaves your computer.
+    
+
+---
+
+### 🛡️ 4. Mitigations
+
+- **For ARP Poisoning:** Use **DAI (Dynamic ARP Inspection)** on your network switches. This prevents fake ARP messages from being broadcast.
+    
+- **For Browser Attacks:** * **Browser Hardening:** Keep the browser and extensions updated.
+    
+    - **Endpoint Protection:** Antivirus/EDR to catch the malware before it can hook into the browser.
+        
+- **For General Traffic:** **Encryption (TLS/SSL).** If the traffic is encrypted, the attacker might see _where_ you are going, but they can't see _what_ you are sending (unless they use a Man-in-the-Browser attack).
+
+---
+

@@ -1211,3 +1211,72 @@ Since you can't patch a Zero-Day immediately, you use **Defense in Depth**:
 
 ---
 
+# 🦠 2.4 Malware Types & Characteristics
+
+### 🧪 The Attack Chain
+
+Malware rarely works alone. Think of it like a professional heist team:
+
+1. **The Entry (Worm):** Exploits a vulnerability to get into the network.
+    
+2. **The Delivery (Trojan):** Drops a "payload" onto the system.
+    
+3. **The Persistence (Backdoor/Rootkit):** Ensures the attacker can get back in even if the computer restarts.
+    
+4. **The Goal (Ransomware/Spyware):** Either encrypts data for cash or steals secrets.
+    
+
+---
+
+### 🧬 Viruses vs. Worms (The "Big Two")
+
+|Feature|**Virus**|**Worm**|
+|---|---|---|
+|**User Action**|**Required.** You must open a file, click a link, or run a program.|**Not Required.** It spreads automatically across the network.|
+|**Host File**|Needs to "attach" itself to a legitimate program.|Stand-alone software; doesn't need a host file.|
+|**Speed**|Spreads as fast as humans share files.|Spreads at the speed of the network (extremely fast).|
+
+Export to Sheets
+
+---
+
+### 💰 Ransomware & Crypto-Malware
+
+This is the most financially damaging malware today.
+
+- **The Attack:** It uses **Asymmetric Encryption** (Public Key Cryptography) to lock your files. The attacker holds the Private Key.
+    
+- **The Impact:** Your OS stays running (so you can see the "Pay Me" note), but your pictures, docs, and databases are useless.
+    
+- **The Defense:** **Offline Backups.** If your backup is connected to the computer, the ransomware will encrypt the backup too.
+    
+
+---
+
+### 🕵️‍♂️ Stealth & Surveillance
+
+- **Trojan Horse:** Software that pretends to be something useful (like a free game or a driver) but hides malicious code inside.
+    
+- **Rootkit:** The "Ghost" of malware. It modifies core system files to hide its presence from the Task Manager and Antivirus.
+    
+- **Keylogger / Spyware:** Sits quietly in the background. It records every keystroke (passwords/PII) and sends them to the attacker.
+    
+    +1
+    
+- **Logic Bomb:** Malware that sits dormant until a specific "trigger" occurs (like a specific date or a certain employee being deleted from payroll).
+    
+
+---
+
+### 🛡️ The "Keep Everything Updated" Rule
+
+Your notes are spot on: **Updates are your #1 weapon.**
+
+1. **OS & Apps:** Patches the "holes" that Worms use to enter.
+    
+2. **Antivirus Signatures:** Tells your software what the latest "fingerprints" of malware look like.
+    
+3. **The Human (You):** Awareness stops you from clicking the link that starts a Virus.
+
+---
+

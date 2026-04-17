@@ -1737,3 +1737,89 @@ If someone is jamming you, you can't stop it with software. You have to find the
 
 ---
 
+---
+
+# 🔄 2.4 Replay Attacks & Session Hijacking
+
+### 🔁 1. The Replay Attack
+
+**Definition:** An attacker captures a sequence of network packets (like a login or a command) and "replays" them later to the server to mimic the original user.
+
+- **The "Key" Difference:** The attacker doesn't need to know your password. They just need to "record" the encrypted hash you sent and play it back.
+    
+- **Is it On-Path?** No. The attacker can capture the data, go home, and replay it hours later. They don't have to stay "in the middle."
+    
+- **The Defense:** **Salting and Timestamps.** If every login request requires a unique "nonce" (number used once) or a timestamp that expires in 30 seconds, a "replayed" packet will be rejected by the server.
+    
+
+---
+
+### 🍪 2. Session Hijacking (Cookie Hijacking)
+
+**The Concept:** When you log into a site, the server gives you a **Session ID** (usually stored in a cookie) so you don't have to re-enter your password on every page.
+
+- **The Attack:** If an attacker steals that Session ID, they can put it into their own browser and **become you** without ever needing your password.
+    
+- **How they get the ID:**
+    
+    - **Information Gathering:** Sniffing Wi-Fi using Wireshark or Kismet.
+        
+    - **Cross-Site Scripting (XSS):** Using a malicious script to "read" your cookies and send them to the attacker.
+        
+    - **Header Manipulation:** Tools like _Scapy_ or browser add-ons to tamper with the data sent to the server.
+        
+
+---
+
+### 🛡️ 3. Mitigations
+
+- **Encryption (HTTPS/TLS):** This is the ultimate fix. If the entire session is encrypted end-to-end, the attacker can't "see" the Session ID to steal it.
+    
+- **Session Expiry:** Making sessions short-lived so a stolen cookie becomes useless quickly.
+    
+- **Cookie Flags:** * **HttpOnly:** Prevents JavaScript (XSS) from reading the cookie.
+- **Secure:** Ensures the cookie is only sent over HTTPS.
+
+![](../../Pasted%20image%2020260418013034.png)
+
+---
+
+# 💻 2.4 Malicious Code & High-Impact Breaches
+
+### 🧩 1. The "Unlocked Door" vs. "Breaking the Hinge"
+
+**The Concept:** Security isn't just about stopping hackers; it's about closing the doors we leave open.
+
+- **Low-Tech Entry:** Social engineering or using `admin/admin` (Default Credentials) is like walking through an unlocked door.
+    
+- **High-Tech Entry:** Using **Arbitrary Code Execution (ACE)** to force a system to run malicious instructions is like knocking the pins out of the door hinges.
+    
+
+---
+
+### 🏛️ 2. Case Study Analysis
+
+|Breach|Attack Type|Impact / Method|
+|---|---|---|
+|**WannaCry (2017)**|**Worm/Ransomware**|Exploited **SMBv1** (EternalBlue). It used a system-level vulnerability to move across networks without user interaction.|
+|**British Airways**|**XSS (Cross-Site Scripting)**|22 lines of **JavaScript** were injected into the checkout page. It acted as a "digital skimmer," stealing credit card data as users typed it.|
+|**Estonian Health**|**SQL Injection**|Attackers used malicious SQL queries in a web form to trick the database into dumping the records of the entire population.|
+
+Export to Sheets
+
+---
+
+### 🛠️ 3. Defensive Layers (Defense in Depth)
+
+Since attackers use any opportunity, you need a multi-layered response:
+
+1. **Host-Based:** Anti-malware and Endpoint Detection (EDR) to stop executables.
+    
+2. **Network-Based:** Firewalls and IPS to block protocols like SMBv1 from being exposed to the internet.
+    
+3. **Application-Based:** Input validation and "Sanitizing" data to prevent SQLi and XSS.
+    
+4. **Operational:** Continuous **Patch Management**. WannaCry was only successful because organizations didn't apply a patch that had been available for months.
+
+---
+

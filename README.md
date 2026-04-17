@@ -40,4 +40,4 @@
 
 ## 📝 Note about the workflow
 
-These notes were from my studies (CompTIA, Google IT/Cyber certs) I used AI to refine the formatting, bridge knowledge gaps, to make it pleasing to look at when reviewing back at it.
+These notes were from my studies (CompTIA, Google IT/Cyber certs) I used AI to refine the formatting, bridge knowledge gaps, to make it pleasing to look at when reviewing back to it.

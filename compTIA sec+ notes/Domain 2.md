@@ -1823,3 +1823,53 @@ Since attackers use any opportunity, you need a multi-layered response:
 
 ---
 
+# 🧠 2.4 Memory & Session Vulnerabilities
+
+### 🌊 1. Buffer Overflows
+
+**The Concept:** An application receives more data than it can hold in its "buffer" (memory "box"). The extra data spills over into adjacent memory areas.
+
+- **The Goal:** To overwrite the **Return Address** in memory so that when the program finishes its current task, it jumps to the attacker's malicious code instead of going back to normal operation.
+    
+- **The "Art" of the Overrun:** It’s difficult to do without crashing the app. A "pro" exploit is **repeatable** and silent.
+    
+- **Defense:**
+    
+    - **Bounds Checking:** Developers must ensure the "box" can't take more than it's built for.
+        
+    - **ASLR (Address Space Layout Randomization):** Scrambles where things are kept in memory so the attacker doesn't know where to "point" their exploit.
+        
+    - **DEP (Data Execution Prevention):** Marks certain memory areas as "non-executable" so code can't run from there.
+        
+
+---
+
+### ⬆️ 2. Privilege Escalation
+
+**Definition:** Gaining a higher level of access than you are supposed to have.
+
+- **Vertical Escalation:** A standard user becoming an **Administrator** or **Root**.
+    
+- **Horizontal Escalation:** A user gaining access to another user's data (e.g., you log in as Mahdi but can see someone else's private notes).
+    
+- **Case Study (CVE-2023-29336):** A Win32k kernel driver flaw that allowed attackers to gain **SYSTEM privileges** (the highest level in Windows).
+    
+- **Defense:** Patching is the only real fix. These are always "Critical" priority.
+    
+
+---
+
+### 🌊 3. CSRF / XSRF (Cross-Site Request Forgery)
+
+**The Nickname:** "Sea-Surf" or "Session Riding."
+
+- **The Concept:** It takes advantage of the **trust** a website has in your browser. If you are logged into your bank, your browser has a "session cookie."
+    
+- **The Attack:** You visit a malicious site in another tab. That site has a hidden script that tells your browser: _"Send a request to bank.com to transfer $1000 to the hacker."_ * **The Result:** Because you are already logged in, the bank sees a valid request coming from your browser and processes it. **You never even knew it happened.**
+    
+- **Defense:** **Anti-Forgery Tokens.** The website should require a unique, hidden "token" for every transaction that a malicious site wouldn't have access to.
+
+![](../../Pasted%20image%2020260418014458.png)
+
+---
+

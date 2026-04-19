@@ -39,3 +39,43 @@
 
 ---
 
+# Domain 3.0: Security Architecture
+## 3.1 Physical vs. Logical Segmentation & Control Planes
+
+> [!ABSTRACT]
+> To prevent lateral movement, we must separate users and data. We can do this physically (separate hardware) or logically (virtual separation).
+
+---
+
+### 🛡️ Segmentation: Keeping "A" away from "B"
+
+| Method | The "How" | Security Level |
+| :--- | :--- | :--- |
+| **Air Gap** | Physical separation. No cables/wireless link between Switch A and B. | **Extreme.** Used for nuclear plants or secure vaults. |
+| **Physical** | Separate hardware (Switch A for Customer A, Switch B for Customer B). | **High.** Harder to misconfigure, but expensive. |
+| **VLAN** | One physical switch split into virtual "halves." | **Efficiency.** Most common in offices. Logical separation via software. |
+
+---
+
+### ✈️ The Three Planes (How the Network "Thinks")
+Think of a network switch like an airport:
+
+1. **Management Plane:** **The Admin Office.**
+   - *What it does:* Where you log in (SSH, HTTPS, API) to configure the switch.
+   - *Security:* If this is breached, the attacker owns the whole network. **MFA is a must here.**
+
+2. **Control Plane:** **The Air Traffic Control.**
+   - *What it does:* The "brains." It builds the routing tables and decides where data *should* go. It handles the "directions."
+
+3. **Data Plane (Forwarding Plane):** **The Runway.**
+   - *What it does:* The "muscle." It actually moves the bits and bytes from port 1 to port 5 based on the Control Plane's instructions.
+
+---
+
+### ⚠️ The "Difficult Factor": VLAN Hopping
+* **The Confusion:** Is a VLAN as secure as an Air Gap?
+* **The Reality:** **No.** Since a VLAN is software-based, a clever attacker can sometimes "hop" from one VLAN to another if the switch is misconfigured. In an Air Gap, there is no physical path to hop onto.
+
+---
+
+

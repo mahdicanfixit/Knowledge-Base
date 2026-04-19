@@ -2026,3 +2026,119 @@ Sometimes, the first time you know you've been hacked is when it becomes public.
 
 ---
 
+# 🏗️ 2.5 Network Segmentation & Control
+
+### 🧱 1. Segmentation (The "Rooms" in the House)
+
+**Definition:** Dividing a network into smaller, isolated pieces. You can do this physically (separate cables), logically (**VLANs**), or virtually (Virtual Networks in the Cloud).
+
+- **Security:** This is the most important reason. A regular user in the Marketing department should **never** be able to talk directly to the Database server. They should only talk to the Web App.
+    
+- **Compliance:** If you process credit cards (PCI DSS), you put those systems in a "Secure Zone." This way, you only have to do strict audits on that one zone, rather than the whole company.
+    
+- **Performance:** It stops "broadcast storms" from slowing down the entire building.
+    
+
+---
+
+### 🚦 2. ACLs (Access Control Lists)
+
+**Definition:** A set of rules that act as a gatekeeper.
+
+- **The Rule Set:** Rules are usually based on:
+    
+    - **Source/Destination IP** (Where is it coming from/going?)
+        
+    - **Port Number** (Is it Web traffic/80 or SSH/22?)
+        
+    - **Application** (Is it YouTube or a SQL query?)
+        
+- **The Danger:** If you write an ACL rule that says "Deny All" and apply it to your own IP, you will **lock yourself out**. Always have a "backdoor" or local console access when testing new ACLs.
+    
+
+---
+
+### 🛑 3. Application Control (Allow vs. Deny)
+
+You can't trust every `.exe` or script. You must control what is allowed to "run" on the CPU.
+
+- **Deny List (Block List):** Everything is allowed _except_ the bad stuff (like known viruses). This is how traditional Antivirus works.
+    
+- **Allow List (Safe List):** **Nothing** is allowed to run unless it is explicitly on the list. This is much more secure but very hard to manage in a large company.
+    
+- **Identification Methods:**
+    
+    - **File Hash:** The most secure. If the app changes by even one bit, the hash changes and it won't run.
+        
+    - **Certificate:** Only run apps digitally signed by "Microsoft" or "Apple."
+        
+    - **Path:** Only run apps located in `C:\Program Files`. (Weak, because attackers can put malware there if they have admin rights).
+
+---
+
+# 🛡️ 2.5 Host Hardening & Data Security
+
+### 🔄 1. Patch Management
+
+**The Rule:** If you don't patch it, you can't protect it.
+
+- **Frequency:** Monthly (Patch Tuesday) is the standard, but **Out-of-Band (OOB)** updates are for critical Zero-Days that can't wait.
+    
+- **The "Auto" Trap:** Auto-updates are great for home users, but in an organization, you test patches first to make sure they don't break your apps.
+    
+
+---
+
+### 🔐 2. Encryption (At Rest)
+
+You protect data by making it unreadable without the key.
+
+- **FDE (Full Disk Encryption):** Encrypts everything—the OS, the registry, and your files. If the laptop is stolen, the data is safe. (e.g., **BitLocker**, **FileVault**).
+    
+- **File-Level Encryption:** Encrypts specific sensitive files or folders (e.g., Windows **EFS**).
+    
+- **Application Encryption:** The database or app itself handles the encryption (e.g., a healthcare app encrypting patient records before saving them).
+    
+
+---
+
+### 🕵️‍♂️ 3. Sensors & Collectors
+
+To defend a network, you need to "see" it.
+
+- **Sensors:** The "Eyes." These are the logs from firewalls, IPS, and authentication servers.
+    
+- **Collectors:** The "Brain." This is usually a **SIEM (Security Information and Event Management)**. It collects all the sensor data into one place for analysis.
+    
+
+---
+
+### ⚖️ 4. Least Privilege & NAC
+
+- **Least Privilege:** Users should only have the permissions they _absolutely_ need. **Never** let a standard user run as an Administrator. This stops malware like **WannaCry** from spreading.
+    
+- **Posture Assessment (NAC):** Before a device is allowed on the network, the NAC checks:
+    
+    1. Is the OS patched?
+        
+    2. Is the Antivirus running?
+        
+    3. Is the Firewall on?
+        
+- **Quarantine:** If the device fails the "Posture Assessment," it is sent to a **Guest VLAN** where it can only access the internet to download updates—not your internal servers.
+    
+
+---
+
+### 🗑️ 5. Data Disposal
+
+Data doesn't die when you delete it.
+
+- **Physical Destruction:** Shredding hard drives or using a degausser (magnet).
+    
+- **Recycling:** Securely wiping (zeroing out) the drive before reuse.
+    
+- **The Risk:** "Dumpster Diving." Attackers will literally search your trash for old USBs or printed passwords.
+
+---
+

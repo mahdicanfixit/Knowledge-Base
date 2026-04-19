@@ -1,20 +1,43 @@
-physical logical or virtual segmentation devices VLANs virtual networks
+incredibly important system  stability security fixes
 
-performance high bandwidth applications
+monthly updates important
 
-security users shoudl not talk directly to database servers the only application in the core are SQL and SSH
+third part updates
 
-compliance mandated segmentation PCI compliance makes change control much easier
+auto update not always the best option
 
-allow or disallow traffic groupings of categories source IP destination IP port number, time of day application etc
+emergency out of band updates
 
-restrict access to network devices limit by ip address or other identifier prevent regular user non admin access
+prevent access to application data files file system encryption
 
-be careful when configuring these you can accidentally lock yourself out
+file level encryption windows EFS
 
-list the permissions bob can read files fred can access the network james can access network 192.168.1.0/24 using tcp ports 80,443,8088
+full disk encryption encrypt everything on the drive bitlocker filevalue etc
 
-many operating systems use ACL to provide access to files
+application data encryption managed by the app stored data is protected
 
-any application can be dangerous vulnerabilities trojan horses malware
+aggregate information dfrom devices built in sensors separate devices integrated into servers switches routers firewalls
+
+sensor intrusion prevention systems firewall logs authentication logs etc
+
+collectors proprietary consoles IPS firewall SIEM consoles
+
+rights and permissioins should be set to the bare minimum you only get exactly whats needed to complete your objective
+
+all user accounts must be limited applications should run with minimal privileges
+
+dont allow users to run with administrative privileges limits the scope of malicious behavior
+
+perform a posture assessment each time a device connects
+
+extensive check OS patch version EDR version status of irewall and EDR aand certr status
+
+systems out fo compliance are quaranited private VLAN with limited access recheck after making corrections
+
+should be a formal policy dont throw your data into the trash someone will find this later
+
+mostly associated with storage devices hard drive ssd usb
+
+many options for physiical devices recycle the device for use destory the device
+
 

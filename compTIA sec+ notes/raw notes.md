@@ -1,1 +1,0 @@
-basically in cloud infrustactuer there is more than one architecture there is IaaS Saas

@@ -2148,7 +2148,7 @@ Here is the breakdown for your architecture vault.
 
 ---
 
-## 🛡️ 3.14 Endpoint Security & Hardening
+# 🛡️ 2.5 Endpoint Security & Hardening
 
 ### 🦾 1. EDR: The Modern Bodyguard
 

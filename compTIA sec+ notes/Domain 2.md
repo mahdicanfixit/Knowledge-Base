@@ -1921,3 +1921,55 @@ Since attackers use any opportunity, you need a multi-layered response:
 ![](../../Pasted%20image%2020260419211022.png)
 
 ---
+# 🔑 2.4 Password Storage & Hashing Attacks
+
+### 📄 1. The Plaintext Sin
+
+**The Concept:** Storing a password as readable text (`password123`) in a database.
+
+- **The Risk:** If an attacker gets access to the database (via SQL Injection, which you studied!), they have **every user’s password** instantly.
+    
+- **The Solution:** **Hashing.** You should only store the _fingerprint_ (hash) of the password, never the password itself. When a user logs in, the system hashes their input and compares it to the stored hash.
+    
+
+---
+
+### 🛡️ 2. The Power of the Hash
+
+**Definition:** A "one-way" cryptographic function that turns any input into a fixed-length string.
+
+- **One-Way Trip:** You can turn `Mahdi123` into a hash, but you cannot turn the hash back into `Mahdi123`.
+    
+- **Fixed Length:** Whether the password is 5 characters or 50, the hash is always the same size (e.g., 256 bits).
+    
+
+---
+
+### 🔨 3. Brute Force Attacks: Online vs. Offline
+
+Attackers have two main ways to "guess" a password:
+
+|**Type**|**Online Brute Force**|**Offline Brute Force**|
+|---|---|---|
+|**Method**|Trying to log in through the website's login page over and over.|Stealing the database of hashes and running billions of guesses per second on a local supercomputer.|
+|**Speed**|**Slow.** Limited by internet speed and the server's response.|**Extremely Fast.** Limited only by the attacker's hardware (GPU power).|
+|**Detection**|**Easy.** The server sees 1,000 failed logins and locks the account.|**Impossible.** Since the attack is happening on the attacker's own computer, the victim has no idea it's happening.|
+|**Defense**|Account Lockouts & Captchas.|**Salting** & Complex Hashing (Argon2, bcrypt).|
+
+---
+
+### 🏃 4. Password Spraying
+
+**The Concept:** A "stealth" version of the online brute force attack.
+
+- **The Method:** Instead of trying 1,000 passwords on _one_ account (which causes a lockout), the attacker tries the **top 3 most common passwords** (like `123456`, `Password`, `Welcome1`) across **thousands** of different accounts.
+    
+- **The Goal:** To avoid detection and lockouts while hoping that at least _one_ person in the company used a weak password.
+
+![](../../Pasted%20image%2020260419211356.png)
+
+![](../../Pasted%20image%2020260419211424.png)
+
+
+---
+

@@ -1,21 +1,42 @@
-some applications store passwords in the clear no encryption you can read the stored password this is rare thankfully 
+an event that indicates an intrusion confidence is high hes calling from inside the house
 
-do not store passwords as plaintext anyone with access to the password file or database has every credential 
+indicators unusual amount of network activity change to file hash values irregular international traffic changes to DNS data uncommon login patterns spikes of read requests to certain files
 
-what to do if your application saves passwords as plaintext get a better application
+credentials are not working it wasnt you this time
 
-hashes represent data as a dfixed length string of text a message digest or fingerprint
+excessded login attempts account is automaticcaly locked
 
-will not have a colision hopefully different inputs will not have the same hash
+account was administratively disabled this would be a larger concern 
 
-one way trip impossible to recover the original message from the digest a common way to store passwords
+this may be part of a larger plan attacker locks account calls support line to reset the password
 
-![](../../Pasted%20image%2020260419211356.png)
+its challenging to be two places at one time laws of physics
 
-![](../../Pasted%20image%2020260419211424.png)
+multiple account logins from multiple locations interactive access from a single user you dont have a clone
 
-try to login with an incorrect password eventually youre locked out
+this can be difficult to track down multiple devices and desktops automated processes
 
-there are some common passwords 
+![](../../Pasted%20image%2020260419212233.png)
 
-attack an a
+an attacker wants to stay as long as possible your system has been unlocked
+
+theres probably a security patch available
+
+blocked content auto update connections links to security patches third party  anti malware sites removeal tools
+
+authentication logs can be telling logon and logoff
+
+login from omaha nebraska 
+
+three minutes later someone from australia alarm bells should be ringing
+
+this should be easy to identify log analysis and automation
+
+every attackers action has an equal and opposite reaction watch carefully for signifcant changes file transfers use bandwidth an unusual spike at 3am
+
+firewall logs wshow the outgoing transfer IP addreswsses time frames
+
+often the first real notificaion of an issue the attacker may have been here for months
+
+the servere is down not responding 
+

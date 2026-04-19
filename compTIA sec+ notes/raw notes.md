@@ -1,43 +1,65 @@
-incredibly important system  stability security fixes
+many and varied windows linux ios android et al.
 
-monthly updates important
+updates operating system updates service packs security patches
 
-third part updates
+user accounts minimum password lenths and complexity account limitation
 
-auto update not always the best option
+network access and security limit network access
 
-emergency out of band updates
+mintor and secure anti virus and anti malware
 
-prevent access to application data files file system encryption
+prevent access to application data files full disk encryption encrypt everything on the drive
 
-file level encryption windows EFS
+encrypot all network communication VPN application protection
 
-full disk encryption encrypt everything on the drive bitlocker filevalue etc
+this user access applications and data
 
-application data encryption managed by the app stored data is protected
+stop the attackers inbound attacks outbound attacks
 
-aggregate information dfrom devices built in sensors separate devices integrated into servers switches routers firewalls
+many different platforms mobile deskktop
 
-sensor intrusion prevention systems firewall logs authentication logs etc
+protection is multifaceted defense in depth
 
-collectors proprietary consoles IPS firewall SIEM consoles
+a different method of threat protection scale to meet the increasing number of threats
 
-rights and permissioins should be set to the bare minimum you only get exactly whats needed to complete your objective
+detect a threat signatures arent the only detection tool behavioral analysis machine learning process monitroing lightweight agent on the endpoint
 
-all user accounts must be limited applications should run with minimal privileges
+investigate the threat root cause analysis
 
-dont allow users to run with administrative privileges limits the scope of malicious behavior
+respond to the threat isolate the system, quarantine the threat, roolback to a previous config api driven, no user or technicican intervention required
 
-perform a posture assessment each time a device connects
+software-based birewall personal firewall runs on every endpoint
 
-extensive check OS patch version EDR version status of irewall and EDR aand certr status
+allow or disallow incoming or outgoing application traffic control by applicationwa process view all data
 
-systems out fo compliance are quaranited private VLAN with limited access recheck after making corrections
+identify and block unknown processes stop makware before it can start
 
-should be a formal policy dont throw your data into the trash someone will find this later
+manage centrally
 
-mostly associated with storage devices hard drive ssd usb
+host based intrusion prevention system HIPS recognize and block known attacks secure OS and application configs validate incoming service requests often built into endpoint protection software
 
-many options for physiical devices recycle the device for use destory the device
+hips identification signatures heuristics behaviorla buffer overflows registry updates writing files to the windows folder access to non encrypted data
 
+every open port is a possible entry point close everything except required ports
 
+control  accesswith a firewall NGFW would be ideal
+
+unused or unknown services installed with the OS or from other applications
+
+applications with broad port ranges open port 0 through 65,535
+
+use Nmap or similar port scanner to verify ongoing monitroing is important
+
+every network device has a management interface critical systems other devices
+
+many applications also have management or maintenace interfaces these can contain sensitive data
+
+change default settings passwords
+
+add additional security require additional logon add 3rd party auth
+
+all software contains bugs some of those bugs are security vulnerabilities
+
+every application seems to have a complettely different patching process can be challenging to managae ongoing updates
+
+remove all unused software reduce your risk an easy fix

@@ -2142,3 +2142,55 @@ Data doesn't die when you delete it.
 
 ---
 
+This moves us into the **active defense** phase. You're shifting focus from the network "rooms" to the individual "locks" on every device. In the Security+ exam, the concept of **Defense in Depth** is the golden rule: you don't just rely on one firewall; you layer protections until the attacker gives up.
+
+Here is the breakdown for your architecture vault.
+
+---
+
+## 🛡️ 3.14 Endpoint Security & Hardening
+
+### 🦾 1. EDR: The Modern Bodyguard
+
+**EDR (Endpoint Detection and Response)** is the evolution of traditional Antivirus.
+
+- **Beyond Signatures:** Old AV looked for "fingerprints" of known viruses. EDR uses **Behavioral Analysis** and **Machine Learning**.
+    
+- **The "Wait, what?" Factor:** If "Notepad" suddenly tries to encrypt your hard drive or write to the Windows System folder, EDR doesn't care if it recognizes the virus—it kills the process because that _behavior_ is wrong.
+    
+- **Automated Response:** EDR can automatically **Isolate** a system from the network the moment it detects a threat, preventing the spread of a worm.
+    
+
+---
+
+### 🧱 2. HIPS & Host-Based Firewalls
+
+- **HIPS (Host Intrusion Prevention System):** Think of this as a guard sitting inside the OS. It specifically looks for things like **Buffer Overflows** or unauthorized **Registry Updates**.
+    
+- **Host-Based Firewall:** Software (like Windows Firewall or `iptables`/`ufw` in Linux) that controls traffic at the device level.
+    
+    - **Application-Aware:** It can say "Chrome is allowed to talk to the internet, but `malware.exe` is not."
+        
+
+---
+
+### 🚪 3. Service & Port Hardening
+
+Every open port is an open window. If you aren't using it, shut it.
+
+- **The "Nuke" Rule:** If a software package opens ports `0-65,535`, it is a security nightmare.
+    
+- **Nmap:** Use this to scan your own systems. If you see a port open that you don't recognize (like Port 21 for FTP), disable the service immediately.
+    
+- **Unused Software:** Every app you install is a potential exploit (like the British Airways XSS attack). If you don't use the app, **Uninstall it.** This reduces your "Attack Surface."
+    
+
+---
+
+### ⚙️ 4. Management Interface Security
+
+The most sensitive part of a device is its "Control Panel" (Web GUI, SSH, etc.).
+
+- **Change Defaults:** `admin/admin` or `admin/password` is an open invitation for a **Password Spraying** attack.
+    
+- **MFA for Admins:** Even if it's an internal management page, require a second factor.

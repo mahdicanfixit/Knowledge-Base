@@ -78,4 +78,81 @@ Think of a network switch like an airport:
 
 ---
 
+# Domain 3.0: Security Architecture
+## 3.1 Infrastructure Selection & Availability Strategies
+
+> [!ABSTRACT]
+> Choosing between Physical (On-Prem) and Cloud is a balance of **Capital Expenditure (CapEx)** vs. **Operational Expenditure (OpEx)** and **Control** vs. **Scalability**.
+
+---
+
+### 🏗️ On-Premise vs. Cloud
+| Feature | On-Premise (Physical) | Cloud-Based |
+| :--- | :--- | :--- |
+| **Control** | Full control over hardware/OS. | Limited to what the provider allows. |
+| **Cost** | High (Cooling, Electricity, Staff, Hardware). | Lower entry cost (Pay-as-you-go). |
+| **Risk** | Physical disasters (fire/flood) at your site. | Shared fate; if the provider is breached, you might be too. |
+| **Scalability** | Slow (must buy/install new servers). | Instant (click a button to add RAM/Storage). |
+
+---
+
+### 🏎️ Specialized Systems: RTOS
+* **RTOS (Real-Time Operating System):** * **Purpose:** Tasks must be completed within a strict time constraint.
+    * **Example:** Industrial robots, automobile braking systems, medical devices.
+    * **Key Logic:** It doesn't matter how "fast" it is; it matters that it is **predictable (Deterministic).**
+
+---
+
+### 🛡️ High Availability (HA) & Redundancy
+* **The Goal:** Zero downtime.
+* **Active/Passive:** One device (Firewall A) does all the work. If it dies, the "Passive" one (Firewall B) wakes up and takes over.
+* **Active/Active:** Both devices work at the same time, sharing the load. If one dies, the other just takes on the full 100%.
+* **Failover:** The automatic process of moving to the "next best thing" when a failure is detected.
+
+---
+
+### ⚠️ The "Difficult Factor": The "Single Point of Failure"
+* **The Concept:** If you have two firewalls but they both plug into the **same** power outlet, that outlet is your "Single Point of Failure." 
+* **The Pro Move:** True High Availability means redundant power, redundant ISP links, and redundant hardware.
+
+---
+
+# Domain 3.0: Security Architecture
+## 3.1 IoT, Embedded Systems, and Virtualization
+
+> [!ABSTRACT]
+> Not every "computer" has a screen and a keyboard. Security must extend to specialized hardware and virtual environments.
+
+---
+
+### 🏭 SCADA / ICS (Industrial Control Systems)
+* **What it is:** The tech that runs power plants, water treatment, and factories.
+* **The "Difficult Factor":** These systems are often **OLD** (20+ years) and cannot be rebooted or patched without stopping a city's power.
+* **Security Strategy:** **Isolation.** You never connect a SCADA system directly to the internet. You "Air Gap" it or use extreme segmentation.
+
+---
+
+### 🏠 IoT & Embedded Systems
+* **IoT (Internet of Things):** Smart lights, cameras, thermostats.
+    * *The Risk:* They usually have weak security and "hardcoded" passwords. They are perfect for botnets.
+* **Embedded Systems:** A computer designed for **one specific task** (e.g., a printer controller or a smart fridge).
+* **The Pro Move:** Always put IoT devices on their own **Guest VLAN**. Don't let your smart lightbulb talk to your Database server.
+
+---
+
+### 💻 Virtualization (Hypervisors)
+You already know this from running Ubuntu VMs, but here is the Exam Logic:
+
+* **Type I (Bare Metal):** The hypervisor is the OS. It runs directly on the hardware. (Faster, more secure). *Examples: VMware ESXi, Proxmox.*
+* **Type II (Hosted):** The hypervisor runs as an app on top of Windows/macOS. *Example: VirtualBox.*
+* **Containerization (Docker):** Instead of virtualizing the whole hardware, you only virtualize the **App**. 
+    * *Benefit:* Much faster and uses less RAM than a full VM.
+
+---
+
+### ⚠️ The "Difficult Factor": VM Escape
+* **The Concept:** A "VM Escape" is a nightmare scenario where an attacker hacks a Virtual Machine and then "jumps" out of it to take control of the physical host server. 
+* **The Fix:** Keep the Hypervisor patched and use **Sandboxing**.
+
+---
 

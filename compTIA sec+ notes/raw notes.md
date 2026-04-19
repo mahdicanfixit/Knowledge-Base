@@ -1,1 +1,20 @@
-okay for this one IT professionals would tell u either pick a cloud service servers or u make them if u picked physical ones u would hire IT people who know about these stuff and are good at it. but it would cost alot for hiring them, cooling systems, servers and etc. and the spot of the server can be tricky because if anything happened in the place it can affect ur servers. but the pros is that u control what u wanna use and the data inside of it. for cloud based servers they are managed by the provider and costs less because thats their service and profit. but the risk of getting hacked or website going down is there, and u would also need to ask them for upgrading if it doesnt suit ur needs, and then u have Real time OS w
+system uptime we want everything is available for the right people and need it always up but something will happen and it wont be available
+
+if that happens how do we recover it?
+
+we need to know how it happened. and troubleshoot
+
+MTTR mean time to repair
+
+how much money is required 
+
+how much money do we need to put to install certain things. and how much the annual costs would be
+
+ and replacment costs and tax implications and operating costs
+
+request information we need a quick response
+
+and we are sensitive for delays
+
+speed is key
+

@@ -156,3 +156,44 @@ You already know this from running Ubuntu VMs, but here is the Exam Logic:
 
 ---
 
+# Domain 3.0: Security Architecture
+## 3.1 Availability, Resilience, and Resource Management
+
+> [!ABSTRACT]
+> Security isn't just about blocking hackers; it's about keeping the business running ("Uptime") and making sure recovery is fast and cost-effective.
+
+---
+
+### 📉 Measuring Recovery (The Metrics)
+* **MTTR (Mean Time to Repair):** How long does it actually take to fix a device once it breaks?
+* **MTBF (Mean Time Between Failures):** How reliable is the hardware? 
+* **The Goal:** Maximize MTBF (reliability) and minimize MTTR (repair speed).
+
+---
+
+### 💰 The Economics of Security
+* **TCO (Total Cost of Ownership):** It’s not just the price of the server. It includes power, cooling, taxes, and the salary of the IT person (like you!) managing it.
+* **Cybersecurity Insurance:** A financial "fail-safe." It won't stop the hack, but it helps pay for the recovery and legal fees after a ransomware attack.
+
+---
+
+### 🎈 Scalability vs. Elasticity (Cloud Logic)
+* **Scalability:** The *ability* to handle growth (adding more "horsepower" to a server).
+* **Elasticity:** The *automation* of that growth. 
+	* *Example:* Your web server automatically adds more RAM at 8 PM when traffic is high and shrinks back at 3 AM to save money. This prevents paying for "empty space."
+
+---
+
+### 🛠️ Maintenance & Patching
+* **Corporate Images:** Instead of a slow 1-hour OS install, we use a "Golden Image." We "flash" the drive with a pre-configured, secure OS in 10 minutes.
+* **The Patch Gap:** If a system (like an AC unit or an old time clock) can't be patched, it's a **Legacy System**. 
+	* *Security Move:* Put these on a separate, isolated VLAN so they can't infect the rest of the network.
+
+---
+
+### ⚡ Power & Hardware
+* **UPS (Uninterruptible Power Supply):** A battery backup that keeps the server alive for a few minutes during a blackout—long enough to shut it down safely or switch to a generator.
+* **GPU Offloading:** Using the GPU for heavy math (like encryption or AI) to keep the CPU free for general tasks.
+
+---
+

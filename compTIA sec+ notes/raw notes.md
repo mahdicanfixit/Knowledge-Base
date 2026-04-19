@@ -1,42 +1,20 @@
-an event that indicates an intrusion confidence is high hes calling from inside the house
+physical logical or virtual segmentation devices VLANs virtual networks
 
-indicators unusual amount of network activity change to file hash values irregular international traffic changes to DNS data uncommon login patterns spikes of read requests to certain files
+performance high bandwidth applications
 
-credentials are not working it wasnt you this time
+security users shoudl not talk directly to database servers the only application in the core are SQL and SSH
 
-excessded login attempts account is automaticcaly locked
+compliance mandated segmentation PCI compliance makes change control much easier
 
-account was administratively disabled this would be a larger concern 
+allow or disallow traffic groupings of categories source IP destination IP port number, time of day application etc
 
-this may be part of a larger plan attacker locks account calls support line to reset the password
+restrict access to network devices limit by ip address or other identifier prevent regular user non admin access
 
-its challenging to be two places at one time laws of physics
+be careful when configuring these you can accidentally lock yourself out
 
-multiple account logins from multiple locations interactive access from a single user you dont have a clone
+list the permissions bob can read files fred can access the network james can access network 192.168.1.0/24 using tcp ports 80,443,8088
 
-this can be difficult to track down multiple devices and desktops automated processes
+many operating systems use ACL to provide access to files
 
-![](../../Pasted%20image%2020260419212233.png)
-
-an attacker wants to stay as long as possible your system has been unlocked
-
-theres probably a security patch available
-
-blocked content auto update connections links to security patches third party  anti malware sites removeal tools
-
-authentication logs can be telling logon and logoff
-
-login from omaha nebraska 
-
-three minutes later someone from australia alarm bells should be ringing
-
-this should be easy to identify log analysis and automation
-
-every attackers action has an equal and opposite reaction watch carefully for signifcant changes file transfers use bandwidth an unusual spike at 3am
-
-firewall logs wshow the outgoing transfer IP addreswsses time frames
-
-often the first real notificaion of an issue the attacker may have been here for months
-
-the servere is down not responding 
+any application can be dangerous vulnerabilities trojan horses malware
 

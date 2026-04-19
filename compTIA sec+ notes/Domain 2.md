@@ -1973,3 +1973,56 @@ Attackers have two main ways to "guess" a password:
 
 ---
 
+# 🕵️‍♂️ 2.4 Indicators of Compromise (IoC)
+
+### 🚩 1. Account & Authentication Anomalies
+
+The most obvious sign of an intruder is a "glitch" in how people log in.
+
+- **The "Impossible Travel" Alert:** If you log in from **Jeddah** and 10 minutes later the same account logs in from **Australia**, it’s a high-confidence indicator of a stolen session or credential.
+    
+- **Locked Accounts:** A sudden spike in "Account Locked" messages usually means an **Online Brute Force** or **Password Spraying** attack is underway.
+    
+- **The Support Desk Trick:** Attackers sometimes purposely lock an account so they can call the helpdesk, pretend to be the user, and "reset" the password to one they control.
+    
+
+---
+
+### 📉 2. System & Network Behavior
+
+An attacker's goal is **Persistence** (staying as long as possible) and **Exfiltration** (taking the data out).
+
+- **The 3 AM Spike:** Why is your database sending 50GB of data to an unknown IP in the middle of the night? That is a classic sign of data exfiltration.
+    
+- **Blocking the "Doctor":** Sophisticated malware will modify your `hosts` file or firewall to block **Windows Update** and **Antivirus** sites. If you can't patch, the attacker stays "safe" inside your system.
+    
+- **File Integrity:** Changes to file hash values (MD5/SHA) on core system files indicate a **Rootkit** or a **Logic Bomb** has been planted.
+    
+
+---
+
+### 📜 3. The Power of Logs (The "Paper Trail")
+
+Logs are your best friend—and the attacker’s worst enemy.
+
+- **Missing Logs:** If you see a gap in the logs (e.g., nothing recorded between 2:00 PM and 4:00 PM), it’s almost certain an attacker deleted them to hide their tracks. **Missing logs are a confession.**
+    
+- **Out-of-Cycle Patches:** If a server patches itself on a random Tuesday when "Patch Tuesday" isn't for two weeks, an attacker might be patching the system _themselves_ to keep other hackers out of "their" server.
+    
+- **Firewall Logs:** These provide the "Who, Where, and When." They show exactly which external IP received your company's private data.
+    
+
+---
+
+### 😱 4. The "Public" Notification
+
+Sometimes, the first time you know you've been hacked is when it becomes public.
+
+- **Data Dumps:** Attackers post a sample of your data on the "Dark Web" or a public forum to prove they have it (common in **Ransomware** negotiations).
+    
+- **Service Downtime:** Sometimes an exploit goes wrong and crashes the server. The "Server is Down" alert might actually be a failed hack attempt.
+
+![](../../Pasted%20image%2020260419212233.png)
+
+---
+

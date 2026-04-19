@@ -2,7 +2,7 @@
 
 ## 🚀 Current studies
 - CompTIA Security+ (SY0-701)
-- **Status:** 🟢 Domain 2.0: Threats, Vulnerabilities, and Mitigations (In Progress)
+- **Status:** 🟢 Domain 3.0: Security Architecture (In Progress)
 
 ---
 

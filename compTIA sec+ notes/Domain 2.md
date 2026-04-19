@@ -1873,3 +1873,51 @@ Since attackers use any opportunity, you need a multi-layered response:
 
 ---
 
+# 🔐 2.4 Cryptographic & Downgrade Attacks
+
+### 🎂 1. The Birthday Attack (Hash Collisions)
+
+**The Concept:** Based on the "Birthday Paradox," which proves that in a surprisingly small group, the odds of a match are high.
+
+- **The Digital Version:** A **Hash Collision** occurs when two different pieces of data produce the exact same hash value.
+    
+- **The Attack:** An attacker generates thousands of versions of a "malicious" document (like a fake contract) until its hash matches a "legitimate" document.
+    
+- **Why it matters:** If I can make a fake file have the same MD5 hash as a real file, I can swap them, and your security tools will think the fake file is the original.
+    
+- **The Victim:** **MD5.** It was the standard for years but is now considered "broken" because collisions are too easy to find.
+    
+
+---
+
+### 📉 2. Downgrade Attacks
+
+**The Concept:** Instead of trying to break strong encryption (which could take a trillion years), the attacker tricks the two systems into using **weak** encryption that is easy to crack.
+
+- **The Logic:** Modern servers support old versions of security for "backward compatibility." The attacker tells the server: _"Hey, I'm an old computer, can we use the weakest security possible?"_
+    
+
+---
+
+### 🧥 3. SSL Stripping (HTTPS Downgrade)
+
+**The Concept:** A specific type of **On-Path Attack** where the attacker sits between the victim and the server.
+
+- **The Method:** 1. The victim asks for `https://bank.com`. 2. The attacker intercepts this and asks the bank for the `https` version on the victim's behalf. 3. The attacker then sends the page back to the victim as **`http`** (unencrypted).
+    
+- **The Result:** The "S" is stripped away. The victim sees the website, but all their passwords and data are now sent in **Plaintext** to the attacker.
+    
+- **The Visual Cue:** The victim might notice the "Padlock" icon is missing in the browser, but many people don't look.
+    
+
+---
+
+### 🛡️ Defensive Strategy
+
+1. **For Birthday Attacks:** Use stronger hashing algorithms like **SHA-256** or **SHA-3**. They produce much longer hashes, making a collision mathematically "impossible" with current technology.
+    
+2. **For SSL Stripping:** Use **HSTS (HTTP Strict Transport Security).** This is a setting on the server that tells the browser: _"Never, ever communicate with me over plain HTTP. If someone tries to strip the S, block the connection."_
+
+![](../../Pasted%20image%2020260419211022.png)
+
+---

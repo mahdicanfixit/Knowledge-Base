@@ -197,3 +197,46 @@ You already know this from running Ubuntu VMs, but here is the Exam Logic:
 
 ---
 
+# Domain 3.0: Security Architecture
+## 3.1 & 3.2 Network Zones and Attack Surface Management
+
+> [!ABSTRACT]
+> Security is about "Layers." We don't just rely on a firewall; we minimize the ways to get in (Attack Surface) and group our assets into "Zones" based on how much we trust them.
+
+---
+
+### 🏰 Security Zones (The Trust Hierarchy)
+We move traffic between zones based on specific rules. 
+
+* **Untrusted Zone:** The Public Internet. Dangerous territory.
+* **Screened Subnet (DMZ):** The "Lobby." This is where your Web Servers live. They talk to the Internet, but they are kept away from your private data.
+* **Trusted Zone:** Your internal private network. This is where employee workstations and internal files live.
+* **The Flow:**
+    * **Untrusted ⮕ Screened:** (Safe) People viewing your website.
+    * **Screened ⮕ Trusted:** (Strictly Monitored) The web server asking the database for info.
+    * **Untrusted ⮕ Trusted:** (Forbidden) Never allow the internet direct access to your private database.
+
+---
+
+### 🛡️ Minimizing the "Attack Surface"
+**The Home Analogy:** A house with 1 door and 2 windows is easier to defend than a house with 10 doors and 50 windows.
+
+* **Hardening:** Closing every "window" (port/service) that isn't needed. If you aren't using Port 21 (FTP), shut it down.
+* **Human Error:** The "Unlocked Door." Training and strict permissions (Least Privilege) prevent people from making mistakes that let attackers in.
+* **Code Vulnerabilities:** Making sure the "locks" (the application code) aren't broken from the factory.
+
+---
+
+### 🔒 Connectivity & Encryption
+When data leaves your "Home" (Network), it needs a bodyguard.
+
+1. **Network Level (The Tunnel):** * **VPN / IPsec:** Encrypts the entire "pipe." Everything inside is hidden. Great for connecting your Jeddah office to a cloud server in Dubai.
+2. **Application Level (The Package):**
+   * **HTTPS / SSH:** Encrypts the specific message. Even if someone sees the packet, they can't read the contents.
+3. **Physical Level:**
+   * **Protected Cabling:** Using metal conduits for ethernet cables so hackers can't physically "tap" the wire to steal data.
+
+![](../../Pasted%20image%2020260420035709.png)
+
+---
+

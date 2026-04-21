@@ -51,3 +51,16 @@ collectors it is proprietary consoles IPS and firwall
 
 SIEM is also a thing u can use many siems includ all the things u need to log
 
+port security is a chalnnage. 
+
+port security is basically using a username and password giving authenticion on wireless networks
+
+EAP esxtensible authentication protcol is a framwork 
+
+many different ways to authenticate based on rfc standards
+
+most EAP integrates with 802.1x it is a wireless protocol
+
+aka IEEE 802.1x port based network access control u dont get access until u authenticate
+
+EAP integrates with 802.1x

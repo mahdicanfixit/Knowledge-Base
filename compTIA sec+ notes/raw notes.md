@@ -31,4 +31,23 @@ load balacing gets a big load and baalnce it
 
 it can also TCP offload protocol overhead
 
-all these se
+all these servers are working and gets a bit from everyone
+
+and load balancer does all the encrypting where a reponse can be encrypted in the load balancer
+
+and it can do caching and prioritization
+
+they also can do content switching application centric balancing 
+
+some servers are active and some are on standby
+
+if one of them fails they would know and send requests from the ones that are online
+
+sensors and collectors are a thing u can control and do informating managment with it
+
+IPS firewall logs authenticatioin logts web server access logs and database logs email etc
+
+collectors it is proprietary consoles IPS and firwall 
+
+SIEM is also a thing u can use many siems includ all the things u need to log
+

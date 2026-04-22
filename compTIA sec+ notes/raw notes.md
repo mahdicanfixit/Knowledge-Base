@@ -132,3 +132,35 @@ no big vpn clients usually remote access communication
 
 authenticate users no requirement for digital ceritifcates or shared passwords
 
+![](../../Pasted%20image%2020260422175645.png)
+
+site to site VPNS are also a thing, where u have firewalls that act like vpn concentrator. sending traffic normally into site instead of adding it inthe devices
+
+SD-wan is software defined networking in a wide area network a wan built for the cloud
+
+the data center used to be in one place the cloud has changed everything
+
+![](../../Pasted%20image%2020260422175838.png)
+
+it would be a challange since they need to go to the data center then the cloud 
+
+![](../../Pasted%20image%2020260422175926.png)
+
+but now they can go straight to the cloud
+
+SASE update secure access for cloud services 
+
+SASE is a next gen vpn
+
+security technologies are in the cloud located close to existing cloud services
+
+![](../../Pasted%20image%2020260422180037.png)
+
+selecting the right choice can be challendging so we use a hybrid
+
+SD wan manage the network connectivity to the cloud 
+
+sase a completel network and securitty solution
+
+---
+

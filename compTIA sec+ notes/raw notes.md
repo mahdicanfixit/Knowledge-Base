@@ -64,3 +64,59 @@ most EAP integrates with 802.1x it is a wireless protocol
 aka IEEE 802.1x port based network access control u dont get access until u authenticate
 
 EAP integrates with 802.1x
+
+---
+
+
+we be using firewalls at home office and in ur OS
+
+controlling the flow of what comes in and out
+
+firewalls control inappropriate content
+
+it protects against attackers
+
+firewall has 7 layers OSI layer 4 vs OSI layer 7 it uses vpn and etc
+
+all in one security appliance UTM unified threat management.
+
+URL filter and content inspection picking what website u want to filter
+
+malware inspection watching if malware is getting in
+
+spam filter where emails be spamming 
+
+router and switch too and IDS/IPS
+
+bandwidth shaper too
+
+it can also use as a VPN
+
+they mostly oprate at layer 4 
+
+NGFW next gen firewall the OSI application layer all dayta is every packet
+
+they can be called application layer gateway
+
+requires some advanced decodes every packet gonna be analyzed and make security decisions 
+
+NGFW u can allow or restrict people using youtube, can view twitter but tweet. and etc
+
+it can be used as IPS too identify the application and see the vulnerability signature to the traffic
+
+URL filters like gambling sites, or yahoo.com
+
+WAF is not like a normal firewall it applies rules to HTTP/HTTPS converstations
+
+SQL injection add your own commands to an application sql query
+
+its a major focus of PCI payment 
+
+---
+
+VPN is a encrypted data traversing a public network
+
+concentrator encrypt and decrypt access device 
+
+used with client software sometimes built in the OS
+

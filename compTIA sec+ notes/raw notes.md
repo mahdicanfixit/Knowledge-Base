@@ -220,4 +220,51 @@ target corp. breach nov 2013 they got 110million credit cards
 
 data at rest and data in transit both encrypted so they went for the data in use
 
-data sovereignty is data 
+data sovereignty is data in the country that depends on the laws of legal monitoring court orders etc.
+
+like for example laws in the EU is data cllected on EU citizens must be stored in the EU
+
+where is ur data stored 
+
+geolocation loctaion details tracks the person
+
+it can be many ways to determine location 802.11 or GPS
+
+can be used to manage data access like netflix stopping u from watching something bc its not allowed in the country
+
+limit admin tasks to see if they inside or outside the building
+
+---
+
+network location identify based on IP subnet 
+
+geolocation determine a user location GPS is very accurate to see where a person is gonna be
+
+802.11 wireless less accurate since its gonna see all the wireless datas around
+
+ip address not very accurate 
+
+geofencing automaticaslly allow or restrict access, when a person is outside they dont have access to the data or app unless your near the office
+
+the primary job task is protecting the data otherwise the org gonna be out of business
+
+weather its on storage drive, network, or CPU they all need to be protected
+
+protecting the data encryption security policies
+
+data permissions too asking those who will authorizae 
+
+encryption information into unreadable data from plaintext to cipertext
+
+the encrypted data is drastically different than the plaintext
+
+hashing is like a fingerprint, to see if the message is the same. , we cant recreate the data since hashing is random
+
+we store it mostly with passwords/confidentiality
+
+verifying the download files comparing the app hashing numbers/integrity
+
+can be a digital signature too, authentication or non repudiation and integrity
+
+hopefully it wont be a collision since some hashing algormith did have collision which make the same 
+

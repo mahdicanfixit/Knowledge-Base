@@ -266,5 +266,35 @@ verifying the download files comparing the app hashing numbers/integrity
 
 can be a digital signature too, authentication or non repudiation and integrity
 
-hopefully it wont be a collision since some hashing algormith did have collision which make the same 
+hopefully it wont be a collision since some hashing algormith did have collision which make the same hash erven tho two different words
+
+obfuscate make something normally understandable but very difficult to understand
+
+turn a readble code into nonsense
+
+helps prevent the search for security holes make it difficult to figure out whats happening
+
+data masking is a type of obfuscation hide some of the original data which protects ur PII and sensitive data
+
+![](../../Pasted%20image%2020260422182450.png)
+
+data couyld be in storage but control based on permissions
+
+tokenization replace sensitive data with a non sensitive plaaceholder SSN 266-12-1112 is now 691-61-8539. its like a timer where it is temp that can be used one time and wont be able to replay the number
+
+u wont have to worry about encryption or hashing its only a timed tokenization
+
+![](../../Pasted%20image%2020260422182721.png)
+
+segmentation many orgs use a single data source one large database thats why when an attacker gets inside these large databases the losses can be large too
+
+separate the data basically making many databases so that it would be hard for the attacker
+
+if there is sensitive data it should have even stronger security
+
+permission restrictions control access to an account seeing the policies are best for an org
+
+authentication process password policies and other considerations
+
+
 

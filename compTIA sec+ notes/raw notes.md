@@ -120,3 +120,15 @@ concentrator encrypt and decrypt access device
 
 used with client software sometimes built in the OS
 
+keep data private across the public network encryption is the reason we keeping it private
+
+![](../../Pasted%20image%2020260422175303.png)
+
+we encrypt the data we wanna send and add new headers 
+
+common protocols are SSL/TLS tcp/443 firewalls have no issues in these protocols
+
+no big vpn clients usually remote access communication
+
+authenticate users no requirement for digital ceritifcates or shared passwords
+

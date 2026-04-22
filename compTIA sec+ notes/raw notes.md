@@ -164,3 +164,21 @@ sase a completel network and securitty solution
 
 ---
 
+regulated managed by a third party government laws and statutes
+
+trade secret an organization have a secret formulas have something unique
+
+intellectual property 
+
+legal information court records documents PII and other sensitive details
+
+financial information internal company financial details customer financials
+
+human readable some data types are clear and obvious
+
+but some are non readbable enccoded data barcodes and images
+
+some formats are a hybrid CSV XML etc
+
+not all data has the same categorization license tag numbers vs health records
+

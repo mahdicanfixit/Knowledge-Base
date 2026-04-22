@@ -182,3 +182,42 @@ some formats are a hybrid CSV XML etc
 
 not all data has the same categorization license tag numbers vs health records
 
+different levels require different security handling additiuonaal permissions and etc
+
+proprietary  data that is the property of an organization
+
+PII is data that has name birth mother maidenname etcv
+
+PHI is health information
+
+intellectual property PII PHI are sensitive 
+
+confidential very sensitive 
+
+public/unclassified 
+
+private/classified sometimes require an NDA
+
+data at rest is data resting make sure whole fisk encryption 
+
+and apply controls
+
+data in transit is the data in motion 
+
+encrypting the data is also needed here since when its in transit u dont want an attacker to attack it 
+
+nertwork based protection can be firewall, IPS
+
+if u want extra security u can use TLS and IPsec
+
+data is use is data that is being used, it is actively processing in memory
+
+data is always decrypted otherwise we wont do anything with it
+
+attackers can pick the decrypted information out of RAM
+
+target corp. breach nov 2013 they got 110million credit cards
+
+data at rest and data in transit both encrypted so they went for the data in use
+
+data sovereignty is data 

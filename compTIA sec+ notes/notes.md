@@ -311,6 +311,72 @@ easily increase capacity and availability
 
 load balancing is also a thing where it balances the load lets say a big GB file it would take from the servers if one fails the others will still be there
 
-recovery site is prepped there will always be a backup 
+recovery site is prepped there will always be a backup just incase
+
+once a disaster is called business process can go to a whole alternate processing site
+
+problem can take hours weeks or longer
+
+once its over u can go to the primary location
+
+Hot site is exact same hardware and replica
+
+all the apps and software is updated and everything
+
+if we needed to move them we will find the same thing
+
+cold site is no hardware no data and no people basically empty place
+
+warm site somewhere between cold and hot u just need additional hardware and data and some gonna be there
+
+geographic dispersion basically if something happened in ur location u gonna find a way far place lets say smth happened in ur area. u can keep it away to different state
+
+can be challenging since u transporting equmit, employees and etc
+
+every OS contain security issues 
+
+use different platforms for different purposes spread the risk around those OS 
+
+multi cloud systems can always be used amazon web service azure google cloud etc
+
+can have data geographically dispersed 
+
+COOP not most of things go according to plan
+
+when tech is not avaliable there gonna be some physical things
+
+manual transaction paper receipts phone calls for transction approvals etc way before a problem happens
+
+---
+
+we need to match demand because if we dont we gonna have too much demand which slowdown application and have outages
+
+too much supply that would mean ur paying too much 
+
+balancing is key here
+
+people some services require human intervention like call center support technology services etc
+
+too few employees u gonna recruit new staff and time comsuning to add more staff
+
+too many employees u gonna have a downsize and cost
+
+u should pick technology that can scale
+
+web services load across multiple web services so that it would be at full capticy in one 
+
+cloud services on demand, and unlimited resources if u pay more
+
+we need a framwork application servers network services etc cpu network storage etc
+
+physical devices purchasing configure and install
+
+cloud based dveices easier to deploy useful for unexpected capacity changes
+
+---
+
+test yourselves before an actual event doing scheduled update sessions
+
+
 
 

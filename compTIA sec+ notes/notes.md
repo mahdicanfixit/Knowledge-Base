@@ -297,6 +297,20 @@ permission restrictions control access to an account seeing the policies are bes
 authentication process password policies and other considerations
 
 ---
+high availability may need to be powered on manually so if one fails u can bring another componet to replace it
 
+we can provide HA which is high availability always on and always there
+
+having them always on tho they will be additional costs
+
+combine two or more as one big server
+
+easily increase capacity and availability 
+
+![](../../Pasted%20image%2020260424033356.png)
+
+load balancing is also a thing where it balances the load lets say a big GB file it would take from the servers if one fails the others will still be there
+
+recovery site is prepped there will always be a backup 
 
 

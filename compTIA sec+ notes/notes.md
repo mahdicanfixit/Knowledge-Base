@@ -427,4 +427,48 @@ may have multiple backup sets daily weekly or monthly
 
 it requires planning because depending on the things ur backing up 
 
-a history of data is on backup media if the backup is offsite 
+a history of data is on backup media
+
+physical backups can be easy for an attacker
+
+but protect the backup data with encrypting the files and always needed to prevent from eavesdropping
+
+snapshots are popular on virtual machines
+
+taking a snapshot an instant backup of an entire system 
+
+taking a snapshot after 24 hours to have daily backups contains only the changes 
+
+take a snapshot every day forfast recovery
+
+![](../../Pasted%20image%2020260424035918.png)
+
+its also important to test the backups just incase bc if u run into a problem and the backup isnt there that would be also a rpoblem
+
+once u confirm the restoration perform a periodic audits 
+
+replication almost real time backup keeping data synchronized in multiple locations
+
+a replicated data will not always be used unless a disater happens. 
+
+data is recoverable 
+
+journaling once ur power goes out while writing. it can be lost or corrupted. and if it is u can restore from a backup. 
+
+to avoid that u can make a journal entry. once u write in that journal still gonna have that data 
+
+after the data is in the storage, and update ur journal
+
+---
+
+power is the foundation of everything technology considered its imporatnt to have plans for outages
+
+we dont have our power but there is ways to mitiagate power issues
+
+u can use a UPS uninterruptible power supply short term backup power 
+
+there is ways of UPS there is offline standby UPS or oline interactive UPS or online double conversion UPS
+
+they have un
+
+if we have an outage 

@@ -9,6 +9,8 @@ fail closed is a system and data stop working
 
 ![](../../Pasted%20image%2020260422000317.png)
 
+--- 
+
 if ur in a network its easy to manage the devices but if ur outside u can do a jump server it should be secure to not compromise the jump server since it has connections with the inside
 
 applications may need to know how to use the proxy explicit and there is also a transparent proxies that are invisible
@@ -22,6 +24,9 @@ there is a internal proxy aka forward proxy ![](../../Pasted%20image%20202604220
 reverse proxy  its the proxy from the internal network that manages the response ![](../../Pasted%20image%2020260422000904.png)
 
 open proxy is a third party uncontrolled proxy which is security concerning that third party we have no idea from
+
+---
+
 
 load balacing gets a big load and baalnce it 
 
@@ -469,6 +474,8 @@ u can use a UPS uninterruptible power supply short term backup power
 
 there is ways of UPS there is offline standby UPS or oline interactive UPS or online double conversion UPS
 
-they have un
+they have unlimited capacity they can send singals in the shutdown gracefully
 
-if we have an outage 
+long term power backup can be used by generators. some can generate a whole building 
+
+few minutes to get the generator up to speed use the UPS while the generator is starting because its starting up and gonna need some time

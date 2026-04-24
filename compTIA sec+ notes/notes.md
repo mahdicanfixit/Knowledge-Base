@@ -479,3 +479,7 @@ they have unlimited capacity they can send singals in the shutdown gracefully
 long term power backup can be used by generators. some can generate a whole building 
 
 few minutes to get the generator up to speed use the UPS while the generator is starting because its starting up and gonna need some time
+
+---
+
+the security applications environment should be  well defined must follow all 

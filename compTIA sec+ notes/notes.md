@@ -389,6 +389,42 @@ get key players together for a tabletop exercise talk through a simulated disast
 
 a failure is often inevitable its always when not a if thingy
 
-we may be able to keep running them 
+we may be able to keep running them plan for the worst
 
+if one stops working fail over to the operational unit to keep avability always on
 
+![](../../Pasted%20image%2020260424034826.png)
+
+u can also test security with phishing attack password requests or data breaches
+
+tell ur workers to not click links to avoid phishing then u going phising u make a phishing email attack, and see who bites,
+
+test ineternal security did the phishing get past the filer and test the users
+
+split a process through multiple CPUs 
+
+instead of one big cpu we can use split processes
+
+spreading the load among them
+
+---
+
+backup is really important but it depends what is the total size of data 
+
+type of backups backup media storage location backup and recovery day of the week, etc
+
+on site backups is basically same location as u, and its less expensive because u own those storage backups instead of charging an offsite to handle the data. 
+
+off site backups are transfering data over the internet
+
+data is available after a disaster and restoration can be performed from anywhere too since its in the internet
+
+most organizations use both 
+
+how  often to backup tho? it can be also different betwen systems some dont change much
+
+may have multiple backup sets daily weekly or monthly
+
+it requires planning because depending on the things ur backing up 
+
+a history of data is on backup media if the backup is offsite 

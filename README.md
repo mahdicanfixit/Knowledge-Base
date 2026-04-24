@@ -11,7 +11,7 @@
 ### 🛡️ CompTIA Security+ (SY0-701)
 - [x] Domain 1.0: General Security Concepts
 - [x] Domain 2.0: Threats, Vulnerabilities, and Mitigations
-- [ ] Domain 3.0: Security Architecture
+- [x] Domain 3.0: Security Architecture
 - [ ] Domain 4.0: Security Operations
 - [ ] Domain 5.0: Security Program Management and Oversight
 

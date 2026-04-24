@@ -1,4 +1,3 @@
-
 ##  Cloud Infrastructure & Responsibility
 
 > [!ABSTRACT]

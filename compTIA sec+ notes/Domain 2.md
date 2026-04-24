@@ -1,4 +1,3 @@
-
 # 🛡️ Threat Actor Profiles (Domain 2.0)
 
 > [!ABSTRACT] Definition An entity responsible for an event that impacts the safety of another entity. Also known as a **Malicious Actor**.

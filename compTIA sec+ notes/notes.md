@@ -377,6 +377,18 @@ cloud based dveices easier to deploy useful for unexpected capacity changes
 
 test yourselves before an actual event doing scheduled update sessions
 
+use a proper rules of engagement dont touch the prodcuction systems
 
+limited time to run the event and once its done we would document and discuss about it
+
+perofmring a full scale disaster drill can be costly and takes time
+
+tabletop exercise is u dont physically have to go through a disaster or drill 
+
+get key players together for a tabletop exercise talk through a simulated disaster
+
+a failure is often inevitable its always when not a if thingy
+
+we may be able to keep running them 
 
 

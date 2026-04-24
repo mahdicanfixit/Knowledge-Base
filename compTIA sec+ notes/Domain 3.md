@@ -1,5 +1,5 @@
-# Domain 3.0: Security Architecture
-## 3.1 Cloud Infrastructure & Responsibility
+
+##  Cloud Infrastructure & Responsibility
 
 > [!ABSTRACT]
 > Moving to the cloud doesn't remove security responsibility; it just shifts it. The "Shared Responsibility Model" defines where the provider's job ends and the customer's job begins.
@@ -39,8 +39,7 @@
 
 ---
 
-# Domain 3.0: Security Architecture
-## 3.1 Physical vs. Logical Segmentation & Control Planes
+##  Physical vs. Logical Segmentation & Control Planes
 
 > [!ABSTRACT]
 > To prevent lateral movement, we must separate users and data. We can do this physically (separate hardware) or logically (virtual separation).
@@ -78,8 +77,7 @@ Think of a network switch like an airport:
 
 ---
 
-# Domain 3.0: Security Architecture
-## 3.1 Infrastructure Selection & Availability Strategies
+## Infrastructure Selection & Availability Strategies
 
 > [!ABSTRACT]
 > Choosing between Physical (On-Prem) and Cloud is a balance of **Capital Expenditure (CapEx)** vs. **Operational Expenditure (OpEx)** and **Control** vs. **Scalability**.
@@ -117,8 +115,7 @@ Think of a network switch like an airport:
 
 ---
 
-# Domain 3.0: Security Architecture
-## 3.1 IoT, Embedded Systems, and Virtualization
+##  IoT, Embedded Systems, and Virtualization
 
 > [!ABSTRACT]
 > Not every "computer" has a screen and a keyboard. Security must extend to specialized hardware and virtual environments.
@@ -155,9 +152,7 @@ You already know this from running Ubuntu VMs, but here is the Exam Logic:
 * **The Fix:** Keep the Hypervisor patched and use **Sandboxing**.
 
 ---
-
-# Domain 3.0: Security Architecture
-## 3.1 Availability, Resilience, and Resource Management
+## Availability, Resilience, and Resource Management
 
 > [!ABSTRACT]
 > Security isn't just about blocking hackers; it's about keeping the business running ("Uptime") and making sure recovery is fast and cost-effective.
@@ -197,8 +192,8 @@ You already know this from running Ubuntu VMs, but here is the Exam Logic:
 
 ---
 
-# Domain 3.0: Security Architecture
-## 3.1 & 3.2 Network Zones and Attack Surface Management
+
+## Network Zones and Attack Surface Management
 
 > [!ABSTRACT]
 > Security is about "Layers." We don't just rely on a firewall; we minimize the ways to get in (Attack Surface) and group our assets into "Zones" based on how much we trust them.
@@ -237,6 +232,131 @@ When data leaves your "Home" (Network), it needs a bodyguard.
    * **Protected Cabling:** Using metal conduits for ethernet cables so hackers can't physically "tap" the wire to steal data.
 
 ![](../../Pasted%20image%2020260420035709.png)
+
+---
+
+##  Network Security & System Resilience
+
+Building a secure and available infrastructure requires understanding how systems behave when they encounter threats or hardware failures.
+
+### 🔍 Detection vs. Prevention
+
+While often grouped together, **IDS** and **IPS** serve two distinct roles in traffic monitoring:
+
+- **IDS (Intrusion Detection System):** Acts as a security camera. It monitors traffic and **detects** suspicious activity, sending an alert to the administrator, but it does not stop the traffic itself. 🚨
+    
+- **IPS (Intrusion Prevention System):** Acts as a security guard. It sits in-line with the traffic, detects threats, and actively **prevents** them by dropping the malicious packets before they reach the target. 🚫
+    
+
+---
+
+### 📉 The Reality of Uptime
+
+In a perfect world, we aim for **100% uptime**, but in professional IT, we acknowledge that this is unrealistic. Hardware wears out, software bugs occur, and human error happens.
+
+Instead, we design for **High Availability (HA)** and "The Five Nines" ($99.999\%$ uptime), ensuring that when something inevitably breaks, the system is resilient enough to recover quickly. 🏗️
+
+---
+
+### 🔄 Failure States: Fail Open vs. Fail Closed
+
+When a security device (like a firewall or IPS) or a physical lock fails, it must default to a specific state. The choice depends on whether you prioritize **Availability** or **Security**.
+
+#### **🔓 Fail Open (High Availability Focus)**
+
+- **Definition:** If the system fails, traffic or access remains **unrestricted**.
+    
+- **Scenario:** If a network filter crashes, it allows all data to flow through to prevent a total outage.
+    
+- **Use Case:** Often used in safety-critical systems, such as fire exit doors that unlock automatically during a power failure so people can escape.
+    
+
+#### **🔒 Fail Closed (High Security Focus)**
+
+- **Definition:** If the system fails, all traffic or access is **blocked**.
+    
+- **Scenario:** If a firewall's security module stops working, it cuts off the internet connection entirely to ensure no unfiltered "bad" traffic can enter.
+    
+- **Use Case:** High-security environments where protecting sensitive data is more important than maintaining a constant connection. 🛑
+    
+
+---
+
+### ⚖️ Summary Table
+
+| **Feature**  | **Fail Open**          | **Fail Closed**       |
+| ------------ | ---------------------- | --------------------- |
+| **Priority** | Availability & Safety  | Security & Protection |
+| **Access**   | Data continues to flow | Data is blocked       |
+| **Risk**     | Security breach        | System downtime       |
+![](../../Pasted%20image%2020260422000208.png)
+
+![](../../Pasted%20image%2020260422000317.png)
+
+---
+
+## 🌐 Network Access & Proxy Architectures
+
+Managing a network requires secure pathways for remote access and efficient ways to handle requests through intermediaries (proxies).
+
+### 🪜 Secure Remote Access: The Jump Server
+
+When you are outside a private network, a **Jump Server** (or Jump Box) acts as a secure "stepping stone" to reach internal devices.
+
+- **Security First:** Because the Jump Server has a "foot" in both the outside world and the internal network, it must be extremely hardened. 🛡️
+    
+- **Best Practice:** If a Jump Server is compromised, the entire internal network is at risk. Use **Multi-Factor Authentication (MFA)** and strict ACLs (Access Control Lists) to limit who can "jump" in.
+    
+
+---
+
+### 🔄 Proxy Server Varieties
+
+A proxy acts as a middleman between a client and a server. They can be categorized by how they are deployed and what they handle.
+
+#### **Deployment Styles**
+
+- **Explicit Proxy:** The client application (like a web browser) must be manually configured to know the proxy's IP and port. ⚙️
+    
+- **Transparent Proxy:** These are "invisible" to the user. The network automatically redirects traffic through the proxy without any client-side configuration.
+    
+
+#### **Common Types**
+
+- **Forward Proxy (Internal Proxy):** Used by internal users to reach the internet. It can filter content, cache data to save bandwidth, and hide the internal IP addresses of the users.
+    
+- **Reverse Proxy:** Sits in front of internal web servers. It handles incoming requests from the internet, providing **load balancing**, SSL decryption, and caching. It protects the identity and structure of the internal servers. 🛡️💻
+    
+- **NAT (Network Address Translation):** The most common "proxy-like" service. It allows an entire private network to share a single public IP address.
+    
+- **Application Proxy:** Operates at the Application Layer (Layer 7). It understands specific protocols (like HTTP or FTP) and can inspect the actual data within the packet.
+    
+- **Multipurpose Proxy:** A versatile server capable of handling multiple protocols and tasks (e.g., acting as both a web cache and a firewall).
+    
+
+---
+
+### ⚠️ The Risk of Open Proxies
+
+An **Open Proxy** is a third-party proxy server that is accessible to any internet user.
+
+- **Security Concern:** Since you do not control the third party, they can perform **Man-in-the-Middle (MitM)** attacks, logging your credentials, or injecting malicious code into your traffic. 🕵️‍♂️
+    
+- **Privacy Myth:** While people use them for "anonymity," you are essentially handing all your unencrypted data to a complete stranger. **Avoid these in professional or sensitive environments.**
+    
+
+---
+
+### 📊 Quick Comparison: Forward vs. Reverse
+
+| **Feature**         | **Forward Proxy**             | **Reverse Proxy**         |
+| ------------------- | ----------------------------- | ------------------------- |
+| **Who it protects** | The Client (User)             | The Server                |
+| **Location**        | Internal Network Edge         | In front of Web Servers   |
+| **Main Goal**       | Anonymity / Content Filtering | Load Balancing / Security |
+![](../../Pasted%20image%2020260422000810.png)
+
+![](../../Pasted%20image%2020260422000904.png)
 
 ---
 

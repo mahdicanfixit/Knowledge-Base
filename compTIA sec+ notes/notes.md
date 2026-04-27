@@ -285,7 +285,36 @@ monitor forums to see if the org will pop up or what not
 
 ---
 
+4.3
 
 penetration testing aka pentest simulating an attack and seeing the process
 
-national institute of standards and technology technical gudide to information securiy tewsting and assessment seeing NST TST 
+national institute of standards and technology technical gudide to information securiy tewsting and assessment NST TST 
+
+before any pentesting  we need to know the rules. the scope and reasonsing 
+
+type of testing like on site breach, outside, normal working hours or after 6pm only
+
+the rules like ip address emergency acontacts and how to handle the information and seeing the inscope and out of scope devices and applciations
+
+try breaking into the system gain privilege escalation and be careful to not do a DoS or loss of data 
+
+you might wanna try more than one thing like brute force social engineering database injections buffer overflows
+
+youll be sure if ur vulnerable, then an attacker can get in
+
+the process intial exploitation get into the netyrokr
+
+persistence try getting in the system more than one way, make an account in the system and such
+
+the pivot once u gain access u can try to access other devices. jumping to other systems and such
+
+it takes some time to fix a vulnerability, software changes testing then deploy it etc
+
+bug bounty programs is basically a person finding a bug or a vulnerability and gets a reward for making the bug public
+
+---
+
+4.3 
+
+false positives 

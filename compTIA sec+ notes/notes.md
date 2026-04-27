@@ -158,4 +158,60 @@ input validation what is the expected input
 
 docuemtn all input methods forms fields type
 
-check and correct all input a zip code should be only X characters. fix any data with
+check and correct all input a zip code should be only X characters. fix any data with improper input
+
+the fuzzers will find what you missed dont give them an opening 
+
+secure your cookies they are ifnormation stored on your computer by the browser
+
+tracks personalization and session management, it is a security risk unless someone gets access to them
+
+senstitive information should not be saved in a cookie 
+
+SAST static application security testing they put their code to see any secure risks 
+
+dont rely on automation for those things
+
+still have to verify each finding because false positives can be possible
+
+an application is deployed users run application executable or scripts
+
+has the application been modified can you confirm the application was written by a dev?
+
+the application code can be ditially signed bny the develper
+
+do sandboxing to isolate the threat
+
+commonly used during development 
+
+there is many things that can be sandboxing, VM mobile devices browser iframes windows uac
+
+real time information view blocked attacks SQQL injection attempts patched vulnerabilites 
+
+udit the logs find the information gathering and hidden attacks
+
+---
+
+every org has a purchasing process, start with getting from the user usualkly includes budgeting information and formal approvals
+
+negotiate with suppliers terms and conditions 
+
+once they done they do invoice and payment 
+
+once they have the product they would do central asset tracking system
+
+ownership once u give it to a person its gonna be in their name incase we need it again
+
+classifciation type of asset hardware and software
+
+monitoring the inventory and where it is and where its gonna be, associate a support ticket with a device make and model 
+
+enumeration list all the asset, cpu memory storage keyboard and mouse
+
+u can have an asset tag barcode RFID visible tracking number etc
+
+media sanitization u may need to remove all the data so the data wont be seen by anybody
+
+depending on the use cases, if we giving it to a employee we would do a one way trip and make sure its remove perm
+
+if we want to make sure 100% we can use a drill 

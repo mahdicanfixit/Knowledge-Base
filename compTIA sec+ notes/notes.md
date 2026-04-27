@@ -1,3 +1,4 @@
+4.1
 when using an app we need to see all the security around it
 
 seeing the firewall settings. patch levels, os file verisons etc
@@ -19,7 +20,7 @@ maintain the baselines since new vulnerability will be discovered or a new os is
 test and measure to avoid conflicts
 
 ---
-
+4.1
 no system is secure by default. you need to do that
 
 hardening guides for software or platform
@@ -63,7 +64,7 @@ RTOS too like cars and stuff, isolate the system and prevent access from other a
 IoT devices are weak by default but changing the passwords and updates they gonna be secure. u can also segmentation
 
 ---
-
+4.1
 site surveys. determine existing wireless landscape seeing the access points. and work around the existing frequencies. and also plan for ongoing site surveys too
 
 ![](../../Pasted%20image%2020260427111149.png)
@@ -103,7 +104,7 @@ bluetooth aka PAN connects ur mobile devices tgt like headsets headphones and et
 and do not ocnnect to a unknown device where you dont know where it is
 
 ---
-
+4.1
 an org wireless network can contain confidential information 
 
 and authenticate the users before granting access to those networks
@@ -147,7 +148,7 @@ EAP extensible authentication protocol an authentication framework
 supplicant the client authenticator the device that provides access authentication server validates the client credentials
 
 ---
-
+4.1
 secure coding concepts a balacne between time and quality
 
 always test the quality assurance process
@@ -191,7 +192,7 @@ real time information view blocked attacks SQQL injection attempts patched vulne
 udit the logs find the information gathering and hidden attacks
 
 ---
-
+4.2
 every org has a purchasing process, start with getting from the user usualkly includes budgeting information and formal approvals
 
 negotiate with suppliers terms and conditions 
@@ -214,4 +215,48 @@ media sanitization u may need to remove all the data so the data wont be seen by
 
 depending on the use cases, if we giving it to a employee we would do a one way trip and make sure its remove perm
 
-if we want to make sure 100% we can use a drill 
+if we want to make sure 100% we can use a drill. u can drill holes on the drive to remove it perm electromagnetic 
+
+some orgs have alot of devices but dont have time to destory all of them there is 3rd parties where they can destory all the drives. they should have a cert of destorying
+
+some orgs may need some emails to have and to use which is data retention keeping it just incase
+
+---
+
+4.3
+
+vulnerability scanning scanning if there is any vulnerabilities 
+
+port scan poke around and seeing whats open in a system
+
+identify systems and devices
+
+test from the outsdie and inside dont dismiss insder threats they also a thing
+
+gather as much information as possible 
+
+![](../../Pasted%20image%2020260427114349.png)
+
+you can see the vulnerabilites and checking what can be need to be checked and what not
+
+FUZZING SENDING RANDOM INPUT TO AN APPLICATION looking for something out of the dordinary like crahsing the application server error and etc
+
+1988 project atthe univeristy they made a fuzzing generator 
+
+many diferent fuzzing options platform specifics
+
+CERT carnegie mellon computer emergency response team
+
+package monitoring especially open ource, confirm the package is legitimate and if its a trusted source, checking the intergry of the package
+
+see the safe package in a sandbox and if it is secure, then u can put it in ur enviorment
+
+---
+
+4.3 
+
+always research the threats and the treat actors
+
+see how the hackers tool used and etc 
+
+make decisions based on this itelligence invest the best p

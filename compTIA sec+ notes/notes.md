@@ -317,4 +317,14 @@ bug bounty programs is basically a person finding a bug or a vulnerability and g
 
 4.3 
 
-false positives 
+false positives are basically threats that are false. its differnet than a low severity vulnerability its real but may not be that high priority
+
+false negatives is basically the opposite of false positives. a threat exists but u cant detect it
+
+update the latest signatures 
+
+work with the vulnerability detection manufactur for the latest threats
+
+priortizting vulnerabilities from high medium and low depending on what is more imporntant and such
+
+national vulnerability database nvd.nist.gov

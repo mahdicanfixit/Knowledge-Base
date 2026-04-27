@@ -56,5 +56,56 @@ real time information system control
 
 there isnt no access from the ouside
 
-embedded systems can be difficult to upgrade since they are designed for a speific function. 
+embedded systems can be difficult to upgrade since they are designed for a speific function. and there is some kind of potential threats on these stuff and make sure to keep them up to date. and also make them in a certain network.
 
+RTOS too like cars and stuff, isolate the system and prevent access from other areas
+
+IoT devices are weak by default but changing the passwords and updates they gonna be secure. u can also segmentation
+
+---
+
+site surveys. determine existing wireless landscape seeing the access points. and work around the existing frequencies. and also plan for ongoing site surveys too
+
+![](../../Pasted%20image%2020260427111149.png)
+
+signal coverage potential interference and built in tools that u can use. and can use 3rd party tools like netspot. spectrum analyezer too can show all signals 
+
+MDM aka mobile device management manages the company owned mobile devices/phones
+
+u can set policies too when u enter the office the camera disable or such and when u leave its enabled.
+
+manage access control froce screen locks and pins on these single devices
+
+BYOD aka bring your own device or device
+
+they have to meet company requirements so they can be managed by MDM
+
+difficult to secure old ones. how is data protected and such
+
+COPE corporate owned personally enabled they buy u the device and used both as a corporate and a personal device
+
+and is protected using corporate policies 
+
+CYOD choose your own device same as COPE but you can choose
+
+cellular networks 4g, 5g
+
+there is security concerns traffic monioring and location tracking 
+
+wifi too since it has full access to the internet
+
+encrypt ur data and use VPN to protect ur data
+
+monitor the data from on path attack
+
+bluetooth aka PAN connects ur mobile devices tgt like headsets headphones and etc
+
+and do not ocnnect to a unknown device where you dont know where it is
+
+---
+
+an org wireless network can contain confidential information 
+
+and authenticate the users before granting access to those networks
+
+and ensure all communication is 

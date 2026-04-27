@@ -108,4 +108,54 @@ an org wireless network can contain confidential information
 
 and authenticate the users before granting access to those networks
 
-and ensure all communication is 
+and ensure all communication is confidential encrypt the wireless data
+
+and verify the integrity of all communication aka MIC
+
+WPA2 has a brute force problem there is a four way handshake and capture the hash and when they take it offline they brute force it
+
+once u have that key anyone can connect to it
+
+WPA3 has GCMP ciper mode protocol a stronger from WPA2
+
+WPA3 changes the PSK authentication process creates a shared session key to the device so no four way handshakes no hashes or brute force
+
+gain access to a wireless network by temp users or mobile users
+
+credentials they asking for the shared password which is PSK. its unsecure since its a password that can be shared
+
+but u can use centralized authentication which makes u login instead of having a password only
+
+if u using it at home there is WPA3-personal if its the company u can use WPA3-enterprise
+
+identification who you claiming to be (username)
+
+authentication can you prove who you say you are (password)
+
+autheorztation based on your identification and authentication what access do yo have
+
+accounting basically logging the login time, data sent and recvied and logout time of the user
+
+![](../../Pasted%20image%2020260427112355.png)
+
+RADIUS remote authentication dial in user service is available on almost any server OS
+
+IEEE 802.1x NAC u cant get access to the network until you authenticate
+
+EAP extensible authentication protocol an authentication framework 
+
+supplicant the client authenticator the device that provides access authentication server validates the client credentials
+
+---
+
+secure coding concepts a balacne between time and quality
+
+always test the quality assurance process
+
+vulnerabilities will eventually be found and exploited so we patch
+
+input validation what is the expected input 
+
+docuemtn all input methods forms fields type
+
+check and correct all input a zip code should be only X characters. fix any data with

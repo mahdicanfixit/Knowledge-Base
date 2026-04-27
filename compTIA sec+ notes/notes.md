@@ -259,4 +259,33 @@ always research the threats and the treat actors
 
 see how the hackers tool used and etc 
 
-make decisions based on this itelligence invest the best p
+make decisions based on this itelligence invest the best prevention
+
+there are groups that can be seeing threats and how to understand them
+
+OSINT open source, internet discussion groups social media and such
+
+government data mostly do public hearings reports and websites
+
+commercial data maps financial rpeorts databases
+
+dsomeone else has already compiled the informationa nd you can buy it, basically third party intelligence
+
+and if there is a threat they can tell you before it becomes known they always monitoring the threats and such
+
+information sharing orgs public threat intelligence
+
+private threat intelligences, data sharing the threats and such to work tgt
+
+CTA cyber threat alliance sharing the threat tgt and do the intelligence
+
+and source ytou can use is the dark web, you can see the hacking groups and services, and tools and credit card sales accounts and such
+
+monitor forums to see if the org will pop up or what not
+
+---
+
+
+penetration testing aka pentest simulating an attack and seeing the process
+
+national institute of standards and technology technical gudide to information securiy tewsting and assessment seeing NST TST 

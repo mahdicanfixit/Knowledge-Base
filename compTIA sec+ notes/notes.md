@@ -491,3 +491,43 @@ popular benchmark is CIS
 we check if the devices are in compliance and we use an agent to install it in a setup to check everything. its always on and always running to see if something goes wrong
 
 an agentless runs without a formal install. it comes form the VPN and runs in the ram and if everything is good, it goes away. 
+
+SIEM security information and event management logging the events and information in one place
+
+real time inofmratin and put them in a long term storage
+
+forensic analysis gather detai,s after an event
+
+ antivirus and antimalware would prevent viruses and malwares. both terms can also be the same software in ur syste,m
+
+DLP data loss prevention blocking the data that you dont want. aany data that u dont want u can block
+
+stop the data before the attacker gets it
+
+so many sources so many destinatinons weather its in the cloud or such
+
+SNMP a database of data MIB maagnemtn information based poll devices over udp/161
+
+request statstics from a device server firewall workstation switch router etc
+
+![](../../Pasted%20image%2020260428081456.png)
+
+this graph made by quering  firewall 
+
+most snmp operations expect a poll. SNMP traps can be configured on the monitored device communicates over udp/162 it can alarm it
+
+it can wait till the CRC errors increases by 5 send a trap that can monitor station react asap and putting the alarms on
+
+Netflow gather traffic statistics from all traffic flows seeing what flowsd and such, many agents have netflow and such
+
+netflow probe may be built in a switch or a router or a external probe. and connect  to a SPANand it connects the information and send it to netflow collector and see the traffic 
+![](../../Pasted%20image%2020260428081746.png)
+
+there is many details in the flow and such
+
+vulnerability scanners usually minimally invasive unlike a pentest. port scan too and see what services are installed. u can identify systems and security devices in that range
+
+we can do it in our own network. and outside as well. they can get alot of information but not accurate. so u need to verify it manually
+
+---
+

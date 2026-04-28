@@ -328,3 +328,51 @@ work with the vulnerability detection manufactur for the latest threats
 priortizting vulnerabilities from high medium and low depending on what is more imporntant and such
 
 national vulnerability database nvd.nist.gov
+
+CVSS common vulnerability scoring system each valunrbility has a score from 0 to 10, each scoring standards change over time  cvss 2.0 vs cvss 3 and etc
+
+CVE the vulnerabiliteis can be cross referenced online national vulnerability database nvd.nist.gov/
+
+CVE cve.mitre.org/cve/
+
+microsfot security bulletins technet/security/current.aspx
+
+the scanner gonna look for any vulnerabilite and it finds they gonna tell u the level of it. but before any scan you need the latast signatures. application scans web application scans and network scans too.
+
+![](../../Pasted%20image%2020260428045345.png)
+
+loss of value or business activity if the vulnerability is exploited.
+
+a small DDos masy limit the access to the service can be 50% 
+
+a buffer overflow may disable the whole service  would be 100%
+
+understanding the enviroment your in. every environment is different from internal to external users. revenue generating application and the potential for exploit
+
+some exploits have big consquences
+
+2023 feb ransomeware closed for two weeks
+
+power utilities back in march 2019 DDoS attacks from an unpatched known vulnerability
+
+risk tolerance you cant fix all the threats u should have an amount of risk acceptable. the timing of security patches patching immediately doenst allow for proper testing
+
+testing takes time, but there is a middle ground where u can take ur teime with testing but manage the security around it
+
+---
+
+4.3
+
+the most common technique is patching
+
+scheduled vulnerability and patch notices 
+
+unscheduled patches are zero day and often urgent
+
+the patches will always keep going
+
+cybersecurity insurance coverage gives back the data that got lost. money lost to ph8ishing and privacy lawsuit costs
+
+doesnt alwayscover everything
+
+segmentation is limiting the scope of the threat, separate the d

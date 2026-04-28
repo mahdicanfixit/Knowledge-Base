@@ -450,3 +450,44 @@ then determine thee best steps. a new vulnerability is annoucned. and how much s
 
 ad hoc information summaries prepare for the unknown
 
+archiving it takes around 9months for a company to identify and contain a breach. IBM security report 2022.
+
+access to data is really important you never know if the attacker in the network for months or years
+
+may have a mandate
+
+alerting real time notifcation when a security event happens. increase in authentication erorrs large file transfers
+
+keep the right people informed if it is a traffic or an attack
+
+notifcation methods using text. email or security console
+
+when thre is an alarm u need to react asap. and quarantine the system and prevent it going to other devices. 
+
+alert tuning bnalacning act. prevening false positives and negfatives
+
+an alert should be accurate seeing the network and such
+
+---
+4.4
+SCAP many automation protcols. weather its NGFW IPS or vulnerability scanner. they can all find a threat but different ways
+
+managed by NIST https://scap.nist.gov
+
+allow tools to identify and act  on the same vulnerability. confirm patch installs and such
+
+using SCAP content can be shared between tools focused on configuartion compliance
+
+really useful in large enviroments
+
+when all ur security tools communtine and understand each other, it can be much easier to understand and automate the process of patching on those systems with less error. the processes can be automated and keep scanning for vulnearbilitys. notifcation and getting compliase.
+
+apply security best practices to evverything OS cloud phones etc. its the bare mimimum for security settings
+
+lets asay for phones. disabling screenshootingg. screen recording. preventing calls when locked. encrypt backups and such.
+
+popular benchmark is CIS 
+
+we check if the devices are in compliance and we use an agent to install it in a setup to check everything. its always on and always running to see if something goes wrong
+
+an agentless runs without a formal install. it comes form the VPN and runs in the ram and if everything is good, it goes away. 

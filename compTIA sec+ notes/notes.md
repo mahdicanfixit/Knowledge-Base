@@ -410,3 +410,27 @@ reporitng ongoing checks are required basically threat intellegence
 continuous reporting seeing the number of identified vulnerabilites. system patched vs unpatched the new threat notifictions and the errors that come with it.
 
 ---
+4.3
+
+attackers never sleep they always gonna be around and awake so we need to copy
+
+review account access firewall rulebaseand scanning 
+
+seeing the status of the security posture
+
+monitoring the computing resources
+
+systems authentication logining in random places and time
+
+server monitoring service activity backups software versions etc
+
+applications availability uptime, data transfers if they are happening alot. security notifications to see what is the cause and such
+
+how many employees vendors and guests. and see the firewall and ips reports
+
+SIEM or SEM keep logs about database of servers firewalls vpn SANs cloud services
+
+centralizing them in one place
+
+correlation between diverse systems view authentication and access track application access and measure the data transfers
+

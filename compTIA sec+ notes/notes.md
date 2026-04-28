@@ -375,4 +375,38 @@ cybersecurity insurance coverage gives back the data that got lost. money lost t
 
 doesnt alwayscover everything
 
-segmentation is limiting the scope of the threat, separate the d
+segmentation is limiting the scope of the threat, separate the devices into their own network, and limiting the attacker from attacking the other things
+
+cant patch it? disconnect it and air gap might be required
+
+use NGFWs 
+
+you can use two switches they not connected with each other, and you can use virtual LAN or VlAN where it sepearte those two in one switch so blue talk to customer b and red talk to customer a. they all in the same router but they are split
+
+compensating controls, optimal security methods mayt not be available
+
+compensate in other ways disable the problematic service and revoke access to the application limit external access modify internal security contreols and software firewalls
+
+provide coverage until a patch is around
+
+removing the vulnerability is optimal but not always can be patched
+
+u wanna have the uptime still on and provide the server but also protect the data and such
+
+not all vulenerabilites share the same severity so the communite gonna decide if it needs to be patched or not
+
+more than one person gonna see the vulnerability and then come to a conclusion
+
+the vulnerability is now patched but did it stop the exploit? or patch all vulnerable systems?
+
+rescan and see if it is deploied propely
+
+audit everything just incase to see if it is installed propely
+
+verifcation manually confirm the security
+
+reporitng ongoing checks are required basically threat intellegence
+
+continuous reporting seeing the number of identified vulnerabilites. system patched vs unpatched the new threat notifictions and the errors that come with it.
+
+---

@@ -434,3 +434,19 @@ centralizing them in one place
 
 correlation between diverse systems view authentication and access track application access and measure the data transfers
 
+scanning constantly changing threat landscape so we need to be up to date with everything
+
+computers dont move much but laptops phones and such does so they need to be more secure
+
+actively check systems and devices operating systems types and verisons, drivers, applications and potential anomalies. 
+
+gather the raw details so later u can do detail reports later
+
+analyze the collected data. 
+
+a report of maybe how many devices up to date. or in compliance. devices running older OS
+
+then determine thee best steps. a new vulnerability is annoucned. and how much systems are vulnerable 
+
+ad hoc information summaries prepare for the unknown
+

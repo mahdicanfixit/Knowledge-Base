@@ -659,4 +659,22 @@ and open source and can be installed in many linux distros
 
 unencrypted network data making network traffic protect is needed
 
-all traffic sent in the clear telnet, FTP, stg
+all traffic sent in the clear telnet, FTP, SMTP, IMAP
+
+verify the packet capture
+
+use a secure application protocol 
+
+![](../../Pasted%20image%2020260429112100.png)
+
+port can determine if something secure or not secure.
+
+HTTP: port 80 HTTPS: port 443
+
+different port number dont mean it is secured
+
+![](../../Pasted%20image%2020260429112710.png)
+
+transport method dont rely on the application 
+
+802.11 wireless open access point

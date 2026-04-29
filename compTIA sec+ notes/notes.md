@@ -585,4 +585,30 @@ this can take some time to find the right balance between them
 
 4.5
 
-many control traffic based on the data within the content
+many control traffic based on the data within the content, corporate control of outbound and inbound data.
+
+control the inappropriate content that is NSFW or parental controls
+
+URL scanning also called URI uniform resource identifier. allow list block list
+
+managed by the category auction hacking malware etc
+
+can have limited control 
+
+often integrated into an NGFW so single device can manage all of those
+
+agent based. install cilent software on the user device itself
+
+users can be located anywhere they can travel and anywhere they like
+
+updates must be distributed tro all agents cloud updates and such
+
+some use proxies they speak directly to the internet
+
+so he asks for the website. and goes to proxy and then proxy sees if its okay to give him the link or not
+
+some applications may need to know how to use the proxyexplicit 
+
+some proxies are invisible so it called transparent
+
+internal proxy both user and proxy are in the internal network 

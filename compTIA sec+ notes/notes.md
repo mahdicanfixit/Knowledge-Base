@@ -530,4 +530,33 @@ vulnerability scanners usually minimally invasive unlike a pentest. port scan to
 we can do it in our own network. and outside as well. they can get alot of information but not accurate. so u need to verify it manually
 
 ---
+4.5 
+
+filter traffic by port number  traditional vs NGFW
+
+encrypt the traffic vpn between sites
+
+most firewalls can be layer 3 devices
+
+most common firewall type is NGFW it analyse the traffic and make deiscion weather we let it in or not
+
+requires some advanced decodes
+
+ports and protocols make forwarding decisions based on protocol weather its TCP or UDP.
+
+web server tcp/80 tcp/443 
+ssh server tcp/22
+microsoft RDP tcp/3389
+DNS query udp/53
+NTP udp/123
+
+![](../../Pasted%20image%2020260429082619.png)
+
+a logical path from top to bottom
+
+very general or specific
+
+implicit deny there is a deny at the bottom even if u didnt put one
+
+ACL allowing or disallowing traffic. source IP destination IP port number time of day and application
 

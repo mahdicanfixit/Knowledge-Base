@@ -655,3 +655,8 @@ limits application access least privilege a potential breach will have limited s
 
 and open source and can be installed in many linux distros
 
+---
+
+unencrypted network data making network traffic protect is needed
+
+all traffic sent in the clear telnet, FTP, stg

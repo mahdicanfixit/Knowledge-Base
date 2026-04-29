@@ -678,3 +678,14 @@ different port number dont mean it is secured
 transport method dont rely on the application 
 
 802.11 wireless open access point
+
+---
+
+4.5 email securty
+
+email spoofing happens all the time the email looks as if it originiated from james@professormesser.com but how do u know if that was him
+
+reputable sender will configure email vaildation
+
+the gakekeeper evaluates the source of inbound email messages block it at the gateway before it reaches the user on site or cloud based
+

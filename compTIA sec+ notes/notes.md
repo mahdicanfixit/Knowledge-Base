@@ -544,11 +544,12 @@ requires some advanced decodes
 
 ports and protocols make forwarding decisions based on protocol weather its TCP or UDP.
 
-web server tcp/80 tcp/443 
+web server tcp/80, tcp/443 
 ssh server tcp/22
 microsoft RDP tcp/3389
 DNS query udp/53
 NTP udp/123
+
 
 ![](../../Pasted%20image%2020260429082619.png)
 
@@ -560,3 +561,28 @@ implicit deny there is a deny at the bottom even if u didnt put one
 
 ACL allowing or disallowing traffic. source IP destination IP port number time of day and application
 
+![](../../Pasted%20image%2020260429083008.png)
+
+most orgs put their firwall that sit between the internet and interanal network
+
+there is also a screened subnet that dont contain any data 
+
+IPS monitors traffic and seess if there is any malicious traffic
+
+it uses a signature based
+
+anomaly based build a basline of whats normal unusal traffic and such
+
+you determine what happens when unwanted traffic appears
+
+there is thousands of rules 
+
+rules can be customized by groups. they seleteced automatically by the IPS or by urself
+
+this can take some time to find the right balance between them
+
+---
+
+4.5
+
+many control traffic based on the data within the content

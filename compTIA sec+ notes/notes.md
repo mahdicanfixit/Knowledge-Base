@@ -611,4 +611,47 @@ some applications may need to know how to use the proxyexplicit
 
 some proxies are invisible so it called transparent
 
-internal proxy both user and proxy are in the internal network 
+internal proxy both user and proxy are in the internal network  then it will check the data and sees if there is any malware then gives it to the user
+
+u can set rules for example .professormesser.com: allow
+
+there is 50 topics adult educational gambling gov etc
+
+different dispostitions for example education: allow but gambling: block
+
+filter URLs based on the risk. a good rep website is allowed a bad rep is blocked. risk like trustworthy low risk medium risk and high risk
+
+automated reputation sites are scanned and assigned a reputation
+
+there is also manual reputation
+
+DNS filtering before connecting to a website, u get a ip address and perform a DNS lookup.
+
+DNS is upated with real time threat intelligence both commercial and public lists
+
+harmful sites are not resolved no IP no connection
+
+this works for any DNS lookup not just web filtering
+
+---
+
+4.5
+
+active directory has everything on the network. computers, user accounts, file sharing prints groups and etc. primarily windows based
+
+mangage authentication users login using their AD credentials 
+
+u can determine which users access what
+
+group policy u can manage the computers or users with their own policy
+
+a central console login scripts QoS
+
+security patches for the linux kernel u can add mandatory access control MAC to linux
+
+linux traaditionally uses DAC
+
+limits application access least privilege a potential breach will have limited scope
+
+and open source and can be installed in many linux distros
+

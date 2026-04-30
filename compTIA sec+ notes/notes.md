@@ -1,4 +1,4 @@
-4.1
+.1
 when using an app we need to see all the security around it
 
 seeing the firewall settings. patch levels, os file verisons etc

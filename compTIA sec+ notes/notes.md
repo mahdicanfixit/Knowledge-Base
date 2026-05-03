@@ -761,5 +761,43 @@ protection is multi faceted we need layers
 
 control at the edge, we use a firewall to manage the inside  and the outside network'
 
-access control limits the access of the data who gets in and who doesnt. limit by user, or group, maybe location or application to u
+access control limits the access of the data who gets in and who doesnt. limit by user, or group, maybe location or application to use 
+
+it can be removed anytime depending on the security posture
+
+u cant really trust evveryone computer. so u do checks  and its called posture assessment. making sure the antivirus is in and such and the correct applications
+
+before coonecting to the network. see the health check is the device trusted? is there anti virus etc
+
+an agent monitors premanently installed onto a system and periodic updates may bbe required.
+
+there is a dissolvable agnets where they not nee d to be installed. it just checks and terminates when no longer required aand everything is great
+
+agentless NAC integrated with active directory checks if made when the user logs off
+
+failing ur assessment? what happens if it fails?
+
+quaranite network and notifying the admins
+
+once resolved u can try again
+
+EDR SIGNATURES ARENT THE ONLY DETECTION Ttool. sees the behavioral and analysis, machine learning and such, lightweight agent on the endpoint
+
+investiage the threat root cause analyssi
+
+respond to the threat, isolating the system, quaratine the threat and rollback to a good config, can be all automated.
+
+XDR an evolution of EDR improves missed detections false positives and etc
+
+where there is an virus infection it involves into more than one device
+
+add network based detections 
+
+XDR commonly includes user behavior analystics
+
+watch for anything unusual, for the rules. pattern matching or statistical analysis
+
+goal is to make it easy to stop the code before it becomes a larger problem
+
+
 

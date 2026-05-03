@@ -689,3 +689,45 @@ reputable sender will configure email vaildation
 
 the gakekeeper evaluates the source of inbound email messages block it at the gateway before it reaches the user on site or cloud based
 
+spf protocol sender configures a list of all servers 
+
+list of authorized mail servers are added to a DNS TXT record receiving mail servers perofmr a check to see if incoming mail really did come from an authrozied host
+
+![](../../Pasted%20image%2020260503195548.png)
+
+a mail server sign all outgoing mail 
+
+its a signautre by the receiving mail servers
+
+![](../../Pasted%20image%2020260503195704.png)
+
+DMARC aka domain based message authentication reporting and conformance.
+
+the domain owner decides what receiving email servers should do with emails not validating using SPF and DKIM
+
+compliance reports are sent to the email administrator
+
+![](../../Pasted%20image%2020260503195909.png)
+
+
+
+---
+
+4.5
+
+FIM file intergrity monitroing some files change all the time some never do 
+
+monitoring important OS and files, because some files change all the time but some never do for those who never do should be monitored.
+
+windows SFC system file checker checks all the file and sees their dates and such
+
+for linux we have tripwire
+
+and many host based IPS options as well
+
+DLP data loss prevention, for example social security numbers credit card numbers and such blocks the data before the attackers gets it 
+
+many sources many destinations can be as software
+
+DLP system on your computer data in use endpoint DLP
+

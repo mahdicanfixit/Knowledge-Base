@@ -731,3 +731,35 @@ many sources many destinations can be as software
 
 DLP system on your computer data in use endpoint DLP
 
+USB blocking back in nov 2008 a worm virus called agent.btz replicates using USB storage. they banned any removable flash media or storage devices
+
+but got lifted in 2010 
+
+cloud based DLP is also a thing
+
+sees what is coming in and out 
+
+blocks viruses and malware also
+
+DLP need to block the email system it can look at sensteive emails that is inbound and outbound
+
+fake wire transfers. and such
+
+it can be blocked straight if the DLP is on
+
+nov 2016 a employee spouse emails a spreadsheet to use a template
+
+contained personal infomration of 36k employees
+
+---
+
+endpoint is the user stop the attackers that is inbound and outbound attacks
+
+many different platforms mobile and desktops
+
+protection is multi faceted we need layers
+
+control at the edge, we use a firewall to manage the inside  and the outside network'
+
+access control limits the access of the data who gets in and who doesnt. limit by user, or group, maybe location or application to u
+

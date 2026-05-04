@@ -1297,9 +1297,58 @@ IPS/IDS logs usually intergrated into an NGFW
 
 Logs contain inofmration about predefined vulnerabilites knowns OS vulnerabilites, generic security events
 
+![](../../Pasted%20image%2020260504160226.png)
+
 ![](../../Pasted%20image%2020260504160004.png)
 
 network logs switches, routers, access points, vpn concentrators. 
 
-it can see network changes routing updates authentication issues network seucurity 
+it can see network changes routing updates authentication issues network seucurity issues
+
+![](../../Pasted%20image%2020260504160110.png)
+
+metadata data that describes other data sources
+
+if u reading an email in ur clinet u dont see the header details sending servers and destination address 
+
+![](../../Pasted%20image%2020260504160202.png)
+
+there is metadata in web OS browser type etc
+
+files too name address and etc
+![](../../Pasted%20image%2020260504160254.png)
+
+vulernability scans lack of securit controls no firewall no anti virus or no anti spyware
+
+misconfigurations open shared guest access
+
+real vulnerabilities especially newer ones Occasionally the old ones
+
+most SIEMS include a report generator automates the reports
+
+may be easy or complex to create
+
+requires human intervention someone has to read the reports
+
+these can be involved to creat ehuge data sotrage and extensive processing time
+
+dashboards instead of watiing a day or two it mightg be suseful to have summrized information aka called dashboard there is a real time status information
+
+add or remove information most siems allow for customziation
+
+shows the most important data not designed for long term analysis
+
+dashboard give u something u see instanly and see the current statusof things
+
+![](../../Pasted%20image%2020260504160622.png)
+
+best place to gather data form the network is the network itself, packet captures solve complex applications issues
+
+gathers packets on the network or in the air sometimes built into the device
+
+view detailed traffic information identify unknown traffic and stch
+
+![](../../Pasted%20image%2020260504160736.png)
+
+
 

@@ -1156,5 +1156,28 @@ before an event occurs we should test yourselves before the real thing
 
 if u planning to do testing u should do with test systems and not the ones u working 
 
+they are designed to test all the skills and document and discuss how well u did 
 
+running a full disaster drill can be costly
+
+so we do tabletop exercises. sits in a table and determine through analysis and discussing what to do in this seniro 
+
+and see if u can improve things in the future
+
+everyone in the room can say what to do first and second and so on
+
+and u can discrube what u gonna do and etc
+
+simulation test with a simulated event phishing attack password requests and etc
+
+going phishing create a phisihg email attack and sends to your actual user community and sees who baites
+
+test internal security did the phisihng get pastr the filter
+
+
+and test the users who clicked and such
+
+when a security event occurs. deetermine the ultimate cause of an incdent find the root cause by asking why find the root cause
+
+evalute the log files and recreate the 
 

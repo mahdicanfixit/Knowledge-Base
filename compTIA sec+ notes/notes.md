@@ -929,6 +929,81 @@ ABAC can consider many aprameters a next gen authorization model
 
 combine and evaluate, resource infomration ip address time of day desired action etc
 
-time of day rest
+time of day restrictions. almost all security devices include a time of day option
+
+restrict access during certain times and days 
+
+can be difficult to implement especially in a 24hr environment
+
+time of day restrictions training room network is inaccessible between midnight and 6am, or conference room access after 8pm and etc
+
+---
+
+4.6
+
+multifacotr prove who youa re use different methods,
+
+factors are something you know have are and somwhere you are
+
+password is the most common one , a pin or a pattern is things u know
+
+something you have is smart card integrates with devices
+
+usb security key has a certificate on the usb
+
+hardware or software tokens generates a random authentication codes
+
+your phone  using a SMS 
+
+something you are like biometric authentication fingerprints face scan or voice print
+
+usually stores a mathematical representation of ur biometric
+
+difficult to change since u can change ur password but not ur fingerprint
+
+used  in very specific situation not foolproof
+
+
+somewhere you are provide a factor based on your location
+
+IP address not perfect works with IPv4 but hard with IPv6
+
+mobile device locations geolocations to a very speific area. and etc
+
+---
+
+4.6
+
+password complexity and length making the password strong resist guessing and brute force attacks
+
+to increase password entropy mixing upper and lower case letters numbers and special characters
+
+least 8 characters or 12
+
+once a password is set there is a age. 
+
+a password can expire in 30 60 or 90 days. notifcations tell u that it will appear saying it got expired and you need to change
+
+critical systems change more every 15 days or every week
+
+password manager improtant to use different passwords for each account
+
+encrypted protected in a single database
+
+built in to many os and some browsers
+
+enterprise password managers an org can have it
+
+![](../../Pasted%20image%2020260504144850.png)
+
+passwordless authentication many breaches due to poor password control
+
+some apps authenticate without a password
+
+you already be passwordless like phone ID or security key
+
+it may not be the primary authentication method u may need to use a password but forward u can use passwordless
+
+just in time permissions 
 
 

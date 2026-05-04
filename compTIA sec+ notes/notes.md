@@ -869,6 +869,66 @@ Oauth is authorization framework once u authorizate determines what resources a 
 
 created by twitter google and others
 
-not an authentication protocol OpenID connect handles the single
+not an authentication protocol OpenID connect handles the single sign on authentication
+
+![](../../Pasted%20image%2020260504143025.png)
+
+federation provide network access to others not just employees, but partners suppliers customers etc
+
+third parties can establish a federated network
+
+![](../../Pasted%20image%2020260504143109.png)
+
+the third parties must establish a trust relationship and the degree of trust
+
+interoperability, many different ways to communicate with authentication server
+
+often determined by what is at hand, u connect to a VPN concentrator that can talk to a LDAP server. we have an LDAP server
+
+a new app uses Oauth need to allow an authenticationAPI access
+
+the interoperability is dependt
+
+access control authorization it forces the policies where allows or denys data. there is process of determining the rights of policy definition
+
+users receive rights based on access control models
+
+least privilege  rights and permissions set bare minimum
+
+accoutns must be limited and if there is a virus the permissions are low so it wont attack as much
+
+MAC mandatory access control OS limits and operation on an object
+
+labeling of objects uses predefinied rules, 
+
+DAC used in most OS 
+
+u create a spreadsheet u the owner so u can control who has access to the spreadsheet and some only have read only
+
+very flexible access control and very weak security tho since people can write on it 
+
+RBAC you have a role in ur org, manager director team lead and project manager
+
+admins provide access based on the role of the users. maangers have their own permissions director etc.
+
+in windows use groups to provide role based access control
+
+you are in shipping and receiving so u can use the shipping software
+
+rule based access control, generic term for following rules
+
+user dont have any permission to change the rules 
+
+we first create a rule and associated with the object
+
+rule examples lab access is only available between 9 and 5pm. only chrome browsers may complete this web form
+
+more modern is ABAC attribute based access control
+
+ABAC can consider many aprameters a next gen authorization model 
+
+combine and evaluate, resource infomration ip address time of day desired action etc
+
+time of day rest
 
 

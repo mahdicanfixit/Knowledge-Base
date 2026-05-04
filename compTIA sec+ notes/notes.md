@@ -1243,5 +1243,63 @@ handling evidence isolate and protect the data, analyze the data later without a
 
 manage the collection procerss work from copies manage the data collection from mobile devices
 
-live collection has become an important skill, data may be encrypted or difficult to 
+live collection has become an important skill, data may be encrypted or difficult to collect after powering down
+
+follow best practices to ensure admissibility of data in court, what happens now effects the future
+
+E-discovery. electronic discovery collect prepare reivew interpret and procduce
+
+provide that data in a third party
+
+discover gathering data required by the legal process
+
+works togehter with digital forensics u may be asked to collect the image for the drive and give it to a forensics, once they have it they can see the data on the drive and see if the data is there or may be delted
+
+---
+
+4.9
+
+detailed security related information blocked and allowed traffic flows exploit attempts blocked URL categories DNS sinkhole traffic
+
+firewal logs monitor all the traffic that coming inside and outside of the network
+
+IP, port numbers, disposistions and etc
+
+NGFW logs applications used, url flitering and etc
+
+ ![](../../Pasted%20image%2020260504155618.png)
+
+applications logs specific tyo the application information varies widely
+
+windows event viewer application logs
+
+linux /var/log
+
+parse the log details on the SIEM
+
+endpoint logs attackers often gain access to endpoints phones, laptops, tablets, desktops, servers
+
+theres alot of data on the endpoint
+
+there is alot fo data and such
+
+all the security logs can roll up to the SIEM and see all the devices logs all in one spot
+
+u can compare the file informations and such and u can track the steps of the traffic flow or potentional security and putting them together in one spot
+
+OS specific security logs OS security events monitroing apps, brut force file changes authentication details
+'
+fine problems before  they happen, brute force attacks disabled services
+
+may require filtering dont forward eveyrthing
+
+IPS/IDS logs usually intergrated into an NGFW
+
+Logs contain inofmration about predefined vulnerabilites knowns OS vulnerabilites, generic security events
+
+![](../../Pasted%20image%2020260504160004.png)
+
+network logs switches, routers, access points, vpn concentrators. 
+
+it can see network changes routing updates authentication issues network seucurity 
 

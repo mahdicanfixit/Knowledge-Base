@@ -1004,6 +1004,18 @@ you already be passwordless like phone ID or security key
 
 it may not be the primary authentication method u may need to use a password but forward u can use passwordless
 
-just in time permissions 
+just in time permissions in many orgs it team is assigned administrator/root evelated account rights
+
+grant admin access for a limited time but not permanent and it will time out normally
+
+if it breaches a user account it wont have those permissions
+
+a user would request a central clearinghouse
+
+password vaulting account are temporary just in time process creates a time limited account admin receives ephemeral creditiaonals..
+
+and it can be deleted when it is complete
+
+
 
 

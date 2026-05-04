@@ -1239,5 +1239,9 @@ the findings analysis of the data
 
 and conclusion professional results and giving the analysis 
 
+handling evidence isolate and protect the data, analyze the data later without any alternations
 
+manage the collection procerss work from copies manage the data collection from mobile devices
+
+live collection has become an important skill, data may be encrypted or difficult to 
 

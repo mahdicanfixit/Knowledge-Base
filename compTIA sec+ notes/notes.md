@@ -799,5 +799,76 @@ watch for anything unusual, for the rules. pattern matching or statistical analy
 
 goal is to make it easy to stop the code before it becomes a larger problem
 
+---
+
+4.6 
+
+applications are available anywhere
+
+data located anywhere 
+
+many application users and such
+
+IAM identity and access managmenmt identify lifecycle managment. every entity gets a digital identiy
+
+access control
+
+authentication and authorization enetities must prove they are who they claim to be
+
+identity governance tracing the resource access
+
+provisioning, the user creation process and the account removal process
+
+account deatils would be name attributes group permissions and etc
+
+an important part of the IAM process nobody gets admin access and limit the users
+
+permission assignments each entity gets limited permissions to do the job and not get any futher permissions. group azssignments are common
+
+storage and files can be private to that user
+
+no privileged access to the operating system to avoid the user to make changes to the OS
+
+identity proofing i can be anyone
+
+who the system thinks you are and such
+
+validation something they know giving them quest ions only they know like dog or such
+
+verification attestation, passport inperson meeting etc. automated verification also an option
+
+![](../../Pasted%20image%2020260504142540.png)
+
+SSO single sign on once u sign in u only do it once and get access to all available resources without requring to do it again
+
+usually have a timer a single authentication can work for 24hours and such and when its expired u do it again
+
+LDAP lightweight directory access protocol for reading and writing directories over an IP network
+
+DAP was the original one but LDAP is lightweight
+
+it can work with OS easily so it called LDAP
+
+X.500 distinguished names
+
+attribute=value pairs CN=WINDGETWEB, OU=MARKTING etc
+
+![](../../Pasted%20image%2020260504142724.png)
+
+its like a leaf every thing has its own purpose and permissions
+
+SAML security assertion markup l;anguage 
+
+open standard for authentication and authorization
+
+it never designed for mobile apps
+
+![](../../Pasted%20image%2020260504142921.png)
+
+Oauth is authorization framework once u authorizate determines what resources a user will be able to access
+
+created by twitter google and others
+
+not an authentication protocol OpenID connect handles the single
 
 

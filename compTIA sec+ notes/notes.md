@@ -1154,5 +1154,7 @@ this can be an expensive endeavor even with larger repsonse teams
 
 before an event occurs we should test yourselves before the real thing
 
-if u planning to do testing u should do with te
+if u planning to do testing u should do with test systems and not the ones u working 
+
+
 

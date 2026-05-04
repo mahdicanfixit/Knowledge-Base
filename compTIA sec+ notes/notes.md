@@ -1072,6 +1072,87 @@ techical debt. patching problems may push the issue down the road, it going to b
 
 and someone should suppor tthe script and later on when u change the OS or something somebody gonna updat these scripts to the latest service
 
+---
 
+4.8
 
+user clicks an email attachemtn and executes malware. malware communicates with the external servers
+
+DDoS botnet attacks
+
+confidential information got stolen and theif wants money basically ransomware
+
+user installs peer to peer software and allows external access to interal access
+
+NIST SP800-61 the incident reponse lifecycle preparation detection containment eradication and recovery and post indicent activity
+
+ocmmunication methods phones and contact information of people u need to let them know
+
+incident handling hardware and software, laptop removable mediaa forensic software, digtital camerass and etc
+
+incident analysis resources documentation network diagrams baselines and critical file hash values
+
+incident mitigation software clean OS or application images
+
+detecting a security incident
+
+many different detection sources. different levels of detail different levels of perception
+
+a large amount of volume is the attack incoming all the time or is it a legitimate threats?
+
+u should know what to do and etc
+
+analysis an incident might occur in the future and its ur heads up
+
+web server log vulnerability scanner in use
+
+exploit announcement monthly microsoft patch release and etc
+
+direct threats a hacker group doesnt like you they would tell u they coming
+
+an attack is underway or an exploit is successful
+
+a buffer overflow attempt identified by an intrustion detection
+
+antivirus software identifies malware
+
+host based monitor detects a configuration change
+
+network traffic if there is a large increase the attacker trasfering a large amount of data
+
+a generally bad idea to let things run their course u should act quiuckly
+
+sandboxes is isolated OS run malware and analyze the results of it and clean out the sandbox when done
+
+isolation can sometimes be problematic it can know if there is a VM and if it fines itself in that situation it deletes itself
+
+recovery after an incident if there is bad software remove and keep the good oines
+
+eradicate the bug remove malware and fiux vulernabilites
+
+and if there is backups recover the system or rebuild it from scracth and replace the compromised files and tighetn down the perimeter
+
+and once its done we do a reflection where there is a meeting and disscus the aattack and learn and improve
+
+we should ask questions like what happened, timeline and such
+
+how did your incident plans work
+
+what would you do differently next time 
+
+did we miss something or indicators would you watych next time
+
+theres limited on the job training when a security event occurs its late to do the training 
+
+train the team prior to an incident what happens to the response investigation plans incident reporitng and more
+
+this can be an expensive endeavor even with larger repsonse teams
+
+---
+
+4.8
+
+before an event occurs we should test yourselves before the real thing
+
+if u planning to do testing u should do with te
 

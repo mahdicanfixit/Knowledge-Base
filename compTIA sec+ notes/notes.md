@@ -1179,5 +1179,65 @@ and test the users who clicked and such
 
 when a security event occurs. deetermine the ultimate cause of an incdent find the root cause by asking why find the root cause
 
-evalute the log files and recreate the 
+evalute the log files and recreate the event 
+
+dont get tunnel vision there can be more than one single root
+
+threat hunting the constatn game of cat andd mouse find the attacker before they find you
+
+strategies are constantly changing firewalls get stronger and phisihing gets better
+
+intelligence data is reactive
+
+speed up the reaction time use technology to fight
+
+---
+
+4.8
+
+digital forensics collect and protect information relating to an intrusion, many different data sourcesa and protection mechanisms
+
+RFC 3227 guidelines for evidence collection and archiving 
+
+best practices
+
+standard digital forensic process acquisition analysis and reporting
+
+must be detail oriented take extensive notes
+
+legal hold, a legal techinque to preserve relevant information prepare for impending litigation
+
+hold notifcation custodians are instructed to preserve data
+
+separate repository for ESI electronically stored inofrmation it is required and stored in this repository
+
+an email client might store data in a propetity and cahgne the format to store in this ESI repositroy
+
+and u responsible to keep the data safe and required by the government if requested
+
+control evidence maintain integrity
+
+everybody who contacts the evidence use hashes and digital signatures avoid tampering
+
+label and catalog everything u should collect alot of data from alot of systems and seal and store
+
+acquisiton obtain the data from a disk, ram, firmware, or a OS file
+
+some data may not be on a single system u may need to collect it from servers network data and firewall logs
+
+for VM get a snapshot contains all files and information abotu a VM
+
+look for any left behind digital itme s artifacts log information recycle bins,, bookmarks or saved logins
+
+reportying document the findings
+
+summary information overview the security events 
+
+detailed explanation of data acquisition step by step method of the process
+
+the findings analysis of the data 
+
+and conclusion professional results and giving the analysis 
+
+
 

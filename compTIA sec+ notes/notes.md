@@ -1016,6 +1016,62 @@ password vaulting account are temporary just in time process creates a time limi
 
 and it can be deleted when it is complete
 
+---
+
+4.6 
+
+scripting and automation it something that does stuff for you instead of doing stuff manually
+
+if a problem occurs it tend to do it instead of manually worryin g about it
+
+automate mundane tasks
+
+scripting saves time, no typgin required runs multiple times over and over
+
+enforces baselines
+
+missing important security patch and automatically installs when identified
+
+standard infrastructure configurations
+
+uses a script to build a default router config, adds firewall rules and such
+
+secure scaling u adding new servers and databases
+
+u scaling the security with it too u build the script with firewalls and devices along with it
+
+employee retention automate the boring stuff
+
+reaction time automation reacts much faster than you and doesnt need a wakeup call
+
+since they run 24/7 allows the smart people to do smart work somewhere else
+
+user and resource provisioning on boarding and off boarding assign access to specific resources
+
+guard rails set automated validations limit behaviors and responses and reduce errors from users
+
+security groups assign or remove group access, constant audits without human intervention
+
+ticket creation automatically identify issues script email submissions into a ticket
+
+escalation correct issues before a huan if issue cant resolved contact the oncall tech
+
+automation can enable or disable access and services in a time frame it can enable a service or disables it
+
+they can write code updates and pushes it automatically
+
+automation can be used APIs interact with third party devices and services cloud services, firewalls, OS and talk their language
+
+scripting has complexity many moving parts and have to reliably work together
+
+and they cost it takes money to create the script, and money to implement the automation
+
+Single point of failure what happens if it stops working, and can be a deal breaker
+
+techical debt. patching problems may push the issue down the road, it going to be expensive to fix later
+
+and someone should suppor tthe script and later on when u change the OS or something somebody gonna updat these scripts to the latest service
+
 
 
 

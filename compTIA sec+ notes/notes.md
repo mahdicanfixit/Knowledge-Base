@@ -546,3 +546,70 @@ not just for taxes there are good reasons to audit your techonolgy
 
 cybersecurityy audit examines the IT infrastructure, software, device
 
+audit can find vulnerabilites before the attackers can be performed internally or by a third party
+
+attestation provides an opinion of truth or accuracy of a company security positioning an auditor  or a cybersedcurity posture
+
+audits arent just for third parties, you should also have internal audits
+
+compliance is your org complying with reg or industry requirements
+
+audit committee oversses risk m aangement activies all audits start and stop with the committee
+
+self assessments have the org perform their own checks consolidate the self assessments into ongoing report
+
+regulatory requirements an idependent third party may be required to perform the audit
+
+examinations, audits will often require hands on research view recorsd compile reports
+
+assessment 
+
+---
+
+5.5
+
+ OS security can be circumvented by physical means modify the boot process
+physical sec is key prevent access by unauthorize inviduals
+
+assess and test phjysical sec can u enter a building without a key, access is available inside? door windows evaltors?
+
+offensive the red team attack the systems and look fort vulenerabilites to exploit
+
+defensive the blue team identify attacks  in real time
+
+integrated create ongoing process idenntify and patch systems and test again
+
+how much do you know about t he test many diff approaches
+
+known environment full disclosure
+
+partially known environment a mix of known and unknown focus on certain systems and applications
+
+unknown environment the pentetst knows nothing about the systems under attack
+
+reconnaissance need information before the attack cant rush into battle
+
+gathering digital footprint learn everything you can
+
+understand the sec posture, firewalls, security configurations
+
+minimize the attack area focus on key systems
+
+create a network map identify routers, network, remote sites
+
+passive reconnaissance learn as much as you can from open soruces theres alot of info out there remarkablyt difficult to protect
+
+social media 
+
+corporate web site
+
+online forums 
+
+social engineering 
+
+dumpster diving 
+
+business organizations
+
+trying the doors maybe one is unloc
+

@@ -111,3 +111,56 @@ data encryption minimums algorithms for data in use in transit and dat rest
 
 a formal process for managing change
 
+avoid downtime confusion and mistakes
+
+nothing changes withtout the process determine the scope of the change
+
+how much is the risk gonna be? for one system or more than one
+
+we need a plan and get end user approval
+
+on boarding bring a new person into the org
+
+security team give the employee handbook and such
+
+new account gonna be created and such
+
+provide required IT hardware like laptops and such and they ready to go
+
+all good things but u know the day would come
+
+what would happen to the hardware and data 
+
+making sure the account is disabled is really useful so that he wont get access to it later on since he isnt in the org anymore
+
+conditional steps to follow a broad process investiage a data breach recover from ransomware
+
+step by step plans what to do and when to do it
+
+often integrated with a SOAR platform security orchestration automation and response
+
+automation and reponse
+
+IT security is constantly changinng processes and procedures must change after a while
+
+update to security posture tighter change control additional playbooks and such
+
+change to an individual procedure update the playbooks and include additional checks
+
+and keep an eye in any threats that are upcoming 
+
+boards a panel of specialists sets the tasks and requirements for the committees
+
+they would see the subject and consdier the input form a broad
+
+and determine next steps
+
+and saw results to the board
+
+government entities different kind of machine, legal concerns administrative requirements and polticial issues
+
+centralized/decentralized 
+
+centralized is at one location with a group of decision makers
+
+decentralized spreads the decision 

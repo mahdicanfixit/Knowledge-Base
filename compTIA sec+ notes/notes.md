@@ -313,4 +313,18 @@ another strategie is to avoid the whole risk
 
 there is also mitiage decrease the risk level
 
-risk reporitng formal doucment 
+risk reporitng formal doucment identifies risk detailed information for each risk
+
+its a docment that created for senior managmented
+
+commonly includes critical and emerging risk
+
+---
+
+5.2
+
+recovery time objective RTO gets up and running quickly get back to a particular service level
+
+RPO recovery point objective how muhc drata loss is acceptable bring the system back online
+
+MTTR mean time to repair average time required to fix an issue, this includes time spend diagnosing the problem

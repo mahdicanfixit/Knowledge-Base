@@ -633,3 +633,47 @@ many companies will perform their own phishing campaign
 
 an automated process centralized reporting for incorrect clicks users can receive immediate feedback and security trraining 
 
+we want the users to recognize a phishing attempt. spelling and grammar errors. domain name. unusual attachments, request for personal information
+
+respond to reported suspicious messages, email filtering can get the worst offenders. never click a link in email. nor run an attachments, want all the org should have a process for reporting phishing
+
+risky behavior modifying host files replaciong os file updloading sensitive files
+
+unexpected behavior loging in from another country
+
+unintentional behavior typing wrong domain name misplacing usb drives mosconfiguring secrity settings
+
+track and analyze security awareness metrics automated phishing click rates password manager adopation MFA use passwrod sharing
+
+inital first occurrence is an opportunity for user training work towards avoiding the issue in the future
+
+recurring the value of long term monitoring identify high freq security issues
+
+create a sec awareness team determine roles for training monitoring policy creation etc
+
+establish a minimum awareness level informationd evliery email psoters notices training integrate compliance mandtaes
+
+define metrics assess the performance of security awareness programs make updates in lower performing areas
+
+execution create the treianing metrials provided to users in different forms
+
+docuemtn success measurements how will we know the awareneess is working deploy the training materials.
+
+track user training efforts
+
+---
+
+5.6 before providing access, train you ursers
+
+specilized training each user role has unique security responsbilities 
+
+also applies to third parties contractors partners suppliers
+
+detailed documentation records problems later can be severe
+
+policy/handbooks document all security requirements
+
+situational awareness users should always be looking for threats, software attacks email links, attachments, unsual URLs, etc
+
+physical
+

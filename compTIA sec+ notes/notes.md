@@ -429,4 +429,64 @@ confidentiality agreement between parties
 
 protects confidential information trade secrets, busness activies anything else listed in the NDA
 
-unilateral aka one way NDA. bilateral mutua
+unilateral aka one way NDA. bilateral mutual NDA both gonna sign it or multilateral that is more than 2
+
+BPA business partners agreement, going into business together owner stake and such
+
+decision making who makes the business decisions and such
+
+prepare for contingencies, financial issues, disaster recovery and such everything gonna be documented and agreed to in the BPA
+
+---
+
+5.4
+
+compliance meeting the standards of laws policies and regulations
+
+healthy catalog of rules across many aspects of business and life
+
+penalties fines, loss of employment,incarcration
+
+scope domestic or international
+
+interal CCO central compliance officer make sure that everything is compliant 
+
+external compliance reporting, may re4quire annual or going repoiring missing or invalid reporting could result in fines or sanctions
+
+regulatory compliance example SOX,  HIPAA, GLBA 
+
+fine up to 50k$, or 1 year in prison, or both class 6 felony
+
+under false pretenses, a fine up to 100k and 5 years in prison or even both class 5 felony
+
+intent to sell transfer or use individually identifiable health information for commercial advantage personal gain or malicious harm, up to 250k and 10 years of prison or both, class 4 felony
+
+civil fines maximum is 100$ total amount not to exceed 25k$ for all violations of an identical requirements
+
+getting hacked isnt a great look, organizations are often required to disclose, stock rpices drop or at least for a short term
+
+oct 2016, uber breach 25.6million names email and phone number leaked
+
+didnt announce it until 2017. allegedly paid 100k to hackers and had them sign an NDA, and 2018 paid 148million in fines
+
+hackers pleaded guilty in oct 2019
+
+and in may 2023 uber former cheif security officer got 3 years probation and a 50k$ fine
+
+u can lose the license, signifcant economic sanction
+
+organzation cannot sell products others cannot purchase from a sanctioned company
+
+contractual impacts some business deals may require a minimum compliance level
+
+it is resolved between two orgs without legal proceeding 
+
+compliance monitoring ensure compliance in day to day operations
+
+due diligence/care a duty to act honestly and in good faith, and very, due care tends to refer to internal activies, due diligence is often associated with third party activies
+
+attestation and acknowledgement someone must sign off
+
+internal and external monitor compliance with interal tools, provide access or information to third party participants , may require ongoing monitoring 
+
+automation a must have for large org, can be quite different across markets many third party monitoring systems and collect data from people and systedms, compile the da

@@ -276,3 +276,41 @@ risk likelihood a qualitative mesaurement of risk
 
 risk probability a quantitative measurement of risk
 
+risk appetite a broad description of risk taking deemed acceptable the amount of accepted risk before any action
+
+risk appetite posture qualitative for readiness to take risk
+
+risk tolerance an acceptable variance usually larger from the risk appetite
+
+risk appetite a highway speed limit the goverment authorities have set the speed limit  between safety and convenience
+
+risk tolerance drivers will be ticketed when the speed limit is violated. ticketing usually occur well above the posted limit
+
+tolerance can change with road conditions weather traffic and etc. thats risk tolerance
+
+every project has a plan and also a risk identify and docum ent the risk associated with each step
+
+key risk indicators identify risk sthat could impact the org
+
+risk owners each indicator is assigned someone to manage the risk
+
+risk threshold
+
+---
+
+5.2
+
+tranfer move the risk to another party and buy some cyberseucrity insurance
+
+accept a business decision, and taking the risk
+
+some orgs accept the risk with exemption
+
+accept with exception. internal security policies are not applied. monthly security updates must be applied
+monthly udpates cause a software package to crash
+
+another strategie is to avoid the whole risk
+
+there is also mitiage decrease the risk level
+
+risk reporitng formal doucment 

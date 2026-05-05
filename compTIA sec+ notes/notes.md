@@ -163,4 +163,64 @@ centralized/decentralized
 
 centralized is at one location with a group of decision makers
 
-decentralized spreads the decision 
+decentralized spreads the decision around the indiviuals
+
+---
+
+5.1
+
+regulations are often mandated
+
+security processess are usually a foundational consideration
+
+SOX sarbanes oxley act the public company accounting reform and investor protection act of 2002
+
+HIPAA health insurance portability and accountability act
+
+legal requiremnts matter too since there is processes that u need to do. legal responabiliteis reporting illegal activites and holding data required for legal proceedinigs
+
+legal requiremnts in many jurisdictions
+
+cloud computing can make this challengning since u can make the data anywherr in the world  without human intervention
+
+industry the industry may require specific security considerations every market in a bit different 
+
+electrical power and public utilities isolated and protected system controls
+
+medical highly secure data storage and access logs, data encryptions and protection
+
+local/regional city and state government records uptime and availability of end user services
+
+national federal goverment and national defense multi state organization and state secrets remain secret
+
+global large multinational companies global financial markets
+
+---
+
+5.1
+
+high level data relationships
+
+data owner is someone who is responable with all the data. VP of sales own customer relationship data. treasurer owns the fincancial infomration
+
+data controller manages the purposes and means by wehich personal data is processesd
+
+data processor processes data on behalf of the data controller often rthird party
+
+payroll controller and processor payroll department and payroll company 
+
+processes payroll and stroes employee information
+
+data roles data custodian/steward responsible for data accuracy privacy and security 
+
+works directly with the data
+
+---
+
+5.2
+
+risk managment 
+
+an important part of any org growth brings risk
+
+risk managemnet can come from insdie or 

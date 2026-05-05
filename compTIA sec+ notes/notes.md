@@ -223,4 +223,56 @@ risk managment
 
 an important part of any org growth brings risk
 
-risk managemnet can come from insdie or 
+risk managemnet can come from insdie or outsdie
+
+not all risk requires constant evalatuion
+
+one time risk assessment may be part of one time project, company acquisiton new equipment installtion unique new security threats
+
+continuous assessments may be part of an existing process change control requires a risk assessment as part of the change
+
+ad hoc  is for this purpose only
+
+CEO is back from a conference a committee is created and the risk assessment proceeds once the assessment is completed the committe is disbanded
+
+recurring assessments the evaluation occurs on standard intervals.
+
+an internal assessment performed every three months at the beginning of the quartter
+
+mandated risk assessment required by certain org some legal and etc
+
+---
+
+5.2
+
+risk assessment identify risk factors and display visually with traffic light grid or similar method
+
+![](../../Pasted%20image%2020260505210350.png)
+
+ARO annualized rate of occurrence how likely is that a hurricane will hit?
+
+AV asset value the value of the asset to the org includes the cost of the asset, effect on company sales, potential regulatory fines
+
+EF percentage of the value lost due to an incident losing a quarter of the value is .25
+
+losing the entire asset that would be 1.0
+
+SLE what is the monetary loss if a single event occurs, Asset value (AV) x exposure factor (EF)
+laptop stolen = $1000 (av) x 1.0 (ef) = 10000 (SLE)
+
+ALE (annualized loss expectancy)
+
+seven laptops stolen a year (ARO) x 1k$ (SLE) = 7000$
+
+impact can be more than monetary quantitiative vs qualitiative
+
+impact life the most important consideration
+
+property the risk to building and assets
+
+safety. some enviornment are too dangours to work
+
+risk likelihood a qualitative mesaurement of risk
+
+risk probability a quantitative measurement of risk
+

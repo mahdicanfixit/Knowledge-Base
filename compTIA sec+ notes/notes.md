@@ -329,4 +329,46 @@ RPO recovery point objective how muhc drata loss is acceptable bring the system 
 
 MTTR mean time to repair average time required to fix an issue, this includes time spend diagnosing the problem
 
-MTBF
+MTBF MEAN TIME BETWEEN FAILURES THE TIME BETWEEN OUTAGES CAN BE USED AS A PREDICITION OR CALUCATED BASED ON HISORICAL PERFORMANCE TOTAL UPTIME AND NUMBER OF BREAKDOWNS
+
+---
+
+5.3
+
+every org works with vendor weather its payroll. customer relationship management email marketing etc
+
+imporatnt ocmpany data is often shared 
+
+use contracts for clear understanding make sure everyone understands the expectations of the riusk assessment
+
+penetration testing pentest simulate an attack similar to vulnerability scanning except we actually try to exploiut the vuolonerabilites
+
+often compliance mandate
+
+regular penetration testing by a 3rd party
+
+an important docuemtn rules of engagaement 
+
+type of testing and schedule
+
+on site physical breach, internal test, external test normal working hours
+
+the rules
+
+IP address ranges emergency contacts and how to handle sensitive infomration inscope and out of scope devices and applications
+
+common to work with business partners data sharing outsourcing
+
+third party providers can hold all of the data manage internet access
+
+right to audit should be in the contract a legal agreement to have the option to perform a security audit at any time everyone agrees to the erms and conditions abiulity to verifdy security before a breach occurs
+
+evidence of internal udits evaluate the effectiveness of security controls have a third partyt perform an audit
+
+may be required for omcpliance its a good idea even without industry standards
+
+check for security controls and processes access managment off boarding password sec VPN controls etc. theres always an  opportunity for improvement
+
+perform at a reasonable frequency a single audit inst helpful for long term
+
+the system involved when creating a productt involves orgs, people, activite

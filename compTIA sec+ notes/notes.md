@@ -328,3 +328,5 @@ recovery time objective RTO gets up and running quickly get back to a particular
 RPO recovery point objective how muhc drata loss is acceptable bring the system back online
 
 MTTR mean time to repair average time required to fix an issue, this includes time spend diagnosing the problem
+
+MTBF

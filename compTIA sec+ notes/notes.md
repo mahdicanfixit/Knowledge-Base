@@ -57,3 +57,57 @@ techical staff
 
 and user ocmmunity 
 
+Nist sp800NIST has a handling guide and response lifecycle preparation detection analysis containment eradication and reocvery and then post incident 
+
+SDLC software development lifesyscle the goal is to have requirments test deploy review and lunch
+
+theres not best way but helps to have a framework
+
+![](../../Pasted%20image%2020260505203130.png)
+
+how to make a change upgrading software or firewall config or modify switch ports
+
+one of the most common risks in the enterprise happens alot when change managments happens
+
+often overlooked or ignored 
+
+have clear policies frequency duration installtion process fallback etc
+
+sometimes exteremly difficult to implement its hard to change organizational culture
+
+---
+
+5.1
+
+a formal definition for using security technologies and processes
+
+some orgs would make thie rown list 
+
+but some do standards ISO and NIST
+
+HOW DOES AN ORGANZIZATION CONTROL ACCESS TO DATA DETERMINE WHICH INFORMATION AT WHAT TIME AND UNDER WHAT CIRCUMSTANCES
+
+no system can use discretionary and mandatory only etc
+
+determine what user gets access require privilege documentations
+
+documement how access may be removed
+
+physical security rules and policies regarding physical security controls  doors building access property sdecurity
+
+granting physical access different for employees vs visitors
+
+define specific secrity systems like ongoing monitoring motion dtection and etc
+
+additional securityt concerns like escorts and off boarding 
+
+encryptdefine specific standards for encrypting and securing data
+
+password storage methods and techniques
+
+data encryption minimums algorithms for data in use in transit and dat rest 
+
+---
+
+a formal process for managing change
+

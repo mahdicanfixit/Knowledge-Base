@@ -371,4 +371,62 @@ check for security controls and processes access managment off boarding password
 
 perform at a reasonable frequency a single audit inst helpful for long term
 
-the system involved when creating a productt involves orgs, people, activite
+the system involved when creating a productt involves orgs, people, activites, and resources
+
+supply chain analysis, get a product or service tffrom supplier to customer
+
+software update installs malware, march june 2020 solarwinds malware deployed with a valid solarwinds digital signature at least 18k out of 300k customers got impacted
+
+independent assessment bring a smart person or team to evaluate security and provide recommendations
+
+specialists in their field they do it all day everyday
+
+they seen it all and provide options u may not be considering 
+
+due diligence check a company out before doing business, investiage the company and vierfy, and financial status, pending or past legal issues. background chekics and such
+
+conflict of interst its important to have a relatonship.
+
+there could be things that can ruin the relationship
+
+a third party employs the brother of the CFO. or offers gifts if a contract is signed
+
+vendor monitoring ongoing managment of the vendor relationship
+
+this doesnt end when the contract is signed
+
+reviews should occur on a regular basis. health checks. security reviews. news and etc
+
+different vendors may be checked for different indicators 
+
+assign a person to be in charge of the vendor relationship they manage the monitoring process
+
+an imporant part of due diligence and going vendor monitoring get answers directly from the vendor
+
+securtiyquestions what is the vendor due diligence process, what plans are in place for disaster recovery. what secure storage method is used for company data
+
+results are used to update a vendor risk analysis
+
+---
+
+5.3
+
+SLA service level agreement minimum terms for services provided. uptime response time etc.
+
+contract with an internet provider SLA is no more than four hours of unscheduled downtimes, technician will be dispatched and require customer to keep spare equipment on site
+
+common agreements. MOU memorandum of understanding both sides agree in general to the contents of the memorandum
+
+MOA memorandum of agreement the next step above a MOU and both agbree to the objectives and even without legal language unlike a contrract it may not contain legally enforacble  promises. 
+
+MSA master service agreement legal contract and agreement of terms a broad framework to cover later transactions many detailed negotitatios happen here
+
+WO work order/ statement of work SOW specific list of items to be completed used in conjunction with a MSA details the scope of the job, locatyion deliverable schedule, acceptance criteria, and more,
+
+NDA non disclosure agreement 
+
+confidentiality agreement between parties
+
+protects confidential information trade secrets, busness activies anything else listed in the NDA
+
+unilateral aka one way NDA. bilateral mutua

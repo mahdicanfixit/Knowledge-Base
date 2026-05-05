@@ -489,4 +489,60 @@ attestation and acknowledgement someone must sign off
 
 internal and external monitor compliance with interal tools, provide access or information to third party participants , may require ongoing monitoring 
 
-automation a must have for large org, can be quite different across markets many third party monitoring systems and collect data from people and systedms, compile the da
+automation a must have for large org, can be quite different across markets many third party monitoring systems and collect data from people and systedms, compile the data and report
+
+---
+
+5.4
+
+a constantly evolving set of guidelines, all concerned about privacy
+
+local/regional state and local governments set privacy limits.
+
+national level privacy laws for everyone in the country HIPAA online privacy for childern under 13
+
+global many countries are wokring tgt for privacy
+
+GDPR european union regulation, data protection and rpivacy for individuals in the EU, name address photo email bank posts on social.
+
+controls export of personal data users can decide where their data goes, can request removal of data from search engines 
+
+gives data subjects control of their personal data
+
+data subject, any information relating to an identifidfe or identifibable natural person
+
+this cinluds everyone you are the data subject
+
+laws and regulation privacy is ideally defined from the perspective of the data subject
+
+data responabilites high level data relationships, organizational responabilits
+
+DATA OWNER vp SALES OWN CUSTOMER DATA. TRAEASURE OWNS THE FINCIAL INFORMATION
+
+DATA ROLES data controlle rmanages the purposes and means by which personsla data is processed
+
+data processor processes data on behalf
+
+payroll controller and processor, payroll department dfefine payroll amounts and timeframes
+
+payroll comapny processes payroll and storees employee information
+
+what data does your oraganization store, you should document your data invetory
+
+data inventory listing of all amanged data, owner, update freq, format of the data
+
+interal use project collaboration, it sec, data quality checks
+
+external use selectg data to share publicly follow existing laws and reg
+
+
+---
+
+5.5
+
+audits and assessmentys
+
+not just for taxes there are good reasons to audit your techonolgy
+
+cybersecurityy audit examines the IT infrastructure, software, device
+

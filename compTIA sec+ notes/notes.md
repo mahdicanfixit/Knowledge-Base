@@ -675,5 +675,29 @@ policy/handbooks document all security requirements
 
 situational awareness users should always be looking for threats, software attacks email links, attachments, unsual URLs, etc
 
-physical
+physical attacks USB drvives in a fedex envlope
+
+insider threat difficult to guard against, add multiple approvals for critical processes
+
+monitor files and systems as much as possible
+
+it should be very difficult to make an unauthorized change
+
+passwords managment many standards choose from guide users with standard requirements this is often controlled using technology
+
+removable media and cables, unknown usb drives can contain malware, unknown cables can be malicious
+
+social engineering extensive and ongoing training, the attackers are very good the users are your front line defense
+
+user guidance and training operational security, view security from the attacker pov, users need to identify senstive data, 
+
+hybrid/remote work enviormnemnts
+
+working at home brings unusual security risks
+
+allow no one in ur deivces
+
+and policies for VPN access 
+
+
 

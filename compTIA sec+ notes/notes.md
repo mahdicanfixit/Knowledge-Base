@@ -611,5 +611,25 @@ dumpster diving
 
 business organizations
 
-trying the doors maybe one is unloc
+trying the doors maybe one is unlocked dont open it yet
+
+visible on network traffic and logs
+
+ping scans, port scans
+
+DNS queries
+
+OS scans, OS fingerprinting
+
+service scans, version scans
+
+---
+
+5.6
+
+how many employees would click in a link in a phishing email
+
+many companies will perform their own phishing campaign
+
+an automated process centralized reporting for incorrect clicks users can receive immediate feedback and security trraining 
 

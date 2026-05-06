@@ -2,7 +2,7 @@
 
 ## 🚀 Current studies
 - CompTIA Security+ (SY0-701)
-- **Status:** 🟢 Domain 4.0: Security Operations (In Progress)
+- **Status:** 🟢 Security+ practice exams 
 
 ---
 
@@ -13,7 +13,8 @@
 - [x] Domain 2.0: Threats, Vulnerabilities, and Mitigations
 - [x] Domain 3.0: Security Architecture
 - [x] Domain 4.0: Security Operations
-- [ ] Domain 5.0: Security Program Management and Oversight
+- [x] Domain 5.0: Security Program Management and Oversight
+- [ ] passed the exam
 
 ### 🔐 Google Cybersecurity Professional Certificate
 *Completed: 2026*

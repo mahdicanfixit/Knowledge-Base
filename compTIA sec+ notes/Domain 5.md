@@ -1,5 +1,8 @@
 ## 🛡️ Domain 5.1: Governance, Risk, and Compliance (GRC)
 
+> [!ABSTRACT] Definition
+Security is a structured framework of expectations, not just a collection of technical tools. It maps back to the **CIA Triad**: Confidentiality, Integrity, and Availability.
+
 ### 1. The Hierarchy of Security Documentation
 
 Security isn't just firewalls; it’s a framework of expectations.
@@ -81,6 +84,9 @@ Building security into the software from day one rather than "bolting it on" at 
 ---
 
 ## 🛡️ Domain 5.1: Standards, Access, & Encryption (Continued)
+
+> [!ABSTRACT] Definition
+Governance provides the blueprints and "technical laws" that ensure consistency across an organization's security posture. This includes everything from the algorithms used for encryption to how a visitor is escorted through a building.
 
 ### 1. Frameworks and Standards
 

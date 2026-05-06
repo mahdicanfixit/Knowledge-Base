@@ -135,3 +135,94 @@ This is the "technical law" of the company. It defines the minimum bar for prote
 
 ---
 
+## 📊 Domain 5.2: Risk Management Fundamentals
+
+This section is all about identifying, assessing, and responding to threats. Here are the core concepts you need for your notes:
+
+**1. The Risk Formula (The Math) 🧮**
+
+CompTIA loves these three acronyms. You _will_ see a math question on this:
+
+- **SLE (Single Loss Expectancy):** How much does it cost if it happens **once**? (Asset Value × Exposure Factor). 💵
+    
+- **ARO (Annualized Rate of Occurrence):** How many times does it happen in **one year**? 📅
+    
+- **ALE (Annualized Loss Expectancy):** Your total yearly risk cost ($SLE \times ARO$). 📉
+    
+
+**2. Risk Response Strategies 🛡️**
+
+Once you know the risk, what do you do with it?
+
+- **Mitigate:** Decrease the risk (e.g., installing a firewall or a patch). 🛠️
+    
+- **Transfer:** Make it someone else's problem (e.g., buying **Cyber Insurance**). 📑
+    
+- **Accept:** The cost of the fix is higher than the risk itself, so you just live with it. 🤷‍♂️
+    
+- **Avoid:** Stop the activity altogether (e.g., closing a risky branch office). 🚫
+    
+
+![Risk Management Framework, AI generated](https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQcE5wzFCingYsCX8bLXeGF1o3MQ66z2AEBeNfX4yw2nu1-M8qU95YmCjpCxlpaOAQC-FteOMsAYwlFIjTMLQYN3gXEYjxMaDcMd4je2DjOiZFrXpo)
+
+vaeenma
+
+**3. Assessment Types 🔍**
+
+- **Quantitative:** Based on hard numbers and dollars (The "Math" side). 💸
+    
+- **Qualitative:** Based on "High, Medium, Low" rankings and gut feeling/experience. 🤔
+    
+
+**4. Key Risk Terms ⚠️**
+
+- **Risk Appetite:** How much risk the board is willing to take to make money. 🎢
+    
+- **Inherent Risk:** The risk level before you put any security in place. 🔓
+    
+- **Residual Risk:** The risk that remains _after_ you’ve applied all your security controls. 🤏
+
+---
+
+## 5.1 Regulations, Standards, and Legislation 📜
+
+In the world of cybersecurity, security processes aren't just "good ideas"—they are often mandated by a complex web of legal and industry requirements. Understanding where your data lives and who regulates it is a foundational consideration for any security professional.
+
+---
+
+### ⚖️ Regulatory Requirements
+
+Many security standards are legally mandated to ensure accountability and data integrity.
+
+- **SOX (Sarbanes-Oxley Act):** The Public Company Accounting Reform and Investor Protection Act of 2002. Focuses on financial reporting and IT audits for public companies. 🏦
+    
+- **HIPAA (Health Insurance Portability and Accountability Act):** Governs the protection and privacy of sensitive patient health information. 🏥
+    
+
+### 📑 Legal Responsibilities
+
+Beyond specific acts, general legal requirements dictate how an organization must function.
+
+- **Reporting:** Mandatory reporting of discovered illegal activities. 📞
+    
+- **Data Retention:** Holding specific data required for ongoing or future legal proceedings (Legal Hold). 🗄️
+    
+- **Jurisdictional Challenges:** Legal requirements vary by region. **Cloud Computing** ☁️ complicates this because data can be moved anywhere in the world instantly without human intervention, potentially crossing into different legal jurisdictions.
+    
+
+---
+
+### 🏗️ Industry-Specific Considerations
+
+Every market has unique security priorities based on the nature of their work.
+
+|**Industry**|**Primary Security Focus**|
+|---|---|
+|**Public Utilities** ⚡|Isolated and protected system controls for electrical power and water.|
+|**Medical** 🩺|Highly secure data storage, strict access logs, and robust encryption.|
+|**Local/Regional** 🏙️|Focus on uptime and the availability of essential end-user services for citizens.|
+|**National** 🛡️|Federal defense and multi-state organizations; ensuring state secrets remain secret.|
+|**Global** 🌍|Managing large multinational companies and maintaining stability in global financial markets.|
+
+---
+

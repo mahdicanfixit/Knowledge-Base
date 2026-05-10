@@ -4,4 +4,6 @@
 
 3 Dgitial signature 3 hashing 2 key escrow 4 SPF 6 journaling 5 obfuscation 1. i dont know this question much
 
-4 
+4 data at rest data in use data at rest data in use data in use data in use data in transit data in transit data in transit data at rest 
+
+5 

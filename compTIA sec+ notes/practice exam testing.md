@@ -15,7 +15,7 @@
 - **B45:** **Business Impact.** You chose B; Key is **D**. (Look up **BIA vs. BCP**).
     
 
-- **B49:** **SLA Logic.** You chose A; Key is **B**. (Understand what an **SLA** guarantees).
+
     
 - **B82:** **Personnel Security.** You chose B; Key is **A**. (Look up **Job Rotation**).
     

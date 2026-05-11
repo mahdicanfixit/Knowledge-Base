@@ -12,10 +12,17 @@
 
 
 
+### **Group 1: The Administrative "Points Drain"**
+
+_These are the business/policy terms where the wording tripped you up. Master these for "free" points._
+
+- **B36:** **Risk Logic.** You chose D; Key is **A**. (Look up **SLE vs. ALE**).
+    
 - **B45:** **Business Impact.** You chose B; Key is **D**. (Look up **BIA vs. BCP**).
     
-
-
+- **B46:** **Disaster Recovery.** You chose A; Key is **D**. (Look up **DRP**).
+    
+- **B49:** **SLA Logic.** You chose A; Key is **B**. (Understand what an **SLA** guarantees).
     
 - **B82:** **Personnel Security.** You chose B; Key is **A**. (Look up **Job Rotation**).
     

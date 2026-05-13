@@ -1,4 +1,4 @@
- C A C B B A D A A A B B B C C D C B C B A C and E A C C A D D A C 
+
 
 C1 allowed allowed allowed allowed blocked blocked 
 

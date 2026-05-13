@@ -6,4 +6,4 @@ a2 fencing lighting ACV sec guard biometrics access badge auth token
 10.2.1.47 10.1.1.3 tcp  allow
 10.2.1.20 10.1.1.2 tcp 20 block 
 
-B D A A C C A D A and E and G B C A A A C A C B and E B C B A B B D D D B D D D D D D C 
+B D A A C C A D A and E and G B C A A A C A C B and E B C B A B B D D D B D D D D D D C B A B D C D A D C B D C B D C A B D A B B D B B C D 

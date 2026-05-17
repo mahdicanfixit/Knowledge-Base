@@ -9,4 +9,4 @@ Exam C:62% i was tired
 |**`-sV`**|**Version Detection**|Grabs banner information to tell you the _exact version_ of software running on an open port (crucial for finding known exploits).|
 |**`-O`**|**OS Detection**|Attempts to fingerprint and identify the operating system of the target machine.|
 
-A D 
+A D A D D C D D C A C C D D C B D B A D D C A B C

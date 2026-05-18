@@ -1,5 +1,5 @@
 Professor messer practice exams results: exam A 78% first try, 96% second try, 88% third try 
-Exam B: 71% it was late
+Exam B: 71% it was late, 80% second try
 Exam C:62% i was tired
 
 |**Flag**|**What it Means**|**Why CompTIA Tests It**|
@@ -11,14 +11,6 @@ Exam C:62% i was tired
 
 A D A D D C D D C A C C D D C B D B A D D C A B C C A A A C A B D A and F B C A A A D D C D B C A C A D E D B and D C D C B D D B B C B B A D A D and E B B A C C D A C B and E A D A A C A B C A 
 
-CRL CSR CA OCSP 
+---
 
-mdm integration biometric auth infrared sensors 
-
-anti malware full device encryption
-
-PDACERL 
-
-hashing SPF digitla signature key escrow journaling obfuscation 
-
-data at rest data in transit data at rest data in use data in transit data in transit data in use data in use data at rest data at rest
+sec+ objectives i dont know off: 

@@ -15,6 +15,9 @@ A D A D D C D D C A C C D D C B D B A D D C A B C C A A A C A B D A and F B C A 
 
 sec+ objectives i dont know off: 
 
-47.911 1.80
+Hardware security module (HSM
 
-![697](../../Pasted%20image%2020260519074507.png)
+Certificates
+−Certificate authorities
+−Certificate revocation lists (CRLs)
+

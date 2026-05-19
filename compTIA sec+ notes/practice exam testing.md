@@ -87,3 +87,68 @@ Netflow
 DMARC DKIM SPF 
 
 EDR XDR 
+
+SAML 
+
+Access controls
+−Mandatory
+−Discretionary
+−Role-based
+−Rule-based
+−Attribute-based
+−Time-of-day restrictions
+−Least privilege
+
+Ephemeral credentials
+
+ntegrations and Application
+programming interfaces (APIs)
+
+Single point of failure
+
+Threat hunting
+• Digital forensics
+
+Acquisition
+
+E-discovery
+
+Metadata
+
+domain 5: 
+
+AUP SDLC 
+
+Monitoring and revision
+• Types of governance structures
+−Boards
+−Committees
+Monitoring and revision
+• Types of governance structures
+−Boards
+−Committees
+
+ Roles and responsibilities
+for systems and data
+−Owners
+−Controllers
+−Processors
+−Custodians/stewards
+
+ Risk identification
+• Risk assessment
+−Ad hoc
+−Recurring
+−One-time
+−Continuous
+
+Risk analysis
+−Qualitative
+−Quantitative
+
+Annualized rate of occurrence (ARO)
+−Probability
+−Likelihood
+−Exposure factor
+−Impact
+

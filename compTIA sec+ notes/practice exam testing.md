@@ -21,3 +21,25 @@ Certificates
 −Certificate authorities
 −Certificate revocation lists (CRLs)
 
+domain 2: 
+The Concept:** Based on the "Birthday Paradox," which proves that in a surprisingly small group, the odds of a match are high.
+
+The Replay Attack
+
+**Definition:** An attacker captures a sequence of network packets (like a login or a command) and "replays" them later to the server to mimic the original user.
+
+domain3: 
+Logical segmentation
+
+Failure modes
+◦Fail-open
+◦Fail-closed 
+
+Device attribute
+◦Active vs. passive
+◦ Inline vs. tap/monitor
+
+Network appliances
+◦Jump server
+◦ Proxy server
+

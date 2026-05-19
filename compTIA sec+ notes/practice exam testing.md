@@ -152,3 +152,69 @@ Annualized rate of occurrence (ARO)
 −Exposure factor
 −Impact
 
+Risk register
+−Key risk indicators
+−Risk owners
+−Risk threshold
+
+Risk appetite
+−Expansionary
+−Conservative
+−Neutral
+
+Risk management strategies
+−Transfer
+−Accept
+◦ Exemption
+◦Exception
+−Avoid
+−Mitigate
+
+
+recovery point objective (RPO)
+
+
+Supply chain analysis
+
+Vendor selection
+−Due diligence
+−Conflict of interest
+
+Memorandum of agreement (MOA)
+−Memorandum of
+understanding (MOU)
+−Master service agreement (MSA)
+−Work order (WO)/statement
+of work (SOW)
+−Business partners agreement (BPA)
+
+• Compliance monitoring
+−Due diligence/care
+−Attestation and acknowledgement
+−Internal and external
+−Automation
+
+• Compliance reporting
+−Internal
+−External
+
+Data subject
+−Controller vs. processor
+−Ownership
+−Data inventory and retention
+−Right to be forgotten
+
+External
+−Regulatory
+−Examinations
+−Assessment
+−Independent third-party audit
+
+Integrated
+−Known environment
+−Partially known environment
+−Unknown environment
+−Reconnaissance
+◦ Passive
+◦Active
+

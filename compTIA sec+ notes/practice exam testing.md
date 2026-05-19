@@ -43,3 +43,47 @@ Network appliances
 ◦Jump server
 ◦ Proxy server
 
+EAP 
+
+UTM 
+
+TLS 
+
+IPsec
+
+SD-WAN
+
+SASE
+
+domain 4: 
+
+ICS/SCADA 
+
+RADIUS 
+
+static code analysis
+−Code signing
+
+• Acquisition/procurement process
+• Assignment/accounting
+−Ownership
+−Classification
+
+• Identification methods
+−Vulnerability scan
+−Application security
+◦Static analysis
+◦Dynamic analysis
+◦Package monitoring
+
+CVSS is it rating? idk what is CVE
+
+Environmental variables
+
+Segmentation
+
+Netflow 
+
+DMARC DKIM SPF 
+
+EDR XDR 

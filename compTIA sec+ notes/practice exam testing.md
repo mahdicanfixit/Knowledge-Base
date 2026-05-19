@@ -17,3 +17,4 @@ sec+ objectives i dont know off:
 
 47.911 1.80
 
+![697](../../Pasted%20image%2020260519074507.png)

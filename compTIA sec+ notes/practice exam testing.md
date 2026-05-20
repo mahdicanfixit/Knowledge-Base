@@ -16,11 +16,6 @@ A D A D D C D D C A C C D D C B D B A D D C A B C C A A A C A B D A and F B C A 
 sec+ objectives i dont know off: 
 
 
-
-Certificates
-−Certificate authorities
-−Certificate revocation lists (CRLs)
-
 domain 2: 
 The Concept:** Based on the "Birthday Paradox," which proves that in a surprisingly small group, the odds of a match are high.
 

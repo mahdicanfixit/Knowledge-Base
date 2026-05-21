@@ -7,11 +7,11 @@
 
 ### ☁️ Cloud Service Models (The "Control vs. Ease" Scale)
 
-| Model | Who does the work? | Pro Example | Security Ownership |
-| :--- | :--- | :--- | :--- |
-| **IaaS** (Infrastructure) | **Client** mostly | AWS EC2 / Azure VM | You manage the OS, Apps, and Data. High control, high effort. |
-| **PaaS** (Platform) | **Shared** | Google App Engine | You just manage the code/data. Provider handles the OS and hardware. |
-| **SaaS** (Software) | **Provider** mostly | Office 365 / Gmail | Everything is managed by the vendor. You only manage your data/users. |
+| Model                     | Who does the work?  | Pro Example        | Security Ownership                                                    |
+| :------------------------ | :------------------ | :----------------- | :-------------------------------------------------------------------- |
+| **IaaS** (Infrastructure) | **Client** mostly   | AWS EC2 / Azure VM | You manage the OS, Apps, and Data. High control, high effort.         |
+| **PaaS** (Platform)       | **Shared**          | Google App Engine  | You just manage the code/data. Provider handles the OS and hardware.  |
+| **SaaS** (Software)       | **Provider** mostly | Office 365 / Gmail | Everything is managed by the vendor. You only manage your data/users. |
 
 #### ⚠️ The "Difficult Factor": Responsibility Gaps
 * **The Confusion:** If my AWS server gets hacked, it's Amazon's fault, right?

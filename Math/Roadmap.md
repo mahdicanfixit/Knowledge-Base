@@ -1,53 +1,80 @@
-# 🗺️ The Lean Math Roadmap for Tech & Logic
+# 🧠 Mathematical Maturity: The 3-Phase Execution Pipeline
 
-> [!NOTE]
-> **Objective:** Master the core math needed to rewire analytical thinking, troubleshoot networks, and write cleaner Python code—in the shortest time possible. Skip the academic fluff.
-
-## 📈 Progress Tracker
-- [ ] **Phase 1: Pre-Algebra** (Est: 1-2 months)
-- [ ] **Phase 2: Algebra 1** (Est: 2-3 months)
-- [ ] **Phase 3: The Tech Logic Add-ons** (Est: 2-3 weeks)
+> [!INFO] **The Core Philosophy**
+> True cognitive rewiring happens when you run **Mechanics (the how)** and **Perspective (the why)** at the exact same time. This pipeline structures your **3 to 4 hours daily commitment** using a split-study method to maximize absorption and prevent burnout.
 
 ---
 
-## 🧭 Phase 1: Pre-Algebra (The Crack Patching)
-*Focus: Get completely comfortable with numbers so they stop being intimidating.*
-
-### Core Topics to Clear on Khan Academy:
-- [ ] **Negative Numbers & Absolute Value** (Crucial for understanding data balances and offsets)
-- [ ] **Fractions, Decimals, & Percentages** (Essential for parsing data metrics and system resource allocations)
-- [ ] **Ratios, Rates, & Proportions** (How things scale; vital for understanding network bandwidth)
-- [ ] **Exponents & Radicals** (The foundation of binary and powers of 2 used in Network+ subnetting)
-- [ ] **Introduction to Variables** (The absolute basics of finding $X$)
+## 📅 Daily Execution Blueprint (The Split-Study Method)
+To sustain 3–4 hours a day without melting your brain, split your routine into two distinct blocks:
+* 🌅 **Block 1: The Core Heavy Lifting (2 to 2.5 Hours - Morning/Early Day)**
+  * Dedicated entirely to raw mechanical practice, line-by-line derivation, and problem-solving in your physical notebook.
+* 🌌 **Block 2: The Cognitive Framing (1 to 1.5 Hours - Evening/Before Sleep)**
+  * Dedicated to meta-learning, conceptual perspective, or rigorous logical proofs. Reading during this block triggers your subconscious "diffuse mode" processing overnight.
 
 ---
 
-## 🚀 Phase 2: Algebra 1 (The Ultimate Brain Rewirer)
-*Focus: Transition from calculating static numbers to thinking in systems, processes, and variables.*
-
-### Core Topics to Clear on Khan Academy:
-- [ ] **Solving Equations & Inequalities** 
-	* *The Mental Shift:* Learning to balance equations trains your brain in step-by-step troubleshooting and process of elimination.
-- [ ] **Working with Units** (Translating word problems into math formulas)
-- [ ] **Linear Equations & Graphs** (Understanding how changing input $X$ directly changes output $Y$)
-- [ ] **Functions** 
-	* *The Mental Shift:* This maps 1:1 to Python functions (`def function(x):`). It teaches your brain input -> logic -> output.
-- [ ] **Systems of Equations** (Solving for multiple variables at the same time; great for complex troubleshooting logic)
+## 📈 Pipeline Progress Overview
+- [ ] **Phase 1: The Launchpad & The Patch** ── *Target Time: Weeks 1–2*
+- [ ] **Phase 2: The Gym & The X-Ray Lens** ── *Target Time: Weeks 3–8*
+- [ ] **Phase 3: The Ascent to Absolute Logic** ── *Target Time: Weeks 9–16*
 
 ---
 
-## ⚡ Phase 3: The Tech Logic Add-ons (The Cyber/Code Connection)
-*Focus: Skip the rest of high school math and jump straight to the concepts that directly supercharge your Network+ and Security+ studies.*
+## 🚀 Phase 1: The Launchpad & The Patch (Weeks 1–2)
+*Focus: Eliminate mathematical anxiety, build rapid number fluency, and master the cognitive science of high-intensity technical learning.*
 
-### Core Topics:
-- [ ] **Basic Probability & Combinatorics** (Khan Academy: Algebra 2 or Statistics)
-	* *Why:* Teaches your brain to calculate risk and odds objectively. Directly connects to **Security+ Risk Assessments**.
-- [ ] **Boolean Logic / Truth Tables** (Look up quick videos or articles on this)
-	* *Why:* Understanding `AND`, `OR`, `NOT`, and `XOR` gates. This is the literal architecture of computer routing, firewalls, and Python conditional logic.
+### 🌅 Block 1 (Morning): Mechanical Workout
+*Source: Fearon's Pre-Algebra*
+- [ ] **Unit 1: Integers & Negative Numbers** ── Master directional value and operations with signs.
+- [ ] **Unit 2: Fractions & Decimals** ── Develop fluid precision with parts-of-a-whole and numeric scales.
+- [ ] **Unit 3: Ratios, Rates, & Proportions** ── Understand how quantities scale relative to each other.
+- [ ] **Unit 4: Exponents & Radicals** ── Build foundational muscle memory for powers of 2 and scientific notation.
+- [ ] **Unit 5: Basic Equations** ── Learn the fundamental laws of isolating a single variable ($X$).
+
+### 🌌 Block 2 (Evening): Cognitive Strategy
+*Source: A Mind for Numbers by Barbara Oakley*
+- [ ] **Read Chapters 1–4: Focused vs. Diffuse Thinking** ── Learn how to deliberately pass problems to your subconscious mind.
+- [ ] **Read Chapters 5–8: Chunking & Avoiding Illusion of Competence** ── Master the art of turning mathematical steps into mental reflexes.
+- [ ] **Read Chapters 9–12: Procrastination & Memory Spacing** ── Lock down the cognitive framework required to sustain a 4-hour daily pace.
 
 ---
 
-## 🛠️ My Study Rules (For Hands-On Learning)
-1. **Never pass a unit without doing the quizzes.** Watching videos is passive; doing problems is active.
-2. **Keep a physical scratchpad.** Do not do the math in your head. Write out every single step to build muscle memory.
-3. **Connect it to Python.** When learning functions or exponents, try to write a quick 3-line Python script to automate the problem.
+## 🏋️ Phase 2: The Gym & The X-Ray Lens (Weeks 3–8)
+*Focus: Move past static calculations. Train your brain to handle dynamic systems, multi-variable constraints, and map abstract math onto real-world chaos.*
+
+### 🌅 Block 1 (Morning): Structural Systems Gym
+*Source: College Algebra by Kaufmann*
+- [ ] **Chapter 1: Coordinate Geometry & Linear Equations** ── Understand how changing an input ($X$) alters an output ($Y$) spatially.
+- [ ] **Chapter 2: Systems of Linear Equations** ── Train your mind to track and balance multiple moving variables simultaneously.
+- [ ] **Chapter 3: Polynomials & Factoring Mechanics** ── Learn to decompose complex structural expressions into simple base components.
+- [ ] **Chapter 4: Rational Expressions & Exponent Rules** ── Deepen variable manipulation and logical simplification routines.
+- [ ] **Chapter 5: Core Functions & Relations ($f(x)$)** ── Establish the foundational input-logic-output processing framework.
+
+### 🌌 Block 2 (Evening): Real-World X-Ray Perspective
+*Source: How Not to Be Wrong by Jordan Ellenberg*
+- [ ] **Part I: Linearity (Linearity Extrapolation Trap)** ── Learn why things don't scale in straight lines and how to spot false trends.
+- [ ] **Part II: Inference (The Power of Data and Chaos)** ── Master the mathematical art of drawing valid conclusions from noisy environments.
+- [ ] **Part III: Expectation (Probability and Risk)** ── Rewire your baseline logic to calculate actual odds and assess risk rationally rather than emotionally.
+
+---
+
+## 💎 Phase 3: The Ascent to Absolute Logic (Weeks 9–16)
+*Focus: Complete the transformation. Move entirely past mechanical calculation into the universe of formal analytical reasoning, deduction, and unassailable truth.*
+
+### 🌅 🌌 Full Submersion: Bulletproof Proofs & Arguments
+*Source: How to Prove It: A Structured Approach by Daniel J. Velleman*
+*(Note: At this stage, your morning and evening blocks merge into an all-out sprint through formal logic structures.)*
+
+- [ ] **Chapter 1: Sentential Logic** ── Master logical connectives ($AND, OR, NOT, \implies$), truth tables, and conditional arguments.
+- [ ] **Chapter 2: Quantifier Logic** ── Decode formal symbolic notation ($orall, \exists$) and universal statements without symbol shock.
+- [ ] **Chapter 3: Proof Techniques (Direct & Contrapositive)** ── Learn to set up a logical hypothesis and deduce airtight structural paths.
+- [ ] **Chapter 4: Proof Techniques (Contradiction & Induction)** ── Master weaponized logic: prove a claim is true by proving its opposite is impossible.
+- [ ] **Chapter 5: Relations & Functions in Proofs** ── Re-examine standard functions using pure structural and sets-based logic.
+
+---
+
+## 🛠️ Execution & Scratchpad Protocols
+1. **The 80% Rule:** Do 10 to 15 end-of-section practice problems in your physical notebook. If you get $\ge 80\%$ correct on the first pass, check the box and aggressively **move forward**. Do not chase perfection at the cost of momentum.
+2. **The Line-by-Line Rule:** Write down the starting state of every problem. Write every single modification down vertically. Treat each line like a sequential line of code. Never execute more than two modifications mentally before writing them down.
+3. **The Diffuse Trigger:** If a problem in Block 1 leaves you completely stuck for more than 15 minutes, draw a red star next to it, close the book, and walk away. Let your evening Block 2 reading or sleep process it. Attempt it again the following morning.
